@@ -12,8 +12,7 @@
 }
 
 .s-hero {
-    padding: 50px 0px;
-    margin-top: 50px;
+    padding: 100px 0px 0px 0px;
 }
 .s-hero{
     h1 {
@@ -97,7 +96,7 @@
 
 // section about
 .s-about{
-    padding: 70px 0;
+    padding: 100px 0;
 }
 .s-about{
     h5{
@@ -112,6 +111,7 @@
 .s-about{
     img{
         width: 70px;
+        margin-top: -50px;
     }
 }
 .s-about {
@@ -120,7 +120,7 @@
     }
 }
 .card{
-    height: 307px;
+    height: 225px;
     background: $gray-light;
     border: 1px solid #EDEEF0;
     box-sizing: border-box;
@@ -138,7 +138,7 @@
 
 .s-who-am-i {
     background: linear-gradient(106.43deg, #FFDC6B -1.4%, #FFF4CB 100.87%);
-    border-radius: 0 0 55px 0;
+    border-radius: 20px;
     z-index: -1;
     padding: 70px 0;
 }
@@ -204,8 +204,37 @@
 // ****section FAQ *****
 .s-faq{
     padding: 100px 0;
+    background-color: $gray-light;
 }
 // .faq{
 //     width: 80%;
 //     margin: auto;
 // }
+
+/* Footer */
+
+footer {
+    background-color: $color-dark;
+    padding: 3.9rem 0 2rem 0;
+    p{
+        max-width: 450px;
+    }
+    ul{
+        padding: 0;
+       li{
+        list-style-type: none;
+       } 
+    }
+    a{
+        color: $gray-light;
+        text-decoration: none;
+        transition:all .3s;
+        &:hover{
+            color: $main-color;
+        }
+    }
+    main{
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+     padding-bottom: 2.2rem;
+    }
+}

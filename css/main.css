@@ -14,64 +14,97 @@ body {
 }
 
 /* line 11, E:/workspace/HTMLs/manu/scss/_custom.scss */
+.back-gray-light {
+  background-color: rgba(241, 240, 245, 0.55);
+}
+
+/* line 14, E:/workspace/HTMLs/manu/scss/_custom.scss */
 .mt-40 {
   margin-top: 40px;
 }
 
-/* line 14, E:/workspace/HTMLs/manu/scss/_custom.scss */
+/* line 17, E:/workspace/HTMLs/manu/scss/_custom.scss */
 .mb-40 {
   margin-bottom: 40px;
 }
 
-/* line 17, E:/workspace/HTMLs/manu/scss/_custom.scss */
+/* line 20, E:/workspace/HTMLs/manu/scss/_custom.scss */
 .font-slim {
   font-weight: 300;
 }
 
-/* line 22, E:/workspace/HTMLs/manu/scss/_custom.scss */
-.carousel-control-next, .carousel-control-prev {
-  bottom: 20px;
-  align-items: flex-end;
-  justify-content: end;
-  width: 15%;
-  padding: 0;
-}
-
-/* line 30, E:/workspace/HTMLs/manu/scss/_custom.scss */
-.carousel-control-next {
-  left: 40px;
+/* line 23, E:/workspace/HTMLs/manu/scss/_custom.scss */
+.padding-custom {
+  padding: 75px 0;
 }
 
 /* bt5 */
-/* line 36, E:/workspace/HTMLs/manu/scss/_custom.scss */
+/* line 31, E:/workspace/HTMLs/manu/scss/_custom.scss */
 .btn {
   border-radius: 10px;
   padding: 0.6rem 2rem;
 }
 
-/* line 41, E:/workspace/HTMLs/manu/scss/_custom.scss */
+/* line 35, E:/workspace/HTMLs/manu/scss/_custom.scss */
+.btn-light {
+  transition: all .3s;
+}
+
+/* line 37, E:/workspace/HTMLs/manu/scss/_custom.scss */
+.btn-light:hover {
+  border-color: #EF9E48;
+  background-color: #EF9E48;
+  color: rgba(241, 240, 245, 0.55);
+}
+
+/* line 43, E:/workspace/HTMLs/manu/scss/_custom.scss */
 .mr-2 {
   margin-right: 0.5rem;
 }
 
-/* line 44, E:/workspace/HTMLs/manu/scss/_custom.scss */
+/* line 46, E:/workspace/HTMLs/manu/scss/_custom.scss */
 .accordion-button {
-  background-color: #F7F8FB;
+  background-color: #fff;
 }
 
-/* line 47, E:/workspace/HTMLs/manu/scss/_custom.scss */
+/* line 49, E:/workspace/HTMLs/manu/scss/_custom.scss */
 .accordion-item {
   margin-bottom: 15px;
   border: none;
 }
 
-/* line 52, E:/workspace/HTMLs/manu/scss/_custom.scss */
+/* line 54, E:/workspace/HTMLs/manu/scss/_custom.scss */
 .accordion-button:not(.collapsed) {
   color: #EF9E48;
   background-color: #FCF2E8;
 }
 
-/* line 58, E:/workspace/HTMLs/manu/scss/_custom.scss */
+/* line 60, E:/workspace/HTMLs/manu/scss/_custom.scss */
+:root {
+  --swiper-theme-color: #FFC800;
+}
+
+/* line 63, E:/workspace/HTMLs/manu/scss/_custom.scss */
+.swiper-container {
+  padding-top: 40px;
+}
+
+/* line 66, E:/workspace/HTMLs/manu/scss/_custom.scss */
+.swiper-container-horizontal > .swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
+  top: 0 !important;
+}
+
+/* line 70, E:/workspace/HTMLs/manu/scss/_custom.scss */
+.swiper-pagination-bullet-active {
+  width: 17px;
+}
+
+/* line 73, E:/workspace/HTMLs/manu/scss/_custom.scss */
+.swiper-pagination-clickable {
+  z-index: -1;
+}
+
+/* line 77, E:/workspace/HTMLs/manu/scss/_custom.scss */
 .nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
   border-color: none;
   isolation: isolate;
@@ -79,14 +112,14 @@ body {
   transition: .3s;
 }
 
-/* line 64, E:/workspace/HTMLs/manu/scss/_custom.scss */
+/* line 83, E:/workspace/HTMLs/manu/scss/_custom.scss */
 .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
   color: #a56f39;
   background-color: #FBCE82;
   border-color: #dee2e6;
 }
 
-/* line 69, E:/workspace/HTMLs/manu/scss/_custom.scss */
+/* line 88, E:/workspace/HTMLs/manu/scss/_custom.scss */
 .nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
   color: #a56f39;
   border-color: none;
@@ -95,13 +128,13 @@ body {
   transition: .3s;
 }
 
-/* line 76, E:/workspace/HTMLs/manu/scss/_custom.scss */
+/* line 95, E:/workspace/HTMLs/manu/scss/_custom.scss */
 .nav-tabs .nav-link {
   background: 0 0;
   border: 1px solid transparent;
   border-top-left-radius: .25rem;
   border-top-right-radius: .25rem;
-  background-color: #F7F8FB;
+  background-color: rgba(241, 240, 245, 0.55);
   border-radius: 12px;
   -webkit-box-shadow: 0px 10px 30px #eaeef6;
   box-shadow: 0px 10px 30px #eaeef6;
@@ -116,12 +149,12 @@ body {
   margin-right: 12px;
 }
 
-/* line 96, E:/workspace/HTMLs/manu/scss/_custom.scss */
+/* line 115, E:/workspace/HTMLs/manu/scss/_custom.scss */
 .nav-tabs {
   border-bottom: none;
 }
 
-/* line 99, E:/workspace/HTMLs/manu/scss/_custom.scss */
+/* line 118, E:/workspace/HTMLs/manu/scss/_custom.scss */
 .nav-link {
   color: #02073E;
 }
@@ -141,11 +174,10 @@ body {
 
 /* line 14, E:/workspace/HTMLs/manu/scss/_s-hero.scss */
 .s-hero {
-  padding: 50px 0px;
-  margin-top: 50px;
+  padding: 100px 0px 0px 0px;
 }
 
-/* line 19, E:/workspace/HTMLs/manu/scss/_s-hero.scss */
+/* line 18, E:/workspace/HTMLs/manu/scss/_s-hero.scss */
 .s-hero h1 {
   width: 100%;
   max-width: 501px;
@@ -156,7 +188,7 @@ body {
   margin: 0;
 }
 
-/* line 27, E:/workspace/HTMLs/manu/scss/_s-hero.scss */
+/* line 26, E:/workspace/HTMLs/manu/scss/_s-hero.scss */
 .s-hero h1 span {
   font-weight: 700;
   -webkit-text-stroke-width: 1.5px;
@@ -165,13 +197,13 @@ body {
   color: transparent;
 }
 
-/* line 37, E:/workspace/HTMLs/manu/scss/_s-hero.scss */
+/* line 36, E:/workspace/HTMLs/manu/scss/_s-hero.scss */
 .s-hero p {
   width: 100%;
   max-width: 501px;
 }
 
-/* line 45, E:/workspace/HTMLs/manu/scss/_s-hero.scss */
+/* line 44, E:/workspace/HTMLs/manu/scss/_s-hero.scss */
 .s-hero h2 {
   position: relative;
   left: 0;
@@ -180,7 +212,7 @@ body {
   justify-content: flex-end;
 }
 
-/* line 51, E:/workspace/HTMLs/manu/scss/_s-hero.scss */
+/* line 50, E:/workspace/HTMLs/manu/scss/_s-hero.scss */
 .s-hero h2 span {
   font-weight: 700;
   -webkit-text-stroke-width: 1px;
@@ -189,7 +221,7 @@ body {
   color: transparent;
 }
 
-/* line 61, E:/workspace/HTMLs/manu/scss/_s-hero.scss */
+/* line 60, E:/workspace/HTMLs/manu/scss/_s-hero.scss */
 .text-outline {
   position: relative;
   left: 0;
@@ -209,7 +241,7 @@ body {
   justify-content: center;
 }
 
-/* line 81, E:/workspace/HTMLs/manu/scss/_s-hero.scss */
+/* line 80, E:/workspace/HTMLs/manu/scss/_s-hero.scss */
 .s-hero i {
   padding: 10px 15px;
   background-color: #f9c271;
@@ -217,7 +249,7 @@ body {
   margin-right: 15px;
 }
 
-/* line 89, E:/workspace/HTMLs/manu/scss/_s-hero.scss */
+/* line 88, E:/workspace/HTMLs/manu/scss/_s-hero.scss */
 .img-chat {
   position: absolute;
   height: 200px;
@@ -227,24 +259,25 @@ body {
   top: 10%;
 }
 
-/* line 99, E:/workspace/HTMLs/manu/scss/_s-hero.scss */
+/* line 98, E:/workspace/HTMLs/manu/scss/_s-hero.scss */
 .s-about {
-  padding: 70px 0;
+  padding: 100px 0;
 }
 
-/* line 103, E:/workspace/HTMLs/manu/scss/_s-hero.scss */
+/* line 102, E:/workspace/HTMLs/manu/scss/_s-hero.scss */
 .s-about h5 {
   color: #EF9E48;
 }
 
-/* line 108, E:/workspace/HTMLs/manu/scss/_s-hero.scss */
+/* line 107, E:/workspace/HTMLs/manu/scss/_s-hero.scss */
 .s-about h4 {
   margin-bottom: 60px;
 }
 
-/* line 113, E:/workspace/HTMLs/manu/scss/_s-hero.scss */
+/* line 112, E:/workspace/HTMLs/manu/scss/_s-hero.scss */
 .s-about img {
   width: 70px;
+  margin-top: -50px;
 }
 
 /* line 118, E:/workspace/HTMLs/manu/scss/_s-hero.scss */
@@ -254,8 +287,8 @@ body {
 
 /* line 122, E:/workspace/HTMLs/manu/scss/_s-hero.scss */
 .card {
-  height: 307px;
-  background: #F7F8FB;
+  height: 225px;
+  background: rgba(241, 240, 245, 0.55);
   border: 1px solid #EDEEF0;
   box-sizing: border-box;
   border-radius: 25px;
@@ -272,7 +305,7 @@ body {
 /* line 139, E:/workspace/HTMLs/manu/scss/_s-hero.scss */
 .s-who-am-i {
   background: linear-gradient(106.43deg, #FFDC6B -1.4%, #FFF4CB 100.87%);
-  border-radius: 0 0 55px 0;
+  border-radius: 20px;
   z-index: -1;
   padding: 70px 0;
 }
@@ -340,6 +373,47 @@ body {
 /* line 205, E:/workspace/HTMLs/manu/scss/_s-hero.scss */
 .s-faq {
   padding: 100px 0;
+  background-color: rgba(241, 240, 245, 0.55);
+}
+
+/* Footer */
+/* line 216, E:/workspace/HTMLs/manu/scss/_s-hero.scss */
+footer {
+  background-color: #02073E;
+  padding: 3.9rem 0 2rem 0;
+}
+
+/* line 219, E:/workspace/HTMLs/manu/scss/_s-hero.scss */
+footer p {
+  max-width: 450px;
+}
+
+/* line 222, E:/workspace/HTMLs/manu/scss/_s-hero.scss */
+footer ul {
+  padding: 0;
+}
+
+/* line 224, E:/workspace/HTMLs/manu/scss/_s-hero.scss */
+footer ul li {
+  list-style-type: none;
+}
+
+/* line 228, E:/workspace/HTMLs/manu/scss/_s-hero.scss */
+footer a {
+  color: rgba(241, 240, 245, 0.55);
+  text-decoration: none;
+  transition: all .3s;
+}
+
+/* line 232, E:/workspace/HTMLs/manu/scss/_s-hero.scss */
+footer a:hover {
+  color: #EF9E48;
+}
+
+/* line 236, E:/workspace/HTMLs/manu/scss/_s-hero.scss */
+footer main {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  padding-bottom: 2.2rem;
 }
 
 /* line 1, E:/workspace/HTMLs/manu/scss/_espanhol.scss */
@@ -694,43 +768,59 @@ header {
     color: #EF9E48;
     font-size: 3rem !important;
   }
+  /* line 60, E:/workspace/HTMLs/manu/scss/_responsive.scss */
+  .card {
+    margin-bottom: 40px;
+  }
 }
 
 @media (max-width: 480px) {
-  /* line 64, E:/workspace/HTMLs/manu/scss/_responsive.scss */
+  /* line 68, E:/workspace/HTMLs/manu/scss/_responsive.scss */
   .navbar {
     padding-top: 1rem;
     padding-bottom: 1rem;
   }
-  /* line 68, E:/workspace/HTMLs/manu/scss/_responsive.scss */
+  /* line 72, E:/workspace/HTMLs/manu/scss/_responsive.scss */
   .square {
     max-width: 90%;
   }
-  /* line 71, E:/workspace/HTMLs/manu/scss/_responsive.scss */
+  /* line 75, E:/workspace/HTMLs/manu/scss/_responsive.scss */
   .border-flag {
     margin-top: 20px;
   }
-  /* line 74, E:/workspace/HTMLs/manu/scss/_responsive.scss */
+  /* line 78, E:/workspace/HTMLs/manu/scss/_responsive.scss */
   .s-hero h1 span {
     font-size: 1em;
     color: transparent;
   }
-  /* line 79, E:/workspace/HTMLs/manu/scss/_responsive.scss */
+  /* line 83, E:/workspace/HTMLs/manu/scss/_responsive.scss */
   .s-espanhol .square {
     max-width: 90%;
   }
-  /* line 85, E:/workspace/HTMLs/manu/scss/_responsive.scss */
+  /* line 89, E:/workspace/HTMLs/manu/scss/_responsive.scss */
   .nav-tabs .nav-link {
     margin-right: 5px;
   }
-  /* line 91, E:/workspace/HTMLs/manu/scss/_responsive.scss */
+  /* line 95, E:/workspace/HTMLs/manu/scss/_responsive.scss */
   .s-espanhol h6 {
     color: #EF9E48;
     font-size: 3.5rem;
   }
-  /* line 94, E:/workspace/HTMLs/manu/scss/_responsive.scss */
+  /* line 98, E:/workspace/HTMLs/manu/scss/_responsive.scss */
   .s-espanhol h6 span {
     margin-top: -112px;
+  }
+  /* line 103, E:/workspace/HTMLs/manu/scss/_responsive.scss */
+  .card {
+    margin-bottom: 30px;
+  }
+  /* line 107, E:/workspace/HTMLs/manu/scss/_responsive.scss */
+  .padding-custom {
+    padding: 0;
+  }
+  /* line 110, E:/workspace/HTMLs/manu/scss/_responsive.scss */
+  .s-values {
+    padding: 100px 0 0 0;
   }
 }
 

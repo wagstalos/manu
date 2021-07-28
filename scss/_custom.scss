@@ -8,6 +8,9 @@ body{
 .color-yellow-dark{
     color: $color-yellow-dark;
 }
+.back-gray-light{
+    background-color: $gray-light;
+}
 .mt-40{
     margin-top: 40px;
 }
@@ -17,19 +20,11 @@ body{
 .font-slim{
     font-weight: 300;
 }
-
+.padding-custom{
+    padding: 75px 0;
+}
 // carousel bt5
-.carousel-control-next, .carousel-control-prev {
-    bottom: 20px;
-    align-items: flex-end;
-    justify-content: end;
-    width: 15%;
-    padding: 0;
-}
 
-.carousel-control-next {
-    left: 40px;
-}
 
 /* bt5 */
 
@@ -37,12 +32,19 @@ body{
     border-radius: 10px;
     padding: 0.6rem 2rem;
 }
-
+.btn-light {
+    transition: all .3s;
+    &:hover{
+        border-color:$main-color ;
+        background-color: $main-color;
+        color: $gray-light;
+    }
+}
 .mr-2 {
     margin-right: 0.5rem;
 }
 .accordion-button{
-    background-color: $gray-light;
+    background-color: $white;
 }
 .accordion-item {
     margin-bottom: 15px;
@@ -54,6 +56,23 @@ body{
     background-color: $color-yellow-light;
 }
 
+// swiper
+:root {
+    --swiper-theme-color: #FFC800;
+}
+.swiper-container {
+    padding-top: 40px;
+}
+.swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
+    top: 0!important;
+ 
+}
+.swiper-pagination-bullet-active {
+    width: 17px;
+}
+.swiper-pagination-clickable{
+    z-index: -1;
+}
 
 .nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
     border-color: none;
