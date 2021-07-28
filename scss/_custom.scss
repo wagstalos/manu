@@ -41,6 +41,18 @@ body{
 .mr-2 {
     margin-right: 0.5rem;
 }
+.accordion-button{
+    background-color: $gray-light;
+}
+.accordion-item {
+    margin-bottom: 15px;
+    border: none; 
+}
+
+.accordion-button:not(.collapsed) {
+    color: $main-color;
+    background-color: $color-yellow-light;
+}
 
 
 .nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {

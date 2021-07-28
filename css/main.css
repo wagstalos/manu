@@ -54,24 +54,25 @@ body {
   margin-right: 0.5rem;
 }
 
-/* line 46, E:/workspace/HTMLs/manu/scss/_custom.scss */
-.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
-  border-color: none;
-  isolation: isolate;
-  border-bottom: #EF9E48 2px solid;
-  transition: .3s;
+/* line 44, E:/workspace/HTMLs/manu/scss/_custom.scss */
+.accordion-button {
+  background-color: #F7F8FB;
+}
+
+/* line 47, E:/workspace/HTMLs/manu/scss/_custom.scss */
+.accordion-item {
+  margin-bottom: 15px;
+  border: none;
 }
 
 /* line 52, E:/workspace/HTMLs/manu/scss/_custom.scss */
-.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
-  color: #a56f39;
-  background-color: #FBCE82;
-  border-color: #dee2e6;
+.accordion-button:not(.collapsed) {
+  color: #EF9E48;
+  background-color: #FCF2E8;
 }
 
-/* line 57, E:/workspace/HTMLs/manu/scss/_custom.scss */
+/* line 58, E:/workspace/HTMLs/manu/scss/_custom.scss */
 .nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
-  color: #a56f39;
   border-color: none;
   isolation: isolate;
   border-bottom: #EF9E48 2px solid;
@@ -79,6 +80,22 @@ body {
 }
 
 /* line 64, E:/workspace/HTMLs/manu/scss/_custom.scss */
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  color: #a56f39;
+  background-color: #FBCE82;
+  border-color: #dee2e6;
+}
+
+/* line 69, E:/workspace/HTMLs/manu/scss/_custom.scss */
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+  color: #a56f39;
+  border-color: none;
+  isolation: isolate;
+  border-bottom: #EF9E48 2px solid;
+  transition: .3s;
+}
+
+/* line 76, E:/workspace/HTMLs/manu/scss/_custom.scss */
 .nav-tabs .nav-link {
   background: 0 0;
   border: 1px solid transparent;
@@ -99,12 +116,12 @@ body {
   margin-right: 12px;
 }
 
-/* line 84, E:/workspace/HTMLs/manu/scss/_custom.scss */
+/* line 96, E:/workspace/HTMLs/manu/scss/_custom.scss */
 .nav-tabs {
   border-bottom: none;
 }
 
-/* line 87, E:/workspace/HTMLs/manu/scss/_custom.scss */
+/* line 99, E:/workspace/HTMLs/manu/scss/_custom.scss */
 .nav-link {
   color: #02073E;
 }
@@ -318,6 +335,11 @@ body {
 /* line 199, E:/workspace/HTMLs/manu/scss/_s-hero.scss */
 .s-values .icon-custom {
   background-color: #FCF2E8;
+}
+
+/* line 205, E:/workspace/HTMLs/manu/scss/_s-hero.scss */
+.s-faq {
+  padding: 100px 0;
 }
 
 /* line 1, E:/workspace/HTMLs/manu/scss/_espanhol.scss */
