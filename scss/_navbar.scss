@@ -1,0 +1,213 @@
+.navbar {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+.navbar-dark  {
+    .navbar-nav {
+        .nav-link{
+            color: $color-dark;
+        }
+    }
+}
+
+.navbar-dark {
+    .navbar-nav{
+        .nav-link:focus{
+            color: $main-color;
+        }
+    }
+ 
+}
+.navbar-dark {
+    .navbar-nav{
+        .nav-link:hover{
+            color: $main-color;
+        }
+    }
+ 
+}
+
+nav {
+    ul{
+        list-style: none;
+        text-align: center;
+    }
+    
+}
+
+nav {
+    ul{
+     li{
+        display: inline-block;
+    }
+}
+
+}
+
+nav{
+    ul{
+        li{
+            a{
+                transition: all .5s;
+            }
+        }
+    }
+}
+nav{
+    ul{
+        li{
+            a:hover{
+                color: #555;
+            }
+        }
+    }
+}
+nav{
+    ul{
+        li{
+            a:after{
+                transition: all .5s;
+            }
+        }
+    }
+}
+nav{
+    ul{
+        li{
+            a:before{
+                transition: all .5s;
+            }
+        }
+    }
+}
+
+
+
+.btn-invite {
+    background-color: $color-yellow-light;
+    color: $main-color;
+    border-radius: 10px;
+    a{
+        color: $main-color;
+        font-weight: 500;
+        &:hover{
+            color: $color-dark;
+        }
+    }
+
+}
+
+.navbar-dark  {
+    .navbar-toggler{
+        color: rgba(255, 255, 255, 0);
+        border-color: rgba(255, 255, 255, 0);
+        outline: none;
+    }
+    
+}
+
+.hamburguer {
+    margin-bottom: 5px;
+    width: 30px;
+    height: 2px;
+    background: $main-color;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: .5s;
+    &:before{
+        content: '';
+        position: absolute;
+        width: 30px;
+        height: 2px;
+        background:  $main-color;
+        box-shadow: 0 2px 5px (0, 0, 0, 0.2);
+        transition: .5s;
+        left: 0;
+    }
+}
+.hamburguer {
+    margin-bottom: 5px;
+    width: 30px;
+    height: 2px;
+    background: $main-color;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: .5s;
+    &:after{
+        content: '';
+        position: absolute;
+        width: 30px;
+        height: 2px;
+        background:  $main-color;
+        box-shadow: 0 2px 5px (0, 0, 0, 0.2);
+        transition: .5s;
+        left: 0;
+    }
+}
+
+.hamburguer{
+
+    &:before{
+        top: -8px;
+    }
+}
+
+.hamburguer {
+    &:after{
+        top: 8px;
+    }
+    
+}
+
+.icon {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    width: 47px;
+    height: 34px;
+    border: none;
+    cursor: pointer;
+}
+.icon.active  {
+ 
+    .hamburguer{
+        background: rgba(0, 0, 0, 0);
+    }
+}
+
+.icon.active  {
+    .hamburguer{
+        &:before{
+            top: 0;
+            transform: rotate(45deg);
+        }
+    }
+ 
+}
+
+.icon.active  {
+    .hamburguer{
+        &:after{
+            top: 0;
+            transform: rotate(135deg);
+        }
+    }
+ 
+}
+
+header {
+    background-color: transparent;
+    z-index: 2;
+    position: fixed;
+    top: 0;
+    transition: all .5s;
+}
+.sticky {
+    background-color: hsla(0, 0%, 100%, 0.63)!important;
+    backdrop-filter: blur(20px);
+    // box-shadow: rgb(0 0 0 / 10%) 0px 0px 30px 0px;
+    transition: all 1s;
+}

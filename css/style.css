@@ -1,0 +1,267 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --color-yellow: #EF9E48;
+    --color-yellow-light: #FCF2E8;
+    --color-dark: #02073E;
+}
+
+/* bt5 */
+
+.btn {
+    border-radius: 10px;
+    padding: 0.6rem 3rem;
+}
+
+.mr-2 {
+    margin-right: 0.5rem;
+}
+
+/* NAVIGATION */
+
+.navbar {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: var(--color-dark);
+}
+
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+    color: var(--color-yellow);
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a, nav ul li a:after, nav ul li a:before {
+    transition: all .5s;
+}
+
+nav ul li a:hover {
+    color: #555;
+}
+
+/* stroke */
+
+/* nav.stroke ul li a, nav.fill ul li a {
+    position: relative;
+}
+
+nav.stroke ul li a:after, nav.fill ul li a:after {
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 0%;
+    content: '.';
+    color: transparent;
+    background: var(--color-yellow);
+    height: 3px;
+}
+
+nav.stroke ul li a:hover:after {
+    width: 80%;
+}
+
+nav.fill ul li a {
+    transition: all 2s;
+}
+
+nav.fill ul li a:after {
+    text-align: left;
+    content: '.';
+    margin: 0;
+    opacity: 0;
+}
+
+nav.fill ul li a:hover {
+    color: red;
+    z-index: 1;
+}
+
+nav.fill ul li a:hover:after {
+    z-index: -10;
+    animation: fill 1s forwards;
+    -webkit-animation: fill 1s forwards;
+    -moz-animation: fill 1s forwards;
+    opacity: 1;
+} */
+
+.btn-invite {
+    background-color: var(--color-yellow-light);
+    color: var(--color-yellow);
+    border-radius: 10px;
+}
+
+.btn-invite a {
+    color: var(--color-yellow);
+    font-weight: 500;
+}
+
+/* menu */
+
+.navbar-dark .navbar-toggler {
+    color: rgba(255, 255, 255, 0);
+    border-color: rgba(255, 255, 255, 0);
+    outline: none;
+}
+
+.hamburguer {
+    margin-bottom: 5px;
+    width: 30px;
+    height: 2px;
+    background: var(--color-yellow);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: .5s;
+}
+
+.hamburguer:before, .hamburguer:after {
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 2px;
+    background: var(--color-yellow);
+    box-shadow: 0 2px 5px (0, 0, 0, 0.2);
+    transition: .5s;
+    left: 0;
+}
+
+.hamburguer:before {
+    top: -8px;
+}
+
+.hamburguer:after {
+    top: 8px;
+}
+
+.icon {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    width: 47px;
+    height: 34px;
+    border: none;
+    cursor: pointer;
+}
+
+.icon.active .hamburguer {
+    background: rgba(0, 0, 0, 0);
+}
+
+.icon.active .hamburguer:before {
+    top: 0;
+    transform: rotate(45deg);
+}
+
+.icon.active .hamburguer:after {
+    top: 0;
+    transform: rotate(135deg);
+}
+
+header {
+    background-color: transparent;
+    z-index: 2;
+    position: fixed;
+    top: 0;
+    transition: all .5s;
+}
+
+.sticky {
+    background-color: hsla(0, 0%, 100%, 0.63)!important;
+    backdrop-filter: blur(20px);
+    box-shadow: rgb(0 0 0 / 10%) 0px 0px 30px 0px;
+    transition: all 1s;
+}
+
+.square {
+    position: absolute;
+    max-width: 70%;
+    width: 100%;
+    height: 96vh;
+    left: 0px;
+    top: 0px;
+    background: linear-gradient(106.43deg, #FFDC6B -1.4%, #FFF4CB 100.87%);
+    border-radius: 0 0 55px 0;
+    z-index: -1;
+}
+
+/* Section hero */
+
+.carousel-control-next, .carousel-control-prev {
+    bottom: 20px;
+    align-items: flex-end;
+    justify-content: end;
+    width: 15%;
+    padding: 0;
+}
+
+.carousel-control-next {
+    left: 40px;
+}
+
+.s-hero {
+    padding: 50px 0px;
+    margin-top: 50px;
+}
+
+.s-hero h1 {
+    width: 100%;
+    max-width: 501px;
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 100%;
+    margin: 0;
+    /* or 118% */
+}
+
+.s-hero h1 span {
+    font-weight: 700;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: #000;
+    font-size: 1.2em;
+    color: transparent;
+}
+
+.s-hero p {
+    width: 100%;
+    max-width: 501px;
+}
+
+.s-hero h2 {
+    position: relative;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.s-hero h2 span {
+    font-weight: 700;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
+    font-size: 1.5em;
+    color: transparent;
+}
+
+.img-chat {
+    position: absolute;
+    height: 200px;
+    position: absolute;
+    height: 200px;
+    left: 37%;
+    top: 10%;
+}

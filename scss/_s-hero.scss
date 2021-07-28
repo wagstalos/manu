@@ -1,0 +1,167 @@
+// ********* section hero **********
+.square {
+    position: absolute;
+    max-width: 70%;
+    width: 100%;
+    height: 96vh;
+    left: 0px;
+    top: 0px;
+    background: linear-gradient(106.43deg, #FFDC6B -1.4%, #FFF4CB 100.87%);
+    border-radius: 0 0 55px 0;
+    z-index: -1;
+}
+
+.s-hero {
+    padding: 50px 0px;
+    margin-top: 50px;
+}
+.s-hero{
+    h1 {
+        width: 100%;
+        max-width: 501px;
+        font-family: Poppins;
+        font-weight: bold;
+        font-size: 55px;
+        line-height: 100%;
+        margin: 0;
+        span {
+            font-weight: 700;
+            -webkit-text-stroke-width: 1.5px;
+            -webkit-text-stroke-color: #000;
+            font-size: 1.2em;
+            color: transparent;
+        }
+    }
+}
+.s-hero  {
+    p{
+        width: 100%;
+        max-width: 501px;
+    }
+   
+}
+
+.s-hero{
+    h2 {
+        position: relative;
+        left: 0;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        span{
+            font-weight: 700;
+            -webkit-text-stroke-width: 1px;
+            -webkit-text-stroke-color: #000;
+            font-size: 1.5em;
+            color: transparent;
+        }
+    } 
+}
+
+.text-outline{
+    position: relative;
+        left: 0;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        font-weight: 700;
+        -webkit-text-stroke-width: 1.2px;
+        -webkit-text-stroke-color: $color-yellow;
+        font-size: 3.5rem;;
+        color: transparent;
+        opacity: 0.2;
+        line-height: 60px;
+        margin-top: -66px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+
+.s-hero{
+    i{
+    padding: 10px 15px;
+    background-color: $color-yellow;
+    border-radius: 10px;
+    margin-right: 15px;
+    }
+}
+
+.img-chat {
+    position: absolute;
+    height: 200px;
+    position: absolute;
+    height: 200px;
+    left: 37%;
+    top: 10%;
+}
+
+// section about
+.s-about{
+    padding: 70px 0;
+}
+.s-about{
+    h5{
+        color: $main-color;
+    }
+}
+.s-about{
+    h4{
+        margin-bottom: 60px;
+    }
+}
+.s-about{
+    img{
+        width: 70px;
+    }
+}
+.s-about {
+    a{
+        text-decoration: none;
+    }
+}
+.card{
+    // width: 360px;
+    height: 307px;
+    background: $gray-light;
+    border: 1px solid #EDEEF0;
+    box-sizing: border-box;
+    border-radius: 25px;
+}
+.bg-icon{
+    background: $color-yellow-light-100;
+    border-radius: 25px;
+    display: inline-block;
+    padding: 15px;
+}
+
+
+// ******section i who am i *********
+
+.s-who-am-i {
+
+    background: linear-gradient(106.43deg, #FFDC6B -1.4%, #FFF4CB 100.87%);
+    border-radius: 0 0 55px 0;
+    z-index: -1;
+    padding: 70px 0;
+}
+
+.s-who-am-i {
+    p{
+        max-width: 800px;
+        width: 100%;
+        margin: 0 auto;
+        line-height: 32px;
+    }
+}
+
+.s-who-am-i{
+    a{
+        text-decoration: none;
+        color:$main-color;
+        transition: color .3s;
+        &:hover{
+            
+            color: $color-yellow-dark;
+        }
+    }
+}

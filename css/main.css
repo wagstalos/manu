@@ -1,0 +1,665 @@
+/* line 1, E:/workspace/HTMLs/manu/scss/_custom.scss */
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* line 5, E:/workspace/HTMLs/manu/scss/_custom.scss */
+.color-main {
+  color: #EF9E48;
+}
+
+/* line 8, E:/workspace/HTMLs/manu/scss/_custom.scss */
+.color-yellow-dark {
+  color: #a56f39;
+}
+
+/* line 11, E:/workspace/HTMLs/manu/scss/_custom.scss */
+.mt-40 {
+  margin-top: 40px;
+}
+
+/* bt5 */
+/* line 18, E:/workspace/HTMLs/manu/scss/_custom.scss */
+.btn {
+  border-radius: 10px;
+  padding: 0.6rem 2rem;
+}
+
+/* line 23, E:/workspace/HTMLs/manu/scss/_custom.scss */
+.mr-2 {
+  margin-right: 0.5rem;
+}
+
+/* line 28, E:/workspace/HTMLs/manu/scss/_custom.scss */
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+  border-color: none;
+  isolation: isolate;
+  border-bottom: #EF9E48 2px solid;
+  transition: .3s;
+}
+
+/* line 34, E:/workspace/HTMLs/manu/scss/_custom.scss */
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  color: #a56f39;
+  background-color: #FBCE82;
+  border-color: #dee2e6;
+}
+
+/* line 39, E:/workspace/HTMLs/manu/scss/_custom.scss */
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+  color: #a56f39;
+  border-color: none;
+  isolation: isolate;
+  border-bottom: #EF9E48 2px solid;
+  transition: .3s;
+}
+
+/* line 46, E:/workspace/HTMLs/manu/scss/_custom.scss */
+.nav-tabs .nav-link {
+  background: 0 0;
+  border: 1px solid transparent;
+  border-top-left-radius: .25rem;
+  border-top-right-radius: .25rem;
+  background-color: #F2F3F5;
+  border-radius: 12px;
+  -webkit-box-shadow: 0px 10px 30px #eaeef6;
+  box-shadow: 0px 10px 30px #eaeef6;
+  opacity: 1;
+  -webkit-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s;
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+  transition: all .3s;
+  padding: 11px;
+  margin-right: 12px;
+}
+
+/* line 66, E:/workspace/HTMLs/manu/scss/_custom.scss */
+.nav-tabs {
+  border-bottom: none;
+}
+
+/* line 69, E:/workspace/HTMLs/manu/scss/_custom.scss */
+.nav-link {
+  color: #02073E;
+}
+
+/* line 1, E:/workspace/HTMLs/manu/scss/_s-hero.scss */
+.square {
+  position: absolute;
+  max-width: 70%;
+  width: 100%;
+  height: 96vh;
+  left: 0px;
+  top: 0px;
+  background: linear-gradient(106.43deg, #FFDC6B -1.4%, #FFF4CB 100.87%);
+  border-radius: 0 0 55px 0;
+  z-index: -1;
+}
+
+/* line 14, E:/workspace/HTMLs/manu/scss/_s-hero.scss */
+.carousel-control-next, .carousel-control-prev {
+  bottom: 20px;
+  align-items: flex-end;
+  justify-content: end;
+  width: 15%;
+  padding: 0;
+}
+
+/* line 22, E:/workspace/HTMLs/manu/scss/_s-hero.scss */
+.carousel-control-next {
+  left: 40px;
+}
+
+/* line 27, E:/workspace/HTMLs/manu/scss/_s-hero.scss */
+.s-hero {
+  padding: 50px 0px;
+  margin-top: 50px;
+}
+
+/* line 32, E:/workspace/HTMLs/manu/scss/_s-hero.scss */
+.s-hero h1 {
+  width: 100%;
+  max-width: 501px;
+  font-family: Poppins;
+  font-weight: bold;
+  font-size: 55px;
+  line-height: 100%;
+  margin: 0;
+}
+
+/* line 40, E:/workspace/HTMLs/manu/scss/_s-hero.scss */
+.s-hero h1 span {
+  font-weight: 700;
+  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: #000;
+  font-size: 1.2em;
+  color: transparent;
+}
+
+/* line 50, E:/workspace/HTMLs/manu/scss/_s-hero.scss */
+.s-hero p {
+  width: 100%;
+  max-width: 501px;
+}
+
+/* line 58, E:/workspace/HTMLs/manu/scss/_s-hero.scss */
+.s-hero h2 {
+  position: relative;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+/* line 64, E:/workspace/HTMLs/manu/scss/_s-hero.scss */
+.s-hero h2 span {
+  font-weight: 700;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #000;
+  font-size: 1.5em;
+  color: transparent;
+}
+
+/* line 74, E:/workspace/HTMLs/manu/scss/_s-hero.scss */
+.text-outline {
+  position: relative;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-weight: 700;
+  -webkit-text-stroke-width: 1.2px;
+  -webkit-text-stroke-color: #f9c271;
+  font-size: 3.5rem;
+  color: transparent;
+  opacity: 0.2;
+  line-height: 60px;
+  margin-top: -66px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* line 94, E:/workspace/HTMLs/manu/scss/_s-hero.scss */
+.s-hero i {
+  padding: 10px 15px;
+  background-color: #f9c271;
+  border-radius: 10px;
+  margin-right: 15px;
+}
+
+/* line 102, E:/workspace/HTMLs/manu/scss/_s-hero.scss */
+.img-chat {
+  position: absolute;
+  height: 200px;
+  position: absolute;
+  height: 200px;
+  left: 37%;
+  top: 10%;
+}
+
+/* line 112, E:/workspace/HTMLs/manu/scss/_s-hero.scss */
+.s-about {
+  padding: 70px 0;
+}
+
+/* line 116, E:/workspace/HTMLs/manu/scss/_s-hero.scss */
+.s-about h5 {
+  color: #EF9E48;
+}
+
+/* line 121, E:/workspace/HTMLs/manu/scss/_s-hero.scss */
+.s-about h4 {
+  margin-bottom: 60px;
+}
+
+/* line 126, E:/workspace/HTMLs/manu/scss/_s-hero.scss */
+.s-about img {
+  width: 70px;
+}
+
+/* line 131, E:/workspace/HTMLs/manu/scss/_s-hero.scss */
+.s-about a {
+  text-decoration: none;
+}
+
+/* line 135, E:/workspace/HTMLs/manu/scss/_s-hero.scss */
+.card {
+  height: 307px;
+  background: #F2F3F5;
+  border: 1px solid #EDEEF0;
+  box-sizing: border-box;
+  border-radius: 25px;
+}
+
+/* line 143, E:/workspace/HTMLs/manu/scss/_s-hero.scss */
+.bg-icon {
+  background: #FBCE82;
+  border-radius: 25px;
+  display: inline-block;
+  padding: 15px;
+}
+
+/* line 171, E:/workspace/HTMLs/manu/scss/_s-hero.scss */
+.s-who-am-i {
+  background: linear-gradient(106.43deg, #FFDC6B -1.4%, #FFF4CB 100.87%);
+  border-radius: 0 0 55px 0;
+  z-index: -1;
+  padding: 70px 0;
+}
+
+/* line 180, E:/workspace/HTMLs/manu/scss/_s-hero.scss */
+.s-who-am-i p {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+  line-height: 32px;
+}
+
+/* line 189, E:/workspace/HTMLs/manu/scss/_s-hero.scss */
+.s-who-am-i a {
+  text-decoration: none;
+  color: #EF9E48;
+  transition: color .3s;
+}
+
+/* line 193, E:/workspace/HTMLs/manu/scss/_s-hero.scss */
+.s-who-am-i a:hover {
+  color: #a56f39;
+}
+
+/* line 1, E:/workspace/HTMLs/manu/scss/_espanhol.scss */
+.s-espanhol {
+  padding: 70px 0;
+}
+
+/* line 5, E:/workspace/HTMLs/manu/scss/_espanhol.scss */
+.s-espanhol h1 {
+  color: #EF9E48;
+  font-size: 4rem;
+}
+
+/* line 8, E:/workspace/HTMLs/manu/scss/_espanhol.scss */
+.s-espanhol h1 span {
+  font-weight: 700;
+  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: #EF9E48;
+  font-size: 1.2em;
+  color: transparent;
+  line-height: 60px;
+}
+
+/* line 19, E:/workspace/HTMLs/manu/scss/_espanhol.scss */
+.s-espanhol h6 {
+  color: #EF9E48;
+  font-size: 4.5rem;
+}
+
+/* line 22, E:/workspace/HTMLs/manu/scss/_espanhol.scss */
+.s-espanhol h6 span {
+  font-weight: 700;
+  -webkit-text-stroke-width: 1.2px;
+  -webkit-text-stroke-color: #02073E;
+  font-size: 1.1em;
+  color: transparent;
+  opacity: 0.1;
+  line-height: 60px;
+  margin-top: -88px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* line 39, E:/workspace/HTMLs/manu/scss/_espanhol.scss */
+.s-espanhol h3 span, .s-espanhol h2 span {
+  font-weight: 700;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #a56f39;
+  font-size: 1.2em;
+  color: #EF9E48;
+  line-height: 60px;
+  margin: 0;
+}
+
+/* line 51, E:/workspace/HTMLs/manu/scss/_espanhol.scss */
+.s-espanhol b {
+  color: #EF9E48;
+}
+
+/* line 56, E:/workspace/HTMLs/manu/scss/_espanhol.scss */
+.s-espanhol .square {
+  position: absolute;
+  max-width: 50%;
+  width: 100%;
+  height: 96vh;
+  left: 0px;
+  top: 0px;
+}
+
+/* line 67, E:/workspace/HTMLs/manu/scss/_espanhol.scss */
+.s-espanhol a {
+  text-decoration: none;
+  color: #02073E;
+}
+
+/* line 74, E:/workspace/HTMLs/manu/scss/_espanhol.scss */
+.s-espanhol i {
+  color: #a56f39;
+  font-size: 25px;
+}
+
+/* line 80, E:/workspace/HTMLs/manu/scss/_espanhol.scss */
+.icon-custom {
+  padding: 10px 15px;
+  background-color: #f9c271;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-right: 15px;
+}
+
+/* line 87, E:/workspace/HTMLs/manu/scss/_espanhol.scss */
+.border-flag {
+  border: #FCF2E8 4px solid;
+  border-radius: 100%;
+}
+
+/* line 92, E:/workspace/HTMLs/manu/scss/_espanhol.scss */
+.scroll {
+  width: 99%;
+  height: 300px;
+  overflow: auto;
+}
+
+/* line 97, E:/workspace/HTMLs/manu/scss/_espanhol.scss */
+.back-yellow-light {
+  background-color: #FCF2E8;
+  border-radius: 10px;
+}
+
+/* line 1, E:/workspace/HTMLs/manu/scss/_navbar.scss */
+.navbar {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+/* line 7, E:/workspace/HTMLs/manu/scss/_navbar.scss */
+.navbar-dark .navbar-nav .nav-link {
+  color: #02073E;
+}
+
+/* line 15, E:/workspace/HTMLs/manu/scss/_navbar.scss */
+.navbar-dark .navbar-nav .nav-link:focus {
+  color: #EF9E48;
+}
+
+/* line 23, E:/workspace/HTMLs/manu/scss/_navbar.scss */
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #EF9E48;
+}
+
+/* line 31, E:/workspace/HTMLs/manu/scss/_navbar.scss */
+nav ul {
+  list-style: none;
+  text-align: center;
+}
+
+/* line 40, E:/workspace/HTMLs/manu/scss/_navbar.scss */
+nav ul li {
+  display: inline-block;
+}
+
+/* line 50, E:/workspace/HTMLs/manu/scss/_navbar.scss */
+nav ul li a {
+  transition: all .5s;
+}
+
+/* line 59, E:/workspace/HTMLs/manu/scss/_navbar.scss */
+nav ul li a:hover {
+  color: #555;
+}
+
+/* line 68, E:/workspace/HTMLs/manu/scss/_navbar.scss */
+nav ul li a:after {
+  transition: all .5s;
+}
+
+/* line 77, E:/workspace/HTMLs/manu/scss/_navbar.scss */
+nav ul li a:before {
+  transition: all .5s;
+}
+
+/* line 86, E:/workspace/HTMLs/manu/scss/_navbar.scss */
+.btn-invite {
+  background-color: #FCF2E8;
+  color: #EF9E48;
+  border-radius: 10px;
+}
+
+/* line 90, E:/workspace/HTMLs/manu/scss/_navbar.scss */
+.btn-invite a {
+  color: #EF9E48;
+  font-weight: 500;
+}
+
+/* line 93, E:/workspace/HTMLs/manu/scss/_navbar.scss */
+.btn-invite a:hover {
+  color: #02073E;
+}
+
+/* line 101, E:/workspace/HTMLs/manu/scss/_navbar.scss */
+.navbar-dark .navbar-toggler {
+  color: rgba(255, 255, 255, 0);
+  border-color: rgba(255, 255, 255, 0);
+  outline: none;
+}
+
+/* line 109, E:/workspace/HTMLs/manu/scss/_navbar.scss */
+.hamburguer {
+  margin-bottom: 5px;
+  width: 30px;
+  height: 2px;
+  background: #EF9E48;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: .5s;
+}
+
+/* line 119, E:/workspace/HTMLs/manu/scss/_navbar.scss */
+.hamburguer:before {
+  content: '';
+  position: absolute;
+  width: 30px;
+  height: 2px;
+  background: #EF9E48;
+  box-shadow: 0 2px 5px 0, 0, 0, 0.2;
+  transition: .5s;
+  left: 0;
+}
+
+/* line 130, E:/workspace/HTMLs/manu/scss/_navbar.scss */
+.hamburguer {
+  margin-bottom: 5px;
+  width: 30px;
+  height: 2px;
+  background: #EF9E48;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: .5s;
+}
+
+/* line 140, E:/workspace/HTMLs/manu/scss/_navbar.scss */
+.hamburguer:after {
+  content: '';
+  position: absolute;
+  width: 30px;
+  height: 2px;
+  background: #EF9E48;
+  box-shadow: 0 2px 5px 0, 0, 0, 0.2;
+  transition: .5s;
+  left: 0;
+}
+
+/* line 154, E:/workspace/HTMLs/manu/scss/_navbar.scss */
+.hamburguer:before {
+  top: -8px;
+}
+
+/* line 160, E:/workspace/HTMLs/manu/scss/_navbar.scss */
+.hamburguer:after {
+  top: 8px;
+}
+
+/* line 166, E:/workspace/HTMLs/manu/scss/_navbar.scss */
+.icon {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  width: 47px;
+  height: 34px;
+  border: none;
+  cursor: pointer;
+}
+
+/* line 176, E:/workspace/HTMLs/manu/scss/_navbar.scss */
+.icon.active .hamburguer {
+  background: rgba(0, 0, 0, 0);
+}
+
+/* line 183, E:/workspace/HTMLs/manu/scss/_navbar.scss */
+.icon.active .hamburguer:before {
+  top: 0;
+  transform: rotate(45deg);
+}
+
+/* line 193, E:/workspace/HTMLs/manu/scss/_navbar.scss */
+.icon.active .hamburguer:after {
+  top: 0;
+  transform: rotate(135deg);
+}
+
+/* line 201, E:/workspace/HTMLs/manu/scss/_navbar.scss */
+header {
+  background-color: transparent;
+  z-index: 2;
+  position: fixed;
+  top: 0;
+  transition: all .5s;
+}
+
+/* line 208, E:/workspace/HTMLs/manu/scss/_navbar.scss */
+.sticky {
+  background-color: rgba(255, 255, 255, 0.63) !important;
+  backdrop-filter: blur(20px);
+  transition: all 1s;
+}
+
+@media (max-width: 1200px) {
+  /* line 2, E:/workspace/HTMLs/manu/scss/_responsive.scss */
+  .img-chat {
+    top: 3%;
+    left: 28%;
+  }
+}
+
+@media (max-width: 991px) {
+  /* line 9, E:/workspace/HTMLs/manu/scss/_responsive.scss */
+  .img-chat {
+    display: none;
+  }
+  /* line 12, E:/workspace/HTMLs/manu/scss/_responsive.scss */
+  .carousel-indicators {
+    bottom: -55px;
+  }
+  /* line 15, E:/workspace/HTMLs/manu/scss/_responsive.scss */
+  .carousel-control-next, .carousel-control-prev {
+    bottom: -45px;
+  }
+  /* line 18, E:/workspace/HTMLs/manu/scss/_responsive.scss */
+  .square {
+    height: 620px;
+  }
+}
+
+@media (max-width: 700px) {
+  /* line 24, E:/workspace/HTMLs/manu/scss/_responsive.scss */
+  .img-chat {
+    display: none;
+  }
+  /* line 29, E:/workspace/HTMLs/manu/scss/_responsive.scss */
+  .s-hero h1 {
+    font-size: 45px;
+    text-align: center;
+  }
+  /* line 34, E:/workspace/HTMLs/manu/scss/_responsive.scss */
+  .s-hero p {
+    margin-top: 20px;
+  }
+  /* line 38, E:/workspace/HTMLs/manu/scss/_responsive.scss */
+  .center-mobile {
+    text-align: center;
+  }
+  /* line 41, E:/workspace/HTMLs/manu/scss/_responsive.scss */
+  .carousel-indicators {
+    bottom: -7px;
+  }
+  /* line 44, E:/workspace/HTMLs/manu/scss/_responsive.scss */
+  .carousel-control-next, .carousel-control-prev {
+    bottom: 10px;
+  }
+  /* line 47, E:/workspace/HTMLs/manu/scss/_responsive.scss */
+  .default-header {
+    background-color: rgba(255, 255, 255, 0.63) !important;
+    backdrop-filter: blur(20px);
+    transition: all 1s;
+  }
+  /* line 54, E:/workspace/HTMLs/manu/scss/_responsive.scss */
+  .s-espanhol h1 {
+    color: #EF9E48;
+    font-size: 3rem !important;
+  }
+}
+
+@media (max-width: 480px) {
+  /* line 64, E:/workspace/HTMLs/manu/scss/_responsive.scss */
+  .navbar {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  /* line 68, E:/workspace/HTMLs/manu/scss/_responsive.scss */
+  .square {
+    max-width: 90%;
+  }
+  /* line 71, E:/workspace/HTMLs/manu/scss/_responsive.scss */
+  .border-flag {
+    margin-top: 20px;
+  }
+  /* line 74, E:/workspace/HTMLs/manu/scss/_responsive.scss */
+  .s-hero h1 span {
+    font-size: 1em;
+    color: transparent;
+  }
+  /* line 79, E:/workspace/HTMLs/manu/scss/_responsive.scss */
+  .s-espanhol .square {
+    max-width: 90%;
+  }
+  /* line 85, E:/workspace/HTMLs/manu/scss/_responsive.scss */
+  .nav-tabs .nav-link {
+    margin-right: 5px;
+  }
+  /* line 91, E:/workspace/HTMLs/manu/scss/_responsive.scss */
+  .s-espanhol h6 {
+    color: #EF9E48;
+    font-size: 3.5rem;
+  }
+  /* line 94, E:/workspace/HTMLs/manu/scss/_responsive.scss */
+  .s-espanhol h6 span {
+    margin-top: -112px;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

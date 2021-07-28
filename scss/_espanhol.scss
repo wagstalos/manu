@@ -1,0 +1,100 @@
+.s-espanhol{
+    padding: 70px 0;
+}
+.s-espanhol{
+    h1{
+        color: $main-color;
+        font-size: 4rem;
+        span{
+            font-weight: 700;
+            -webkit-text-stroke-width: 1.5px;
+            -webkit-text-stroke-color: $main-color;
+            font-size: 1.2em;
+            color: transparent;
+            line-height:60px;
+        }
+    }
+}
+.s-espanhol{
+    h6{
+        color: $main-color;
+        font-size: 4.5rem;
+        span{
+            font-weight: 700;
+            -webkit-text-stroke-width: 1.2px;
+            -webkit-text-stroke-color: $color-dark;
+            font-size: 1.1em;
+            color: transparent;
+            opacity: 0.1;
+            line-height: 60px;
+            margin-top: -88px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+}
+.s-espanhol{
+    h3,h2{
+        span{
+            font-weight: 700;
+            -webkit-text-stroke-width: 1px;
+            -webkit-text-stroke-color: $color-yellow-dark;
+            font-size: 1.2em;
+            color: $main-color;
+            line-height:60px;
+            margin: 0;
+        }
+    }
+}
+
+.s-espanhol b{
+    color: $main-color;
+}
+
+.s-espanhol{
+    .square {
+        position: absolute;
+        max-width: 50%;
+        width: 100%;
+        height: 96vh;
+        left: 0px;
+        top: 0px;
+    }
+
+}
+.s-espanhol{
+    a{
+        text-decoration: none;
+        color: $color-dark;
+       
+    }
+}
+.s-espanhol {
+    i{
+        color: $color-yellow-dark;
+        font-size: 25px;
+}
+    }
+
+.icon-custom{
+    padding: 10px 15px;
+    background-color: $color-yellow;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-right: 15px;
+}
+.border-flag{
+    border: $color-yellow-light 4px solid;
+    border-radius: 100%;
+}
+
+.scroll{
+  width: 99%;
+  height: 300px;
+  overflow: auto;
+}
+.back-yellow-light{
+    background-color: $color-yellow-light;
+    border-radius: 10px;
+}

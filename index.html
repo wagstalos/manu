@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Manu</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <!-- <link rel="stylesheet" href="css/style.css" /> -->
+    <!-- <link rel="stylesheet" href="css/responsive.css" /> -->
+  </head>
+  <body>
+    <header class="container-fluid" id="#sticker">
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top default-header">
+        <div class="container">
+          <a href="#" class="navbar-brand logo">
+            <img src="img/logo.svg" alt="" class="d-inline-block" />
+          </a>
+          <!-- <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarCollapse"
+            aria-controls="navbarCollapse"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button> -->
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarCollapse"
+            aria-controls="navbarCollapse"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <div class="icon">
+              <div class="hamburguer"></div>
+            </div>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mx-auto text-md-center text-dark">
+              <li>
+                <a href="#home" class="nav-link">Home</a>
+              </li>
+              <li>
+                <a href="#s-about" class="nav-link">Sobre</a>
+              </li>
+              <li>
+                <a href="#s-who-am-i" class="nav-link" href="#" tabindex="-1"
+                  >Quem sou</a
+                >
+              </li>
+              <li>
+                <a href="#s-values" class="nav-link">Valores</a>
+              </li>
+              <li>
+                <a href="#contato" class="nav-link">Carrers</a>
+              </li>
+            </ul>
+            <div class="btn-invite text-center">
+              <a href="" target="blank" class="nav-link">Contato</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div class="square"></div>
+    <!-- Section hero -->
+    <section class="s-hero">
+      <div class="container">
+        <div
+          id="carouselExampleDark"
+          class="carousel carousel-dark slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="50000">
+              <div class="row justify-content-around align-items-center">
+                <div class="col-md-6">
+                  <h1>Bem-vindo(a)!</h1>
+                  <div class="center-mobile">
+                    <img src="./img/risco.svg" alt="" />
+                  </div>
+
+                  <p class="mt-4 center-mobile">
+                    Se você está procurando aulas particulares personalizadas,
+                    revisões, traduções ou desenho instrucional está no lugar
+                    certo.
+                  </p>
+                  <div class="center-mobile mt-4">
+                    <i class="bi shadow-sm bi-whatsapp"></i>
+                    <i class="bi shadow-sm bi-linkedin"></i>
+                  </div>
+
+                  <div class="center-mobile mt-4">
+                    <a href="" class="btn btn-light shadow-sm mt-4"
+                      >Contato e valores
+                    </a>
+                  </div>
+                </div>
+                <div class="col-md-6 text-center">
+                  <img
+                    class="img-chat"
+                    src="./img/chat.png"
+                    alt="com escrita"
+                  />
+                  <img
+                    class="mt-4 img-fluid"
+                    src="img/img-hero.png"
+                    alt="Imagem hero"
+                    height="auto"
+                  />
+                </div>
+                <h2>1/ <span>2</span></h2>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="5000">
+              <div class="row justify-content-around align-items-center">
+                <div class="col-md-6">
+                  <h1>
+                    Aulas <br />
+                    <span>Particulares</span>
+                  </h1>
+                  <div class="center-mobile">
+                    <img src="./img/risco.svg" alt="" />
+                  </div>
+
+                  <p class="mt-4">
+                    <img
+                      class="mr-2"
+                      src="img/check.svg"
+                      alt="Analisando seu Contrato com a operadora "
+                    />Aulas de espanhol, português e produção e interpretação de
+                    texto.
+                  </p>
+                  <p>
+                    <img
+                      class="mr-2"
+                      src="img/check.svg"
+                      alt="Parametrizando os valores na operadora"
+                    />Revisões (preparação, copidesque). 
+                  </p>
+                  <p>
+                    <img
+                      class="mr-2"
+                      src="img/check.svg"
+                      alt="Automatizando a recpção, atendimento e faturamento"
+                    />Traduções (português-espanhol, espanhol-português). 
+                  </p>
+                  <p>
+                    <img
+                      class="mr-2"
+                      src="img/check.svg"
+                      alt="Gerando relatórios de conciliação de pagamento"
+                    />Design instrucional/educacional.
+                  </p>
+                  <div class="center-mobile">
+                    <a href="" class="btn btn-light shadow-sm mt-4"
+                      >Contato e valores</a
+                    >
+                  </div>
+                </div>
+                <div class="col-md-6 text-center">
+                  <img
+                    class="img-chat"
+                    src="./img/chat.png"
+                    alt="bação com escrita"
+                  />
+                  <img
+                    class="mt-4 img-fluid"
+                    src="img/espanha.png"
+                    alt="Imagem hero"
+                    height="auto"
+                  />
+                </div>
+              </div>
+              <h2>2/ <span>2</span></h2>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section about -->
+    <section class="s-about text-center" id="s-about">
+      <div class="container">
+        <h5 class="text-uppercase">Sobre</h5>
+        <h6 class="text-uppercase text-outline">
+          <strong><span>Sobre</span> </strong>
+        </h6>
+
+        <h4>Olá, o que você está procurando? </h4>
+
+        <div class="row g-4">
+          <div class="col-md-3">
+            <div
+              class="
+                card
+                shadow-sm
+                d-flex
+                align-items-center
+                justify-content-between justify-content-around
+              "
+            >
+              <div class="text-center">
+                <img class="bg-icon shadow" src="img/icon-espanha.png" alt="" />
+              </div>
+
+              <p><strong>Aulas Espanhol</strong></p>
+              <a href="./espanhol.html"
+                >ler mais
+
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-chevron-right"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div
+              class="
+                card
+                shadow-sm
+                d-flex
+                align-items-center
+                justify-content-between justify-content-around
+              "
+            >
+              <div class="text-center">
+                <img
+                  class="bg-icon shadow"
+                  src="img/icon-texto.png"
+                  alt=""
+                  width="50px"
+                />
+              </div>
+
+              <p>
+                <strong
+                  >Aulas de português e produção e interpretação de texto
+                </strong>
+              </p>
+              <a href=""
+                >ler mais
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-chevron-right"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div
+              class="
+                card
+                shadow-sm
+                d-flex
+                align-items-center
+                justify-content-between justify-content-around
+              "
+            >
+              <div class="text-center">
+                <img
+                  class="bg-icon shadow"
+                  src="img/icon-tradutor.png"
+                  alt="icone tradutor"
+                />
+              </div>
+
+              <p>
+                <strong>Revisões e traduções </strong>
+              </p>
+              <a href=""
+                >ler mais
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-chevron-right"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div
+              class="
+                card
+                shadow-sm
+                d-flex
+                align-items-center
+                justify-content-between justify-content-around
+              "
+            >
+              <div class="text-center">
+                <img
+                  class="bg-icon shadow"
+                  src="img/design-instricional.png"
+                  alt="design-instricional"
+                />
+              </div>
+
+              <p>
+                <strong
+                  >Design instrucional/ <br />
+                  educacional
+                </strong>
+              </p>
+              <a href=""
+                >ler mais
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-chevron-right"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section #s-who-am-i -->
+    <section class="s-who-am-i" id="s-who-am-i">
+      <div class="container">
+        <h5 class="text-uppercase color-main text-center">quem sou</h5>
+        <h6 class="text-uppercase text-outline color-yellow-dark">
+          <strong><span>Quem sou</span> </strong>
+        </h6>
+
+        <p class="text-center">
+          Me chamo Manoela sou professora de espanhol, português e produção e
+          interpretação de texto, além de tradutora, revisora e designer
+          instrucional/educacional.
+        </p>
+
+        <div
+          class="
+            row
+            d-flex
+            justify-content-center
+            align-items-center
+            mt-40
+            pt-4
+          "
+        >
+          <div class="col-md-6 text-center">
+            <img
+              class="img-fluid"
+              src="./img/manu-sobre-mim.png"
+              alt="imagem mano"
+            />
+          </div>
+
+          <div class="col-md-6">
+            <script src="https://cdn.lordicon.com/libs/frhvbuzj/lord-icon-2.0.2.js"></script>
+
+            <lord-icon
+              class="bg-icon shadow"
+              src="https://cdn.lordicon.com/wxnxiano.json"
+              trigger="morph"
+              colors="primary:#ffffff,secondary:#ffffff"
+              style="width: 70px; height: 70px"
+            >
+            </lord-icon>
+
+            <p class="mt-4">
+              Sou especialista em designer instrucional/educacional pela
+              Universidade do Livro – UNIL Fundação Editora da Unesp e graduada
+              em letras com habilitação em português/espanhol pela Universidade
+              Estadual Paulista Júlio de Mesquita Filho – UNESP.
+            </p>
+
+            <p>
+              Com mais de 6 anos de experiência na área de ensino/aprendizagem,
+              como professora de espanhol já lecionei para crianças, jovens e
+              adultos nos mais variados contextos. Ministrei aulas para grupos
+              com faixas etárias diversas no Centro de Línguas e Desenvolvimento
+              de Professores (CLDP) da Unesp; para turmas do 6º ano do ensino
+              fundamental II ao 3º do ensino médio no Colégio Framtid; para
+              alunos(as) em aulas personalizadas no Força: ensino personalizado;
+              para jornalistas na Oficina de Línguas do Estadão; para alunos
+              particulares com foco na aprendizagem voltada aos negócios na Twin
+              Peaks Language School; e atualmente para alunos(as) em aulas
+              particulares personalizadas.
+            </p>
+            <div class="mt-40">
+              <a href="./espanhol.html" class="p-2">
+                ver mais
+                <svg
+                  width="39"
+                  height="10"
+                  viewBox="0 0 39 10"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M31 5H1"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-miterlimit="10"
+                    stroke-linecap="square"
+                  />
+                  <path
+                    d="M31 8.19575C31 8.98119 31.864 9.46003 32.53 9.04375L37.6432 5.848C38.2699 5.45633 38.2699 4.54367 37.6432 4.152L32.53 0.956249C31.864 0.539969 31 1.01881 31 1.80425V8.19575Z"
+                    fill="currentColor"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-miterlimit="10"
+                    stroke-linecap="round"
+                  />
+                </svg>
+              </a>
+            </div>
+
+            <div
+              class="d-flex justify-content-between justify-content-around mt-4"
+            >
+              <img src="./img/unesp-logo.png" alt="Unesp" width="150px" />
+              <img
+                src="./img/universidade-livro-logo.png"
+                alt=" universidade-livro-logo"
+                width="200px"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- <script src="js/jquery-3.4.1.min.js"></script> -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <!-- <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script> -->
+    <script src="js/main.js"></script>
+  </body>
+</html>

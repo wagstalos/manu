@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Manu</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <!-- <link rel="stylesheet" href="css/style.css" /> -->
+    <!-- <link rel="stylesheet" href="css/responsive.css" /> -->
+  </head>
+  <body>
+    <header class="container-fluid" id="#sticker">
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top default-header">
+        <div class="container">
+          <a href="#" class="navbar-brand logo">
+            <img src="img/logo.svg" alt="" class="d-inline-block" />
+          </a>
+          <!-- <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarCollapse"
+            aria-controls="navbarCollapse"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button> -->
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarCollapse"
+            aria-controls="navbarCollapse"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <div class="icon">
+              <div class="hamburguer"></div>
+            </div>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mx-auto text-md-center text-dark">
+              <li>
+                <a href="#home" class="nav-link">Home</a>
+              </li>
+              <li>
+                <a href="#s-about" class="nav-link">Sobre</a>
+              </li>
+              <li>
+                <a href="#blog" class="nav-link" href="#" tabindex="-1"
+                  >Contact</a
+                >
+              </li>
+              <li>
+                <a href="#sobre" class="nav-link">Blog</a>
+              </li>
+              <li>
+                <a href="#contato" class="nav-link">Carrers</a>
+              </li>
+            </ul>
+            <div class="btn-invite text-center">
+              <a href="" target="blank" class="nav-link">Contato</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section class="s-espanhol mt-4">
+      <div class="square"></div>
+      <div class="container">
+        <div class="row justify-content-around align-items-center">
+          <div class="col-md-6">
+            <img src="./img/stars.svg" alt="" />
+            <h5 class="mt-2">Aulas 100% on-lines</h5>
+            <img
+              class="img-fluid mt-4"
+              src="./img/banner-espanhol.png"
+              alt=""
+            />
+          </div>
+          <div class="col-md-6">
+            <img
+              class="border-flag"
+              src="img/flag-spain.svg"
+              alt=""
+              width="50px"
+            />
+            <h1>
+              <strong>Aulas de <span>espanhol</span> </strong>
+            </h1>
+
+            <ul class="nav nav-tabs mt-4" id="myTab" role="tablist">
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link active d-flex flex-column align-items-center shadow"
+                  id="home-tab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#home"
+                  type="button"
+                  role="tab"
+                  aria-controls="home"
+                  aria-selected="true"
+                >
+                  <i class="bi bi-easel"></i>
+                  Aprender
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link d-flex flex-column align-items-center shadow"
+                  id="profile-tab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#profile"
+                  type="button"
+                  role="tab"
+                  aria-controls="profile"
+                  aria-selected="false"
+                >
+                  <i class="bi bi-emoji-heart-eyes"></i>
+                  Entender
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link d-flex flex-column align-items-center shadow"
+                  id="contact-tab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#contact"
+                  type="button"
+                  role="tab"
+                  aria-controls="contact"
+                  aria-selected="false"
+                >
+                  <i class="bi bi-lightning"></i>
+                  Experiência
+                </button>
+              </li>
+            </ul>
+            <div class="tab-content" id="myTabContent">
+              <div
+                class="tab-pane fade show active"
+                id="home"
+                role="tabpanel"
+                aria-labelledby="home-tab"
+              >
+                <p class="mt-5">
+                  <h3>Aprender</h3>
+                  Aprender uma língua não se resume a saber vocabulário e
+                  gramática, mas sim buscar conhecê-la sob todas as suas
+                  facetas, compreendê-la dentro das <b>culturas</b> as quais
+                  está inserida e entender as suas relações sociais nos mais
+                  diversos âmbitos.
+                </p>
+                <p>
+                  Quero que você perceba desde já como o estudo de uma língua é
+                  plural e abrangente, e o quanto se limitar a ideia de que
+                  dominar o maior vocabulário possível e todas as regras
+                  gramaticais pode ser ironicamente insuficiente. ​
+                </p>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="profile"
+                role="tabpanel"
+                aria-labelledby="profile-tab"
+              >
+                <p class="mt-5">
+                  <h3>Entender</h3>
+                  Entender e saber utilizar uma língua requer dedicação e,
+                  claro, estudo. Por saber que cada indivíduo tem um processo de
+                  aprendizagem, todas as aulas são elaboradas por mim com a
+                  criação e seleção de diversos materiais, a fim de que o
+                  resultado seja uma aula única, dinâmica, interessante e
+                  plural.
+                </p>
+                <p>
+                  Livros, quadrinhos, jornais, memes, músicas, séries, filmes,
+                  danças, comidas, histórias e curiosidades atreladas a
+                  gramática (e ao vocabulário que as permeiam), são alguns dos
+                  componentes das aulas. Aqui decoreba não tem vez, meu trabalho
+                  é te ajudar no seu processo de desenvolvimento de produção de
+                  sentido dos conteúdos estudados. Partindo da premissa de que
+                  “Porque sim não é resposta.”, todo o aprendizado será
+                  contextualizado, possibilitando assim que você consiga
+                  construir sentido para o que estiver sendo estudado, afinal eu
+                  quero que você aprenda e não que simplesmente decore.
+                </p>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="contact"
+                role="tabpanel"
+                aria-labelledby="contact-tab"
+              >
+                <p class="mt-5">
+                  <h3>Experiência</h3>
+                  Com mais de 6 anos de experiência na área, já lecionei para
+                  crianças, jovens e adultos nos mais variados contextos.
+                  Ministrei aulas para grupos com faixas etárias diversas no
+                  Centro de Línguas e Desenvolvimento de Professores (CLDP) da
+                  Unesp; para turmas do 6º ano do ensino fundamental II ao 3º do
+                  ensino médio no Colégio Framtid; para alunos(as) em aulas
+                  personalizadas no Força: ensino personalizado; para
+                  jornalistas na Oficina de Línguas do Estadão; para alunos
+                  particulares com foco na aprendizagem voltada aos negócios na
+                  Twin Peaks Language School; e atualmente para alunos(as) em
+                  aulas particulares personalizadas.
+                </p>
+              </div>
+            </div>
+  
+          </div>
+        </div>
+
+        <div class="row mt-4">
+          <h3 class="text-center mt-4 mb-4">Como funciona <span>?</span></h3>
+          <h6>
+            <strong><span>Como funciona?</span> </strong>
+          </h6>
+          <div class="col-md-6 mt-4">
+            <p>
+              As aulas de espanhol são realizadas <b>on-line</b> por meio de
+              videochamadas. Leitura de livros, exposição e discussão de
+              conteúdo temático e leitura de artigos/matérias de jornais compõem
+              a maioria das aulas, mescladas a atividades, desafios e propostas.
+              Cada aula possibilita o desenvolvimento da audição, compreensão,
+              interpretação, fala e escrita (a depender da disposição). Os
+              materiais das aulas são compartilhados por e-mail aula a aula para
+              serem acompanhados simultaneamente durante as videochamadas.
+            </p>
+          </div>
+          <div class="col-md-6 mt-4">
+            <div
+              class="
+                d-flex
+                justify-content-between justify-content-around
+                back-yellow-light
+              "
+            >
+              <h2>Tempo</h2>
+              <h2>Valor</h2>
+            </div>
+            <div class="d-flex justify-content-between justify-content-around">
+              <h2><span>1 </span>hora/aula</h2>
+              <h2><span>90 R$</span></h2>
+            </div>
+            <p>
+              Para saber mais, marcar uma aula ou agendar uma conversa entre em
+              contato através de uma das formas a seguir: ​
+            </p>
+            <div class="center-mobile text-center mt-4">
+              <a
+                href="https://api.whatsapp.com/send?l=pt_BR&amp;phone=5511964617712 "
+              >
+                <i class="bi bi-whatsapp shadow icon-custom "></i>
+              </a>
+
+              <a href="mailto:manumunyz@hotmail.com ">
+                <i class="bi bi-envelope shadow icon-custom"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- <script src="js/jquery-3.4.1.min.js"></script> -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <!-- <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script> -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
