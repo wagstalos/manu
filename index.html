@@ -461,34 +461,6 @@
                 </svg>
               </a>
             </p>
-            <!-- <div class="mt-40">
-              <a href="./espanhol.html" class="p-2">
-                ver mais
-                <svg
-                  width="39"
-                  height="10"
-                  viewBox="0 0 39 10"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M31 5H1"
-                    stroke="currentColor"
-                    stroke-width="1.5"
-                    stroke-miterlimit="10"
-                    stroke-linecap="square"
-                  />
-                  <path
-                    d="M31 8.19575C31 8.98119 31.864 9.46003 32.53 9.04375L37.6432 5.848C38.2699 5.45633 38.2699 4.54367 37.6432 4.152L32.53 0.956249C31.864 0.539969 31 1.01881 31 1.80425V8.19575Z"
-                    fill="currentColor"
-                    stroke="currentColor"
-                    stroke-width="1.5"
-                    stroke-miterlimit="10"
-                    stroke-linecap="round"
-                  />
-                </svg>
-              </a>
-            </div> -->
 
             <div
               class="d-flex justify-content-between justify-content-around mt-4 bg-icon-5"
@@ -664,9 +636,11 @@
     </div>
 
   </div>
-  <div class="swiper-pagination"></div>
-  <div class="swiper-button-next"></div>
-  <div class="swiper-button-prev"></div>
+
+   <div class="swiper-pagination d-block  d-sm-none"></div> 
+   <div class="swiper-button-next d-block d-sm-none"></div>
+  <div class="swiper-button-prev d-block d-sm-none"></div> 
+
 </div>
 
 
@@ -1069,60 +1043,7 @@
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="js/main.js"></script>
     <script>
-      var swiper2 = new Swiper (".mySwiper", {
-            spaceBetween: 20,
 
-            pagination: {
-              el: ".swiper-pagination",
-              clickable: true,
-            },
-            navigation: {
-              nextEl: ".swiper-button-next",
-              prevEl: ".swiper-button-prev",
-            },
-            breakpoints: {
-              1024: {
-                slidesPerView: 1,
-                spaceBetween: 20,
-              },
-            },
-      });
-
-      var swiper = new Swiper(".mySwiper2", {
-            spaceBetween: 20,
-            loop: false,
-            loopFillGroupWithBlank: true,
-            
-            pagination: {
-              el: ".swiper-pagination",
-              clickable: true,
-            },
-            navigation: {
-              nextEl: ".swiper-button-next",
-              prevEl: ".swiper-button-prev",
-            },
-            breakpoints: {
-              400: {
-                slidesPerView: 1,
-                spaceBetween: 10,
-                effect: "flip",
-              },
-              640: {
-                slidesPerView: 1,
-                spaceBetween: 20,
-                effect: "flip",
-              },
-              768: {
-                slidesPerView: 1,
-                spaceBetween: 40,
-                effect: "flip",
-              },
-              1024: {
-                slidesPerView: 3,
-                spaceBetween: 20,
-              },
-            },
-});
 
     </script>
   </body>
