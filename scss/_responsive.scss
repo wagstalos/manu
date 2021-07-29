@@ -18,6 +18,7 @@
     .square {
         height: 620px;
     }
+
 }
 
 @media(max-width: 700px) {
@@ -61,6 +62,18 @@
 
         margin-bottom: 40px;
     }
+    .swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
+        top: 0!important;
+    }
+    .swiper-button-next, .swiper-container-rtl .swiper-button-prev {
+        top: 15px;
+        right: auto;
+        left: 40px;
+    }
+    .swiper-button-prev, .swiper-container-rtl .swiper-button-next {
+        top: 15px;
+    }
+    
 
 }
 
@@ -110,5 +123,5 @@
     .s-values {
         padding: 100px 0 20px 0;
     }
-    
+
 }

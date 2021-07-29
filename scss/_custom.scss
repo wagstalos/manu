@@ -23,8 +23,37 @@ body{
 .padding-custom{
     padding: 75px 0;
 }
-// carousel bt5
+.icon-custom{
+    padding: 10px 15px;
+    background-color: $color-yellow;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-right: 15px;
+}
+.border-flag{
+    border: $color-yellow-light 4px solid;
+    border-radius: 100%;
+}
 
+.back-yellow-light{
+    background-color: $color-yellow-light;
+    border-radius: 10px;
+}
+.back-yellow-light-100{
+    background-color: $color-yellow-light-100;
+    border-radius: 10px;
+}
+.bg-icon{
+    background: $color-yellow-light-100;
+    border-radius: 15px;
+    display: inline-block;
+    padding: 10px;
+}
+.bg-icon-5{
+    background: $color-yellow-light-100;
+    border-radius: 15px;
+    padding: 5px;
+}
 
 /* bt5 */
 
@@ -37,7 +66,7 @@ body{
     &:hover{
         border-color:$main-color ;
         background-color: $main-color;
-        color: $gray-light;
+        color: $white;
     }
 }
 .mr-2 {
@@ -58,14 +87,13 @@ body{
 
 // swiper
 :root {
-    --swiper-theme-color: #FFC800;
+    --swiper-theme-color: #EF9E48;
 }
 .swiper-container {
     padding-top: 40px;
 }
 .swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
-    top: 0!important;
- 
+    bottom: 10%;
 }
 .swiper-pagination-bullet-active {
     width: 17px;
@@ -73,7 +101,26 @@ body{
 .swiper-pagination-clickable{
     z-index: -1;
 }
+.swiper-pagination {
+    position: absolute;
+    text-align: end;
+    transition: .3s opacity;
+    transform: translate3d(0,0,0);
+    z-index: 10;
+}
+.swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
+z-index: -2;
+}
 
+.swiper-button-next, .swiper-container-rtl .swiper-button-prev {
+    bottom: 10%;
+    right: auto;
+    left: 40px;
+}
+
+.swiper-button-prev, .swiper-container-rtl .swiper-button-next {
+    bottom: 10%;
+}
 .nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
     border-color: none;
     isolation: isolate;
@@ -118,4 +165,3 @@ body{
 .nav-link {
     color: $color-dark;
 }
-

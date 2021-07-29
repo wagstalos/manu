@@ -78,7 +78,7 @@
                 <a href="#s-faq" class="nav-link">Dúvidas</a>
               </li>
             </ul>
-            <div class="btn-invite text-center shadow-sm">
+            <div class="btn-invite text-center shadow">
               <a href="" target="blank" class="nav-link"> <i class="bi bi-whatsapp mr-2"></i>Contato</a>
             </div>
           </div>
@@ -90,29 +90,10 @@
     <!-- Section hero -->
     <section class="s-hero">
       <div class="container">
-        <div
-          id="carouselExampleDark"
-          class="carousel carousel-dark slide"
-          data-bs-ride="carousel"
-        >
-          <div class="carousel-indicators">
-            <button
-              type="button"
-              data-bs-target="#carouselExampleDark"
-              data-bs-slide-to="0"
-              class="active"
-              aria-current="true"
-              aria-label="Slide 1"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#carouselExampleDark"
-              data-bs-slide-to="1"
-              aria-label="Slide 2"
-            ></button>
-          </div>
-          <div class="carousel-inner">
-            <div class="carousel-item active" data-bs-interval="50000">
+
+        <div class="swiper-container mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
               <div class="row justify-content-around align-items-center">
                 <div class="col-md-6">
                   <h1>Bem-vindo(a)!</h1>
@@ -125,10 +106,6 @@
                     revisões, traduções ou desenho instrucional está no lugar
                     certo.
                   </p>
-                  <!-- <div class="center-mobile mt-4">
-                    <i class="bi shadow-sm bi-whatsapp"></i>
-                    <i class="bi shadow-sm bi-linkedin"></i>
-                  </div> -->
 
                   <div class="center-mobile mt-4">
                     <a href="" class="btn btn-light shadow-sm mt-4"
@@ -152,7 +129,8 @@
                 <h2>1/ <span>2</span></h2>
               </div>
             </div>
-            <div class="carousel-item" data-bs-interval="5000">
+            
+            <div class="swiper-slide">
               <div class="row justify-content-around align-items-center">
                 <div class="col-md-6">
                   <h1>
@@ -199,11 +177,7 @@
                   </div>
                 </div>
                 <div class="col-md-6 text-center">
-                  <!-- <img
-                    class="img-chat"
-                    src="./img/chat.png"
-                    alt="bação com escrita"
-                  /> -->
+
                   <img
                     class="mt-4 img-fluid"
                     src="img/espanha.png"
@@ -211,28 +185,14 @@
                     height="auto"
                   />
                 </div>
+                <h2>2/ <span>2</span></h2>
               </div>
-              <h2>2/ <span>2</span></h2>
             </div>
           </div>
-          <button
-            class="carousel-control-prev"
-            type="button"
-            data-bs-target="#carouselExampleDark"
-            data-bs-slide="prev"
-          >
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button
-            class="carousel-control-next"
-            type="button"
-            data-bs-target="#carouselExampleDark"
-            data-bs-slide="next"
-          >
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
+
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
         </div>
       </div>
     </section>
@@ -531,7 +491,7 @@
             </div> -->
 
             <div
-              class="d-flex justify-content-between justify-content-around mt-4"
+              class="d-flex justify-content-between justify-content-around mt-4 bg-icon-5"
             >
               <img src="./img/unesp-logo.png" alt="Unesp" width="150px" />
               <img
@@ -558,21 +518,22 @@
         </p>
 <!-- Swiper -->
 
-<div class="swiper-container mt-40">
+<div class="swiper-container mySwiper2 mt-40">
   <div class="swiper-wrapper">
     <div class="swiper-slide  mt-40">
+      
       <div class="card-price">
         <h3 class="mt-4">Aulas</h3>
         <p class="font-slim">Aula de espanhol/ Aula de português</p>
 
-        <div class="d-flex mt-40">
+        <div class="d-flex align-items-start mt-40">
           <img class="mr-2" src="img/check-green.svg" alt="check-green" />
           <p>
             as aulas (espanhol, português e produção e interpretação de
             texto) são realizadas on-line por meio de videochamadas.
           </p>
         </div>
-        <div class="d-flex mt-4">
+        <div class="d-flex  align-items-start mt-4">
           <img class="mr-2" src="img/check-green.svg" alt="check-green" />
           <p>
             Os materiais das aulas são compartilhados por e-mail aula a
@@ -597,11 +558,11 @@
           <a
             href="https://api.whatsapp.com/send?l=pt_BR&amp;phone=5511964617712 "
           >
-            <i class="bi bi-whatsapp icon-custom"></i>
+            <i class="bi bi-whatsapp shadow icon-custom"></i>
           </a>
 
           <a href="mailto:manumunyz@hotmail.com ">
-            <i class="bi bi-envelope icon-custom"></i
+            <i class="bi bi-envelope shadow icon-custom"></i
           ></a>
         </div>
       </div>
@@ -611,7 +572,7 @@
         <h3 class="mt-4">Design</h3>
         <p class="font-slim">instrucional/educacional</p>
 
-        <div class="d-flex mt-40">
+        <div class="d-flex align-items-start mt-40">
           <img class="mr-2" src="img/check-green.svg" alt="check-green" />
           <p>
             os projetos de design instrucional/educacional necessitam de
@@ -620,7 +581,7 @@
             cronograma.
           </p>
         </div>
-        <div class="d-flex mt-4">
+        <div class="d-flex  align-items-start mt-4">
           <img class="mr-2" src="img/check-green.svg" alt="check-green" />
           <p>
             O pagamento também deverá ser realizado em 2 etapas metade a
@@ -645,11 +606,11 @@
           <a
             href="https://api.whatsapp.com/send?l=pt_BR&amp;phone=5511964617712 "
           >
-            <i class="bi bi-whatsapp icon-custom"></i>
+            <i class="bi bi-whatsapp shadow icon-custom"></i>
           </a>
 
           <a href="mailto:manumunyz@hotmail.com ">
-            <i class="bi bi-envelope icon-custom"></i
+            <i class="bi bi-envelope shadow icon-custom"></i
           ></a>
         </div>
       </div>
@@ -660,14 +621,14 @@
         <h3 class="mt-4">Revisões e traduções</h3>
         <p class="font-slim">Revisão</p>
 
-        <div class="d-flex mt-40">
+        <div class="d-flex  align-items-start mt-40">
           <img class="mr-2" src="img/check-green.svg" alt="check-green" />
           <p>
             As revisões e traduções são realizadas com agendamento de
             cronograma previamente definido.
           </p>
         </div>
-        <div class="d-flex mt-4">
+        <div class="d-flex  align-items-start mt-4">
           <img class="mr-2" src="img/check-green.svg" alt="check-green" />
           <p>
             O pagamento sendo acordado em 2 etapas, metade a ser realizado
@@ -692,11 +653,11 @@
           <a
             href="https://api.whatsapp.com/send?l=pt_BR&amp;phone=5511964617712 "
           >
-            <i class="bi bi-whatsapp icon-custom"></i>
+            <i class="bi bi-whatsapp shadow icon-custom"></i>
           </a>
 
           <a href="mailto:manumunyz@hotmail.com ">
-            <i class="bi bi-envelope icon-custom"></i
+            <i class="bi bi-envelope shadow icon-custom"></i
           ></a>
         </div>
       </div>
@@ -704,6 +665,8 @@
 
   </div>
   <div class="swiper-pagination"></div>
+  <div class="swiper-button-next"></div>
+  <div class="swiper-button-prev"></div>
 </div>
 
 
@@ -1106,40 +1069,59 @@
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="js/main.js"></script>
     <script>
-      var swiper = new Swiper(".swiper-container", {
-  spaceBetween: 20,
-  loop: false,
-  loopFillGroupWithBlank: true,
-  
-  pagination: {
-    el: ".swiper-pagination",
-    clickable: true,
-  },
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
-  },
-  breakpoints: {
-    400: {
-      slidesPerView: 1,
-      spaceBetween: 10,
-      effect: "flip",
-    },
-    640: {
-      slidesPerView: 1,
-      spaceBetween: 20,
-      effect: "flip",
-    },
-    768: {
-      slidesPerView: 1,
-      spaceBetween: 40,
-      effect: "flip",
-    },
-    1024: {
-      slidesPerView: 3,
-      spaceBetween: 20,
-    },
-  },
+      var swiper2 = new Swiper (".mySwiper", {
+            spaceBetween: 20,
+
+            pagination: {
+              el: ".swiper-pagination",
+              clickable: true,
+            },
+            navigation: {
+              nextEl: ".swiper-button-next",
+              prevEl: ".swiper-button-prev",
+            },
+            breakpoints: {
+              1024: {
+                slidesPerView: 1,
+                spaceBetween: 20,
+              },
+            },
+      });
+
+      var swiper = new Swiper(".mySwiper2", {
+            spaceBetween: 20,
+            loop: false,
+            loopFillGroupWithBlank: true,
+            
+            pagination: {
+              el: ".swiper-pagination",
+              clickable: true,
+            },
+            navigation: {
+              nextEl: ".swiper-button-next",
+              prevEl: ".swiper-button-prev",
+            },
+            breakpoints: {
+              400: {
+                slidesPerView: 1,
+                spaceBetween: 10,
+                effect: "flip",
+              },
+              640: {
+                slidesPerView: 1,
+                spaceBetween: 20,
+                effect: "flip",
+              },
+              768: {
+                slidesPerView: 1,
+                spaceBetween: 40,
+                effect: "flip",
+              },
+              1024: {
+                slidesPerView: 3,
+                spaceBetween: 20,
+              },
+            },
 });
 
     </script>

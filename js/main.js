@@ -15,11 +15,10 @@ window.addEventListener("scroll", stickyElement);
 //   });
 // });
 
-function clickElement() {
-  var icon = document.querySelector(".icon");
-  icon.classList.toggle("active");
-  // mobile.classList.toggle("active");
-}
+// function clickElement() {
+//   var icon = document.querySelector(".icon");
+//   icon.classList.toggle("active");
+// }
 
 window.addEventListener("click", clickElement);
 // window.addEventListener("touchstart", clickElement);

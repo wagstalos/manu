@@ -3,7 +3,7 @@
     position: absolute;
     max-width: 70%;
     width: 100%;
-    height: 96vh;
+    height: 100vh;
     left: 0px;
     top: 0px;
     background: linear-gradient(106.43deg, #FFDC6B -1.4%, #FFF4CB 100.87%);
@@ -13,8 +13,6 @@
 
 .s-hero {
     padding: 100px 0px 0px 0px;
-}
-.s-hero{
     h1 {
         width: 100%;
         max-width: 501px;
@@ -31,16 +29,10 @@
             color: transparent;
         }
     }
-}
-.s-hero  {
     p{
         width: 100%;
         max-width: 501px;
     }
-   
-}
-
-.s-hero{
     h2 {
         position: relative;
         left: 0;
@@ -55,6 +47,13 @@
             color: transparent;
         }
     } 
+    i{
+        padding: 10px 15px;
+        background-color: $color-yellow;
+        border-radius: 10px;
+        margin-right: 15px;
+    }
+   
 }
 
 .text-outline{
@@ -65,24 +64,16 @@
         justify-content: flex-end;
         font-weight: 700;
         -webkit-text-stroke-width: 1.2px;
-        -webkit-text-stroke-color: $color-yellow;
+        -webkit-text-stroke-color: $color-dark;
+
         font-size: 3.5rem;;
         color: transparent;
-        opacity: 0.2;
+        opacity: 0.1;
         line-height: 60px;
         margin-top: -66px;
         display: flex;
         align-items: center;
         justify-content: center;
-}
-
-.s-hero{
-    i{
-    padding: 10px 15px;
-    background-color: $color-yellow;
-    border-radius: 10px;
-    margin-right: 15px;
-    }
 }
 
 .img-chat {
@@ -97,24 +88,16 @@
 // section about
 .s-about{
     padding: 100px 0;
-}
-.s-about{
     h5{
         color: $main-color;
     }
-}
-.s-about{
     h4{
         margin-bottom: 60px;
     }
-}
-.s-about{
     img{
         width: 70px;
         margin-top: -50px;
     }
-}
-.s-about {
     a{
         text-decoration: none;
     }
@@ -125,13 +108,15 @@
     border: 1px solid #EDEEF0;
     box-sizing: border-box;
     border-radius: 25px;
+    transition: all .3s;
+   
+    &:hover{
+        background-color: $color-yellow-light-100;
+        color: $white;
+        transform: scale(1.08);
+    }
 }
-.bg-icon{
-    background: $color-yellow-light-100;
-    border-radius: 15px;
-    display: inline-block;
-    padding: 10px;
-}
+
 
 
 // ******section i who am i *********
@@ -141,9 +126,6 @@
     border-radius: 20px;
     z-index: -1;
     padding: 70px 0;
-}
-
-.s-who-am-i {
     p{
         max-width: 800px;
         width: 100%;
@@ -152,42 +134,10 @@
     }
 }
 
-.s-who-am-i{
-    a{
-        text-decoration: none;
-        color:$main-color;
-        transition: color .3s;
-        &:hover{
-            
-            color: $color-yellow-dark;
-        }
-    }
-}
-
 
 // ******section values *********
 .s-values {
     padding: 100px 0;
-}
-.card-price{
-    border-radius: 10px;
-    padding: 15px;
-    border: 1px solid #EDEEF0;
-}
-
-.s-values{
-    p{
-    margin-bottom: 0;
-        span{
-            strong{
-                color: #3FDBB1;
-                font-size: 26px;
-            }
-        }
-    }
-}
-
-.s-values{
     i{
         color: $main-color;
         font-weight: 700;
@@ -199,17 +149,30 @@
     .icon-custom{
         background-color: $color-yellow-light;
     }
+    
+    p{
+    margin-bottom: 0;
+        span{
+            strong{
+                color: $color-blue;
+                font-size: 26px;
+            }
+        }
+    }
+    img{
+        margin-top: 5px;
+    }
 }
-
+.card-price{
+    border-radius: 10px;
+    padding: 15px;
+    border: 1px solid #EDEEF0;
+}
 // ****section FAQ *****
 .s-faq{
     padding: 100px 0;
     background-color: $gray-light;
 }
-// .faq{
-//     width: 80%;
-//     margin: auto;
-// }
 
 /* Footer */
 
