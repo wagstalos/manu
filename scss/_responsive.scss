@@ -32,9 +32,10 @@
             text-align: center;
         }
     }
-    .s-hero p {
-        margin-top: 20px;
-        // text-align: center;
+    .s-hero {
+        p{
+            margin-top: 20px;
+        }
     }
     .center-mobile {
         text-align: center;
@@ -75,6 +76,11 @@
     }
     .swiper-container {
         padding-top: 40px;
+    }
+    footer{
+        p{
+            max-width: 100%;
+        }
     }
 
 }

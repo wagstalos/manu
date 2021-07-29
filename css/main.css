@@ -488,7 +488,7 @@ footer a {
 
 /* line 212, E:/workspace/HTMLs/manu/scss/_s-hero.scss */
 footer a:hover {
-  color: #EF9E48;
+  color: #FBCE82;
 }
 
 /* line 216, E:/workspace/HTMLs/manu/scss/_s-hero.scss */
@@ -806,102 +806,106 @@ header {
     font-size: 45px;
     text-align: center;
   }
-  /* line 35, E:/workspace/HTMLs/manu/scss/_responsive.scss */
+  /* line 36, E:/workspace/HTMLs/manu/scss/_responsive.scss */
   .s-hero p {
     margin-top: 20px;
   }
-  /* line 39, E:/workspace/HTMLs/manu/scss/_responsive.scss */
+  /* line 40, E:/workspace/HTMLs/manu/scss/_responsive.scss */
   .center-mobile {
     text-align: center;
   }
-  /* line 42, E:/workspace/HTMLs/manu/scss/_responsive.scss */
+  /* line 43, E:/workspace/HTMLs/manu/scss/_responsive.scss */
   .carousel-indicators {
     bottom: -7px;
   }
-  /* line 45, E:/workspace/HTMLs/manu/scss/_responsive.scss */
+  /* line 46, E:/workspace/HTMLs/manu/scss/_responsive.scss */
   .carousel-control-next, .carousel-control-prev {
     bottom: 10px;
   }
-  /* line 48, E:/workspace/HTMLs/manu/scss/_responsive.scss */
+  /* line 49, E:/workspace/HTMLs/manu/scss/_responsive.scss */
   .default-header {
     background-color: rgba(255, 255, 255, 0.63) !important;
     backdrop-filter: blur(20px);
     transition: all 1s;
   }
-  /* line 55, E:/workspace/HTMLs/manu/scss/_responsive.scss */
+  /* line 56, E:/workspace/HTMLs/manu/scss/_responsive.scss */
   .s-espanhol h1 {
     color: #EF9E48;
     font-size: 3rem !important;
   }
-  /* line 61, E:/workspace/HTMLs/manu/scss/_responsive.scss */
+  /* line 62, E:/workspace/HTMLs/manu/scss/_responsive.scss */
   .card {
     margin-bottom: 40px;
   }
-  /* line 65, E:/workspace/HTMLs/manu/scss/_responsive.scss */
+  /* line 66, E:/workspace/HTMLs/manu/scss/_responsive.scss */
   .swiper-container-horizontal > .swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
     top: 0 !important;
   }
-  /* line 68, E:/workspace/HTMLs/manu/scss/_responsive.scss */
+  /* line 69, E:/workspace/HTMLs/manu/scss/_responsive.scss */
   .swiper-button-next, .swiper-container-rtl .swiper-button-prev {
     top: 15px;
     right: auto;
     left: 40px;
   }
-  /* line 73, E:/workspace/HTMLs/manu/scss/_responsive.scss */
+  /* line 74, E:/workspace/HTMLs/manu/scss/_responsive.scss */
   .swiper-button-prev, .swiper-container-rtl .swiper-button-next {
     top: 15px;
   }
-  /* line 76, E:/workspace/HTMLs/manu/scss/_responsive.scss */
+  /* line 77, E:/workspace/HTMLs/manu/scss/_responsive.scss */
   .swiper-container {
     padding-top: 40px;
+  }
+  /* line 81, E:/workspace/HTMLs/manu/scss/_responsive.scss */
+  footer p {
+    max-width: 100%;
   }
 }
 
 @media (max-width: 480px) {
-  /* line 83, E:/workspace/HTMLs/manu/scss/_responsive.scss */
+  /* line 89, E:/workspace/HTMLs/manu/scss/_responsive.scss */
   .navbar {
     padding-top: 1rem;
     padding-bottom: 1rem;
   }
-  /* line 87, E:/workspace/HTMLs/manu/scss/_responsive.scss */
+  /* line 93, E:/workspace/HTMLs/manu/scss/_responsive.scss */
   .square {
     max-width: 90%;
   }
-  /* line 90, E:/workspace/HTMLs/manu/scss/_responsive.scss */
+  /* line 96, E:/workspace/HTMLs/manu/scss/_responsive.scss */
   .border-flag {
     margin-top: 20px;
   }
-  /* line 93, E:/workspace/HTMLs/manu/scss/_responsive.scss */
+  /* line 99, E:/workspace/HTMLs/manu/scss/_responsive.scss */
   .s-hero h1 span {
     font-size: 1em;
     color: transparent;
   }
-  /* line 98, E:/workspace/HTMLs/manu/scss/_responsive.scss */
+  /* line 104, E:/workspace/HTMLs/manu/scss/_responsive.scss */
   .s-espanhol .square {
     max-width: 90%;
   }
-  /* line 104, E:/workspace/HTMLs/manu/scss/_responsive.scss */
+  /* line 110, E:/workspace/HTMLs/manu/scss/_responsive.scss */
   .nav-tabs .nav-link {
     margin-right: 5px;
   }
-  /* line 110, E:/workspace/HTMLs/manu/scss/_responsive.scss */
+  /* line 116, E:/workspace/HTMLs/manu/scss/_responsive.scss */
   .s-espanhol h6 {
     color: #EF9E48;
     font-size: 3.5rem;
   }
-  /* line 113, E:/workspace/HTMLs/manu/scss/_responsive.scss */
+  /* line 119, E:/workspace/HTMLs/manu/scss/_responsive.scss */
   .s-espanhol h6 span {
     margin-top: -112px;
   }
-  /* line 118, E:/workspace/HTMLs/manu/scss/_responsive.scss */
+  /* line 124, E:/workspace/HTMLs/manu/scss/_responsive.scss */
   .card {
     margin-bottom: 30px;
   }
-  /* line 122, E:/workspace/HTMLs/manu/scss/_responsive.scss */
+  /* line 128, E:/workspace/HTMLs/manu/scss/_responsive.scss */
   .padding-custom {
     padding: 0;
   }
-  /* line 125, E:/workspace/HTMLs/manu/scss/_responsive.scss */
+  /* line 131, E:/workspace/HTMLs/manu/scss/_responsive.scss */
   .s-values {
     padding: 100px 0 20px 0;
   }
