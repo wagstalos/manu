@@ -7,7 +7,9 @@ function stickyElement(e) {
   header.classList.toggle("sticky", window.scrollY > 10);
 }
 
-var swiper2 = new Swiper(".mySwiper", {
+window.addEventListener("scroll", stickyElement);
+
+var swiper = new Swiper(".mySwiper", {
   spaceBetween: 20,
 
   pagination: {
@@ -26,7 +28,7 @@ var swiper2 = new Swiper(".mySwiper", {
   },
 });
 
-var swiper = new Swiper(".mySwiper2", {
+var swiper2 = new Swiper(".mySwiper2", {
   spaceBetween: 20,
   loop: false,
   loopFillGroupWithBlank: true,
@@ -55,11 +57,10 @@ var swiper = new Swiper(".mySwiper2", {
     1024: {
       slidesPerView: 3,
       spaceBetween: 20,
+      enabled: false,
     },
   },
 });
-
-window.addEventListener("scroll", stickyElement);
 
 // $(document).ready(function () {
 //   $(".icon").click(function () {

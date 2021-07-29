@@ -62,11 +62,12 @@ body{
     padding: 0.6rem 2rem;
 }
 .btn-light {
-    transition: all .3s;
+    transition: all .5s;
     &:hover{
         border-color:$main-color ;
         background-color: $main-color;
         color: $white;
+    
     }
 }
 .mr-2 {
@@ -89,9 +90,7 @@ body{
 :root {
     --swiper-theme-color: #EF9E48;
 }
-.swiper-container {
-    padding-top: 40px;
-}
+
 .swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
     bottom: 10%;
 }

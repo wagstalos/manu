@@ -27,41 +27,22 @@
  
 }
 
-nav {
+nav{
     ul{
         list-style: none;
         text-align: center;
-    }
-    
-}
-
-nav {
-    ul{
-     li{
-        display: inline-block;
-    }
-}
-
-}
-
-nav{
-    ul{
         li{
+            display: inline-block;
             a{
                 transition: all .5s;
+                &:hover{
+                    color: #555;
+                }
             }
         }
     }
 }
-nav{
-    ul{
-        li{
-            a:hover{
-                color: #555;
-            }
-        }
-    }
-}
+
 nav{
     ul{
         li{
@@ -81,17 +62,20 @@ nav{
     }
 }
 
-
-
 .btn-invite {
     background-color: $color-yellow-light;
     color: $main-color;
     border-radius: 10px;
+    transition: all .5s;
+        &:hover{
+            transform: scale(1.05);
+        }
     a{
         color: $main-color;
         font-weight: 500;
         &:hover{
-            color: $color-dark;
+            color: $color-yellow-dark;
+           
         }
     }
 

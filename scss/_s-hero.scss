@@ -132,6 +132,12 @@
         margin: 0 auto;
         line-height: 32px;
     }
+    a{
+        text-decoration: none;
+        &:hover{
+            color: $color-yellow-dark;
+        }
+    }
 }
 
 
@@ -141,6 +147,12 @@
     i{
         color: $main-color;
         font-weight: 700;
+        transition: all .5s;
+        &:hover{
+            background-color: $main-color;
+            color: $color-yellow-light;
+            transform: scale(1.5);
+        }
     }
     a{
         text-decoration: none;
@@ -154,7 +166,7 @@
     margin-bottom: 0;
         span{
             strong{
-                color: $color-blue;
+                color: $color-green;
                 font-size: 26px;
             }
         }
@@ -180,12 +192,17 @@ footer {
     background-color: $color-dark;
     padding: 3.9rem 0 2rem 0;
     p{
-        max-width: 450px;
+        max-width: 350px;
+    }
+    h6{
+        color: $main-color;
+        font-size: 1.2rem;
     }
     ul{
         padding: 0;
        li{
         list-style-type: none;
+        padding: 5px 0;
        } 
     }
     a{

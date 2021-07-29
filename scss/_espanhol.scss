@@ -3,7 +3,6 @@
     a{
         text-decoration: none;
         color: $color-dark;
-       
     }
     b{
         color: $main-color;
@@ -11,7 +10,12 @@
     i{
         color: $color-yellow-dark;
         font-size: 25px;
-}
+        transition: all .5s;
+        &:hover{
+            transform: scale(5);
+           background-color: $color-yellow-light-100;
+        }
+    }
     .square {
         position: absolute;
         max-width: 50%;
