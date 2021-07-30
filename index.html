@@ -463,7 +463,7 @@
             </p>
 
             <div
-              class="d-flex justify-content-between justify-content-around mt-4 bg-icon-5"
+              class="d-flex justify-content-between justify-content-around mt-4"
             >
               <img src="./img/unesp-logo.png" alt="Unesp" width="150px" />
               <img
@@ -943,6 +943,35 @@
       <!--fim container -->
     </section>
 
+    <section class="s-news">
+      <div class="container">
+        <div class="row shadow-sm align-items-center justify-content-center">
+          <div class="col-md-6 center-mobile">
+            <h4>
+              Gostou do nosso serviço? fique de olho nas novidades!</h4>
+          </div>
+          <div class="col-md-6">
+            <div class="form-row d-flex align-items-center justify-content-center">
+              <form class="col dk-footer-form " id="myForm">
+                <input class="form-control" name="emails" type="email" placeholder="Seu melhor email">
+              </form>
+              <div>
+                <button class="btn" onclick="SubForm()" type="submit">
+                  <img width="20px" src="https://wpsgames.com.br/sites/digitalpages/img/icon-sent.png" alt="avião de papel">
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img
+        class="s-news-img "
+        src="./img/livros.png"
+        alt="com escrita"
+      />
+      </div>
+   
+    </section>
+
     <!-- footer -->
     <footer>
       <div class="container text-light mobile-center">
@@ -980,11 +1009,11 @@
             <div class="">
               <h6>Lista de páginas</h6>
               <ul>
-                <li><a href="">Design instrucional/ <br>
+                <li><a href="./design-instrucional">Design instrucional/ <br>
                   educacional</a></li>
-                <li><a href="">Revisões e traduções</a></li>
-                <li><a href="">Português</a></li>
-                <li><a href="">Espanhol</a></li>
+                <li><a href="./revisoes">Revisões e traduções</a></li>
+                <li><a href="./portugues">Português</a></li>
+                <li><a href="./espanhol.html">Espanhol</a></li>
               </ul>
             </div>
 
@@ -993,14 +1022,14 @@
               <ul>
                 <li>
                   <a href="">
-                      <i class="bi bi-instagram"></i>
+                      <i class="bi bi-instagram mr-2"></i>
                   <span>Instagram</span>
                 </li>
                   </a>
           
                 <li>
                   <a href="">
-                    <i class="bi bi-linkedin"></i>
+                    <i class="bi bi-linkedin mr-2"></i>
                     <span>Linkedin</span> 
 
                   </a>
@@ -1024,7 +1053,7 @@
       </div>
     </footer>
 
-    <!-- <script src="js/jquery-3.4.1.min.js"></script> -->
+    <script src="js/jquery-3.4.1.min.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
@@ -1042,5 +1071,20 @@
     ></script> -->
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="js/main.js"></script>
+    <script>
+      function SubForm() {
+        $.ajax({
+          url: "https://api.apispreadsheets.com/data/16165/",
+          type: "post",
+          data: $("#myForm").serializeArray(),
+          success: function () {
+            alert("Email cadastrado com sucesso :)");
+          },
+          error: function () {
+            alert("Aconteceu um problema :(");
+          },
+        });
+      }
+    </script>
   </body>
 </html>

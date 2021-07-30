@@ -122,7 +122,8 @@
 // ******section i who am i *********
 
 .s-who-am-i {
-    background: linear-gradient(106.43deg, #FFDC6B -1.4%, #FFF4CB 100.87%);
+    background: linear-gradient(180deg
+        , $color-yellow-light-200 -1.4%, $white 100.87%);
     border-radius: 20px;
     z-index: -1;
     padding: 100px 0;
@@ -183,8 +184,44 @@
 // ****section FAQ *****
 .s-faq{
     padding: 100px 0;
+    background: linear-gradient(180deg
+    , $white -1.4%,  $color-yellow-light-200 100.87%);
     background-color: $gray-light;
+    background: linear-gradient(
+        180deg
+        ,  $white  0%, $color-yellow-light-200 36.46%, $color-yellow-light-200 62.46%, $white 100%);
 }
+
+/* news */
+.s-news{
+    padding: 40px 0 79px;
+    button{
+        height: 44px;
+        border-radius: 0 25px 25px 0!important;
+        background-color: #FFDC6B;
+        border: none;
+    }
+    input{
+        border-radius: 25px 0px 0px 25px;
+        height: 44px;
+    }
+    .row{
+        width: 80%;
+        margin: auto;
+        background-color: $gray-light;
+        padding: 20px;   
+        border-radius: 10px;     
+    }
+}
+.s-news-img {
+    z-index: -2;
+    margin-top: -54px;
+    position: absolute;
+    width: 163px;
+    right: 30px;
+}
+
+    
 
 /* Footer */
 

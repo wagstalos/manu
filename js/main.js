@@ -73,5 +73,5 @@ var swiper2 = new Swiper(".mySwiper2", {
 //   icon.classList.toggle("active");
 // }
 
-window.addEventListener("click", clickElement);
+// window.addEventListener("click", clickElement);
 // window.addEventListener("touchstart", clickElement);
