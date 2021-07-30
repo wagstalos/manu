@@ -80,68 +80,74 @@ body {
   padding: 5px;
 }
 
+/* line 57, E:/workspace/HTMLs/manu/scss/_custom.scss */
+.text-justify {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
 /* bt5 */
-/* line 60, E:/workspace/HTMLs/manu/scss/_custom.scss */
+/* line 63, E:/workspace/HTMLs/manu/scss/_custom.scss */
 .btn {
   border-radius: 10px;
   padding: 0.6rem 2rem;
 }
 
-/* line 64, E:/workspace/HTMLs/manu/scss/_custom.scss */
+/* line 67, E:/workspace/HTMLs/manu/scss/_custom.scss */
 .btn-light {
   transition: all .5s;
 }
 
-/* line 66, E:/workspace/HTMLs/manu/scss/_custom.scss */
+/* line 69, E:/workspace/HTMLs/manu/scss/_custom.scss */
 .btn-light:hover {
   border-color: #EF9E48;
   background-color: #EF9E48;
   color: #fff;
 }
 
-/* line 73, E:/workspace/HTMLs/manu/scss/_custom.scss */
+/* line 76, E:/workspace/HTMLs/manu/scss/_custom.scss */
 .mr-2 {
   margin-right: 0.5rem;
 }
 
-/* line 76, E:/workspace/HTMLs/manu/scss/_custom.scss */
+/* line 79, E:/workspace/HTMLs/manu/scss/_custom.scss */
 .accordion-button {
   background-color: #fff;
 }
 
-/* line 79, E:/workspace/HTMLs/manu/scss/_custom.scss */
+/* line 82, E:/workspace/HTMLs/manu/scss/_custom.scss */
 .accordion-item {
   margin-bottom: 15px;
   border: none;
 }
 
-/* line 84, E:/workspace/HTMLs/manu/scss/_custom.scss */
+/* line 87, E:/workspace/HTMLs/manu/scss/_custom.scss */
 .accordion-button:not(.collapsed) {
   color: #EF9E48;
   background-color: #FCF2E8;
 }
 
-/* line 90, E:/workspace/HTMLs/manu/scss/_custom.scss */
+/* line 93, E:/workspace/HTMLs/manu/scss/_custom.scss */
 :root {
   --swiper-theme-color: #EF9E48;
 }
 
-/* line 94, E:/workspace/HTMLs/manu/scss/_custom.scss */
+/* line 97, E:/workspace/HTMLs/manu/scss/_custom.scss */
 .swiper-container-horizontal > .swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
   bottom: 10%;
 }
 
-/* line 97, E:/workspace/HTMLs/manu/scss/_custom.scss */
+/* line 100, E:/workspace/HTMLs/manu/scss/_custom.scss */
 .swiper-pagination-bullet-active {
   width: 17px;
 }
 
-/* line 100, E:/workspace/HTMLs/manu/scss/_custom.scss */
+/* line 103, E:/workspace/HTMLs/manu/scss/_custom.scss */
 .swiper-pagination-clickable {
   z-index: -1;
 }
 
-/* line 103, E:/workspace/HTMLs/manu/scss/_custom.scss */
+/* line 106, E:/workspace/HTMLs/manu/scss/_custom.scss */
 .swiper-pagination {
   position: absolute;
   text-align: end;
@@ -150,24 +156,24 @@ body {
   z-index: 10;
 }
 
-/* line 110, E:/workspace/HTMLs/manu/scss/_custom.scss */
+/* line 113, E:/workspace/HTMLs/manu/scss/_custom.scss */
 .swiper-container-horizontal > .swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
   z-index: -2;
 }
 
-/* line 114, E:/workspace/HTMLs/manu/scss/_custom.scss */
+/* line 117, E:/workspace/HTMLs/manu/scss/_custom.scss */
 .swiper-button-next, .swiper-container-rtl .swiper-button-prev {
   bottom: 10%;
   right: auto;
   left: 40px;
 }
 
-/* line 120, E:/workspace/HTMLs/manu/scss/_custom.scss */
+/* line 123, E:/workspace/HTMLs/manu/scss/_custom.scss */
 .swiper-button-prev, .swiper-container-rtl .swiper-button-next {
   bottom: 10%;
 }
 
-/* line 123, E:/workspace/HTMLs/manu/scss/_custom.scss */
+/* line 126, E:/workspace/HTMLs/manu/scss/_custom.scss */
 .nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
   border-color: none;
   isolation: isolate;
@@ -175,14 +181,14 @@ body {
   transition: .3s;
 }
 
-/* line 129, E:/workspace/HTMLs/manu/scss/_custom.scss */
+/* line 132, E:/workspace/HTMLs/manu/scss/_custom.scss */
 .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
   color: #a56f39;
   background-color: #FBCE82;
   border-color: #dee2e6;
 }
 
-/* line 134, E:/workspace/HTMLs/manu/scss/_custom.scss */
+/* line 137, E:/workspace/HTMLs/manu/scss/_custom.scss */
 .nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
   color: #a56f39;
   border-color: none;
@@ -191,7 +197,7 @@ body {
   transition: .3s;
 }
 
-/* line 141, E:/workspace/HTMLs/manu/scss/_custom.scss */
+/* line 144, E:/workspace/HTMLs/manu/scss/_custom.scss */
 .nav-tabs .nav-link {
   background: 0 0;
   border: 1px solid transparent;
@@ -212,12 +218,12 @@ body {
   margin-right: 12px;
 }
 
-/* line 161, E:/workspace/HTMLs/manu/scss/_custom.scss */
+/* line 164, E:/workspace/HTMLs/manu/scss/_custom.scss */
 .nav-tabs {
   border-bottom: none;
 }
 
-/* line 164, E:/workspace/HTMLs/manu/scss/_custom.scss */
+/* line 167, E:/workspace/HTMLs/manu/scss/_custom.scss */
 .nav-link {
   color: #02073E;
 }
@@ -428,7 +434,7 @@ body {
 
 /* line 168, E:/workspace/HTMLs/manu/scss/_s-hero.scss */
 .s-values p span strong {
-  color: #3FDBB1;
+  color: #EF9E48;
   font-size: 26px;
 }
 
@@ -527,22 +533,12 @@ footer main {
 }
 
 /* line 19, E:/workspace/HTMLs/manu/scss/_espanhol.scss */
-.s-espanhol .square {
-  position: absolute;
-  max-width: 50%;
-  width: 100%;
-  height: 96vh;
-  left: 0px;
-  top: 0px;
-}
-
-/* line 27, E:/workspace/HTMLs/manu/scss/_espanhol.scss */
 .s-espanhol h1 {
   color: #EF9E48;
   font-size: 4rem;
 }
 
-/* line 30, E:/workspace/HTMLs/manu/scss/_espanhol.scss */
+/* line 22, E:/workspace/HTMLs/manu/scss/_espanhol.scss */
 .s-espanhol h1 span {
   font-weight: 700;
   -webkit-text-stroke-width: 1.5px;
@@ -552,13 +548,13 @@ footer main {
   line-height: 60px;
 }
 
-/* line 39, E:/workspace/HTMLs/manu/scss/_espanhol.scss */
+/* line 31, E:/workspace/HTMLs/manu/scss/_espanhol.scss */
 .s-espanhol h6 {
   color: #EF9E48;
   font-size: 4.5rem;
 }
 
-/* line 42, E:/workspace/HTMLs/manu/scss/_espanhol.scss */
+/* line 34, E:/workspace/HTMLs/manu/scss/_espanhol.scss */
 .s-espanhol h6 span {
   font-weight: 700;
   -webkit-text-stroke-width: 1.2px;
@@ -573,7 +569,7 @@ footer main {
   justify-content: center;
 }
 
-/* line 57, E:/workspace/HTMLs/manu/scss/_espanhol.scss */
+/* line 49, E:/workspace/HTMLs/manu/scss/_espanhol.scss */
 .s-espanhol h3 span, .s-espanhol h2 span {
   font-weight: 700;
   -webkit-text-stroke-width: 1px;
@@ -581,6 +577,21 @@ footer main {
   color: #EF9E48;
   line-height: 60px;
   margin: 0;
+}
+
+/* line 59, E:/workspace/HTMLs/manu/scss/_espanhol.scss */
+.s-espanhol p {
+  text-align: justify;
+}
+
+/* line 62, E:/workspace/HTMLs/manu/scss/_espanhol.scss */
+.s-espanhol .square {
+  position: absolute;
+  max-width: 50%;
+  width: 100%;
+  height: 96vh;
+  left: 0px;
+  top: 0px;
 }
 
 /* line 1, E:/workspace/HTMLs/manu/scss/_navbar.scss */

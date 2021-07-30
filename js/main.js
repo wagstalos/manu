@@ -1,5 +1,5 @@
-var myCarousel = document.querySelector("#myCarousel");
-var carousel = new bootstrap.Carousel(myCarousel);
+// var myCarousel = document.querySelector("#myCarousel");
+// var carousel = new bootstrap.Carousel(myCarousel);
 
 // sticky
 function stickyElement(e) {
@@ -57,7 +57,7 @@ var swiper2 = new Swiper(".mySwiper2", {
     1024: {
       slidesPerView: 3,
       spaceBetween: 20,
-      enabled: false,
+      // enabled: false,
     },
   },
 });
