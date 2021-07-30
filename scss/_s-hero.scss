@@ -122,8 +122,11 @@
 // ******section i who am i *********
 
 .s-who-am-i {
-    background: linear-gradient(180deg
-        , $color-yellow-light-200 -1.4%, $white 100.87%);
+    background: linear-gradient(
+180deg
+, #fff 0%, #FFDC6B 36.46%, #FFDC6B 62.46%, #fff 100%);
+    // background: linear-gradient(180deg
+    //     , $color-yellow-light-200 -1.4%, $white 100.87%);
     border-radius: 20px;
     z-index: -1;
     padding: 100px 0;

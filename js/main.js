@@ -1,6 +1,3 @@
-// var myCarousel = document.querySelector("#myCarousel");
-// var carousel = new bootstrap.Carousel(myCarousel);
-
 // sticky
 function stickyElement(e) {
   var header = document.querySelector(".default-header");
@@ -11,6 +8,10 @@ window.addEventListener("scroll", stickyElement);
 
 var swiper = new Swiper(".mySwiper", {
   spaceBetween: 20,
+  autoplay: {
+    delay: 10000,
+    disableOnInteraction: false,
+  },
 
   pagination: {
     el: ".swiper-pagination",
@@ -62,11 +63,41 @@ var swiper2 = new Swiper(".mySwiper2", {
   },
 });
 
-// $(document).ready(function () {
-//   $(".icon").click(function () {
-//     $(".icon").toggleClass("active");
+//news;
+function SubForm() {
+  $.ajax({
+    url: "https://api.apispreadsheets.com/data/16165/",
+    type: "post",
+    data: $("#myForm").serializeArray(),
+    success: function () {
+      alert("Email cadastrado com sucesso :)");
+    },
+    error: function () {
+      alert("Aconteceu um problema :(");
+    },
+  });
+}
+
+// function SubForm() {
+//   fetch("https://api.apispreadsheets.com/data/16165/", {
+//     method: "POST",
+//     body: JSON.stringify({ data: { emails: "" } }),
+//   }).then((res) => {
+//     if (res.status === 201) {
+//       // SUCCESS
+//       alert("sucesso");
+//     } else {
+//       // ERROR
+//       alert("erro");
+//     }
 //   });
-// });
+// }
+
+$(document).ready(function () {
+  $(".icon").click(function () {
+    $(".icon").toggleClass("active");
+  });
+});
 
 // function clickElement() {
 //   var icon = document.querySelector(".icon");
