@@ -23,7 +23,7 @@
         margin: 0;
         span {
             font-weight: 700;
-            -webkit-text-stroke-width: 1.5px;
+            -webkit-text-stroke-width: 1px;
             -webkit-text-stroke-color: #000;
             font-size: 1.2em;
             color: transparent;
@@ -68,7 +68,7 @@
 
         font-size: 3.5rem;;
         color: transparent;
-        opacity: 0.1;
+        opacity: 0.07;
         line-height: 60px;
         margin-top: -66px;
         display: flex;
@@ -88,7 +88,7 @@
 // section about
 .s-about{
     padding: 100px 0;
-    h5{
+    h5,h2{
         color: $main-color;
     }
     h4{
@@ -124,17 +124,16 @@
 .s-who-am-i {
     background: linear-gradient(
 180deg
-, #fff 0%, #FFDC6B 36.46%, #FFDC6B 62.46%, #fff 100%);
+, #FFDC6B 0%, #FFDC6B 36.46%, #FFDC6B 62.46%, $white 100%);
     // background: linear-gradient(180deg
     //     , $color-yellow-light-200 -1.4%, $white 100.87%);
-    border-radius: 20px;
     z-index: -1;
     padding: 100px 0;
     p{
         max-width: 800px;
         width: 100%;
         margin: 0 auto;
-        line-height: 32px;
+        line-height: 1.4375rem;
     }
     a{
         text-decoration: none;
@@ -150,6 +149,7 @@
     padding: 100px 0;
     i{
         color: $main-color;
+        border: 1px solid $main-color;
         font-weight: 700;
         transition: all .5s;
         &:hover{
@@ -163,7 +163,7 @@
         color: $color-dark;
     }
     .icon-custom{
-        background-color: $color-yellow-light;
+        background-color: transparent;
     }
     
     p{
@@ -180,6 +180,7 @@
     }
 }
 .card-price{
+    background-color: $white-pure;
     border-radius: 10px;
     padding: 15px;
     border: 1px solid #EDEEF0;
@@ -187,12 +188,12 @@
 // ****section FAQ *****
 .s-faq{
     padding: 100px 0;
-    background: linear-gradient(180deg
-    , $white -1.4%,  $color-yellow-light-200 100.87%);
-    background-color: $gray-light;
-    background: linear-gradient(
-        180deg
-        ,  $white  0%, $color-yellow-light-200 36.46%, $color-yellow-light-200 62.46%, $white 100%);
+    // background: linear-gradient(180deg
+    // , $white -1.4%,  $color-yellow-light-200 100.87%);
+     background-color: $gray-light;
+//     background: linear-gradient(
+//         180deg
+//         ,   $color-yellow-light-200   0%, $color-yellow-light-200 36.46%, $color-yellow-light-200 62.46%, $white 100%);
 }
 
 /* news */
@@ -229,7 +230,7 @@
 /* Footer */
 
 footer {
-    background-color: $color-dark;
+    background-color: $gray-dark;
     padding: 3.9rem 0 2rem 0;
     p{
         max-width: 350px;

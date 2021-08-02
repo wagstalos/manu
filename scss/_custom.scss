@@ -1,5 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
+    background-color: $white;
 }
 
 .color-main{
@@ -9,7 +10,7 @@ body{
     color: $color-yellow-dark;
 }
 .back-gray-light{
-    background-color: $gray-light;
+    background-color: $gray-light!important;
 }
 .mt-40{
     margin-top: 40px;
@@ -25,8 +26,10 @@ body{
 }
 .icon-custom{
     padding: 10px 15px;
-    background-color: $color-yellow;
-    border-radius: 10px;
+    background-color: transparent;
+    color: $main-color;
+    border: 1px $main-color solid;
+    border-radius: 8px;
     cursor: pointer;
     margin-right: 15px;
 }

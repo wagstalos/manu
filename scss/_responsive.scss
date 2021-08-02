@@ -26,9 +26,8 @@
         display: none;
     }
     .s-hero{
-
         h1{
-            font-size: 45px;
+            font-size: 2.25rem;
             text-align: center;
         }
     }
@@ -60,8 +59,8 @@
         
     }
     .card {
-
         margin-bottom: 40px;
+
     }
     .swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
         top: 0!important;
@@ -121,20 +120,26 @@
             }
         }
     }
-    .card {
-
-        margin-bottom: 30px;
-    }
     .padding-custom{
         padding: 0;
     }
     .s-values {
-        padding: 100px 0 20px 0;
+        padding: 85px 0 20px 0;
     }
     .s-news{
         .row{
             width: 100%!important;
         }
     }
-
+    .s-about {
+        padding: 40px 0;
+    }
+    
+    .s-who-am-i {
+        padding: 70px 0;
+    }
+    .s-faq {
+        padding: 70px 0;
+    }
+    
 }

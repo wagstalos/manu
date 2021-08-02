@@ -23,7 +23,7 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/main.min.css" />
     <!-- <link rel="stylesheet" href="css/style.css" /> -->
     <!-- <link rel="stylesheet" href="css/responsive.css" /> -->
   </head>
@@ -62,24 +62,24 @@
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav mx-auto text-md-center text-dark">
               <li>
-                <a href="#home" class="nav-link">Home</a>
+                <a href="#" class="nav-link">Home</a>
               </li>
               <li>
-                <a href="#s-about" class="nav-link">Sobre</a>
+                <a href="#sobre" class="nav-link">Sobre</a>
               </li>
               <li>
-                <a href="#s-who-am-i" class="nav-link" href="#" tabindex="-1"
+                <a href="#quem-sou" class="nav-link" href="#" tabindex="-1"
                   >Quem sou</a
                 >
               </li>
               <li>
-                <a href="#s-values" class="nav-link">Valores</a>
+                <a href="#valores" class="nav-link">Valores</a>
               </li>
               <li>
-                <a href="#s-faq" class="nav-link">Dúvidas</a>
+                <a href="#duvidas" class="nav-link">Dúvidas</a>
               </li>
             </ul>
-            <div class="btn-invite text-center shadow">
+            <div class="btn-invite text-center">
               <a href="" target="blank" class="nav-link"> <i class="bi bi-whatsapp mr-2"></i>Contato</a>
             </div>
           </div>
@@ -98,20 +98,24 @@
               <div class="row justify-content-around align-items-center">
                 <div class="col-md-6" data-aos="fade-down"
                 data-aos-easing="linear"
-                data-aos-duration="1500">
+                data-aos-duration="1000">
                   <h1>Bem-vindo(a)!</h1>
                   <div class="center-mobile">
-                    <img src="./img/risco.svg" alt="" />
+                    <img class="img-fluid" src="./img/risco.svg" alt="" />
                   </div>
 
-                  <p class="mt-4 center-mobile">
+                  <p class="mt-4 center-mobile" data-aos="fade-down"
+                  data-aos-easing="linear"
+                  data-aos-duration="1300">
                     Se você está procurando aulas particulares personalizadas,
                     revisões, traduções ou desenho instrucional está no lugar
                     certo.
                   </p>
 
-                  <div class="center-mobile mt-4">
-                    <a href="" class="btn btn-light shadow-sm mt-4"
+                  <div class="center-mobile mt-2" data-aos="fade-down"
+                  data-aos-easing="ease-in-sine"
+                  data-aos-duration="1600">
+                    <a href="#valores" class="btn btn-light shadow-sm mt-4"
                       >Contato e valores
                     </a>
                   </div>
@@ -121,8 +125,8 @@
                     class="img-chat"
                     src="./img/chat.png"
                     alt="com escrita"
-                    data-aos="fade-right"
-     data-aos-duration="2000"
+                    data-aos="zoom-in"
+                    data-aos-duration="2500"
                   />
                   <img
                     class="mt-4 img-fluid"
@@ -130,7 +134,8 @@
                     alt="Imagem hero"
                     height="auto"
                     data-aos="fade-up"
-                data-aos-anchor-placement="top-bottom" data-aos-duration="1000"
+                     data-aos-anchor-placement="top-bottom" 
+                     data-aos-duration="2000"
                   />
                 </div>
                 <h2>1/ <span>2</span></h2>
@@ -145,7 +150,7 @@
                     <span>Particulares</span>
                   </h1>
                   <div class="center-mobile">
-                    <img src="./img/risco.svg" alt="" />
+                    <img class="img-fluid" src="./img/risco.svg" alt="" />
                   </div>
 
                   <p class="mt-4">
@@ -206,27 +211,25 @@
     </section>
 
     <!-- Section about -->
-    <section class="s-about text-center" id="s-about">
+    <section class="s-about text-center" id="sobre">
       <div class="container">
-        <h5 class="text-uppercase" >Sobre</h5>
+        <h2 class="text-uppercase" >Sobre</h2>
         <h6 class="text-uppercase text-outline">
           <strong><span>Sobre</span> </strong>
-        </h6>
+        </h6> 
 
         <h4>Olá, o que você está procurando? </h4>
 
         <div class="row mt-4 g-4">
-          <div class="col-md-3 col-6">
+          <div class="col-md-3">
             <div
               class="
                 card
-                shadow-sm
                 d-flex
                 align-items-center
                 justify-content-between justify-content-around
               "
-              data-aos="flip-left"
-              data-aos-easing="ease-out-cubic"
+              data-aos="flip-left"]
               data-aos-duration="1000"
             >
               <div class="text-center">
@@ -254,18 +257,16 @@
             </div>
           </div>
 
-          <div class="col-md-3 col-6">
+          <div class="col-md-3">
             <div
               class="
                 card
-                shadow-sm
                 d-flex
                 align-items-center
                 justify-content-between justify-content-around
               "
-              data-aos="flip-left"
-              data-aos-easing="ease-out-cubic"
-              data-aos-duration="1500"
+              data-aos="flip-left"]
+              data-aos-duration="1000"
             >
               <div class="text-center">
                 <img
@@ -300,18 +301,16 @@
             </div>
           </div>
 
-          <div class="col-md-3 col-6">
+          <div class="col-md-3">
             <div
               class="
                 card
-                shadow-sm
                 d-flex
                 align-items-center
                 justify-content-between justify-content-around
               "
-              data-aos="flip-left"
-              data-aos-easing="ease-out-cubic"
-              data-aos-duration="2000"
+              data-aos="flip-left"]
+              data-aos-duration="1000"
             >
               <div class="text-center">
                 <img
@@ -343,18 +342,16 @@
             </div>
           </div>
 
-          <div class="col-md-3 col-6">
+          <div class="col-md-3">
             <div
               class="
                 card
-                shadow-sm
                 d-flex
                 align-items-center
                 justify-content-between justify-content-around
               "
-              data-aos="flip-left"
-              data-aos-easing="ease-out-cubic"
-              data-aos-duration="2500"
+              data-aos="flip-left"]
+              data-aos-duration="1000"
             >
               <div class="text-center">
                 <img
@@ -393,9 +390,9 @@
     </section>
 
     <!-- Section #s-who-am-i -->
-    <section class="s-who-am-i" id="s-who-am-i">
+    <section class="s-who-am-i" id="quem-sou">
       <div class="container">
-        <h5 class="text-uppercase color-main text-center">quem sou</h5>
+        <h2 class="text-uppercase color-main text-center">quem sou</h2>
         <h6 class="text-uppercase text-outline color-yellow-dark">
           <strong><span>Quem sou</span> </strong>
         </h6>
@@ -416,7 +413,8 @@
             pt-4
           "
         >
-          <div class="col-md-6 text-center">
+          <div class="col-md-6 text-center" data-aos="fade-down"
+          data-aos-duration="2000">
             <img
               class="img-fluid"
               src="./img/manu-sobre-mim.png"
@@ -424,26 +422,28 @@
             />
           </div>
 
-          <div class="col-md-6 ">
-            <script src="https://cdn.lordicon.com/libs/frhvbuzj/lord-icon-2.0.2.js"></script>
+          <div class="col-md-6" data-aos="fade-up"
+          data-aos-duration="2000">
 
-            <lord-icon
+            <!-- <lord-icon
               class="bg-icon"
               src="https://cdn.lordicon.com/wxnxiano.json"
               trigger="morph"
               colors="primary:#ffffff,secondary:#ffffff"
               style="width: 60px; height: 60px"
             >
-            </lord-icon>
+            </lord-icon> -->
 
-            <p class="mt-4 text-justify">
+            <h2>Manoela</h2>
+
+            <p class="mt-4">
               Sou especialista em designer instrucional/educacional pela
               Universidade do Livro – UNIL Fundação Editora da Unesp e graduada
               em letras com habilitação em português/espanhol pela Universidade
               Estadual Paulista Júlio de Mesquita Filho – UNESP.
             </p>
 
-            <p class="text-justify">
+            <p class="">
               Com mais de 6 anos de experiência na área de ensino/aprendizagem,
               como professora de espanhol já lecionei para crianças, jovens e
               adultos nos mais variados contextos. Ministrei aulas para grupos
@@ -483,7 +483,7 @@
             </p>
 
             <div
-              class="d-flex justify-content-between justify-content-around mt-4"
+              class="d-flex justify-content-between justify-content-around mt-40"
             >
               <img src="./img/unesp-logo.png" alt="Unesp" width="150px" />
               <img
@@ -498,9 +498,9 @@
     </section>
 
     <!-- Section #s-values -->
-    <section class="s-values" id="s-values">
+    <section class="s-values" id="valores">
       <div class="container">
-        <h5 class="text-uppercase color-main text-center">Como funciona?</h5>
+        <h2 class="text-uppercase color-main text-center">Como funciona?</h2>
         <h6 class="text-uppercase text-outline color-yellow-dark">
           <strong><span>Valores</span> </strong>
         </h6>
@@ -512,9 +512,9 @@
         <!-- Swiper -->
           <div class="swiper-container mySwiper2 mt-40">
             <div class="swiper-wrapper">
-              <div class="swiper-slide  mt-40">
+              <div class="swiper-slide mt-40">
                 
-                <div class="card-price">
+                <div class="card-price" data-aos="flip-left" data-aos-duration="1500">
                   <h3 class="mt-4 text-center">Aulas</h3>
                   <p class="font-slim text-center">Aula de espanhol/ Aula de português</p>
 
@@ -550,17 +550,17 @@
                     <a
                       href="https://api.whatsapp.com/send?l=pt_BR&amp;phone=5511964617712 "
                     >
-                      <i class="bi bi-whatsapp shadow icon-custom"></i>
+                      <i class="bi bi-whatsapp icon-custom"></i>
                     </a>
 
                     <a href="mailto:manumunyz@hotmail.com ">
-                      <i class="bi bi-envelope shadow icon-custom"></i
+                      <i class="bi bi-envelope icon-custom"></i
                     ></a>
                   </div>
                 </div>
               </div>
               <div class="swiper-slide">
-                <div class="card-price back-gray-light">
+                <div class="card-price back-gray-light" data-aos="flip-left" data-aos-duration="2500">
                   <h3 class="mt-4 text-center">Design</h3>
                   <p class="font-slim text-center">instrucional/educacional</p>
 
@@ -598,17 +598,17 @@
                     <a
                       href="https://api.whatsapp.com/send?l=pt_BR&amp;phone=5511964617712 "
                     >
-                      <i class="bi bi-whatsapp shadow icon-custom"></i>
+                      <i class="bi bi-whatsapp icon-custom"></i>
                     </a>
 
                     <a href="mailto:manumunyz@hotmail.com ">
-                      <i class="bi bi-envelope shadow icon-custom"></i
+                      <i class="bi bi-envelope icon-custom"></i
                     ></a>
                   </div>
                 </div>
               </div>
 
-              <div class="swiper-slide mt-40">
+              <div class="swiper-slide mt-40" data-aos="flip-left" data-aos-duration="3000">
                 <div class="card-price">
                   <h3 class="mt-4 text-center">Revisões</h3>
                   <p class="font-slim text-center">Revisões e traduções</p>
@@ -645,11 +645,11 @@
                     <a
                       href="https://api.whatsapp.com/send?l=pt_BR&amp;phone=5511964617712 "
                     >
-                      <i class="bi bi-whatsapp shadow icon-custom"></i>
+                      <i class="bi bi-whatsapp icon-custom"></i>
                     </a>
 
                     <a href="mailto:manumunyz@hotmail.com ">
-                      <i class="bi bi-envelope shadow icon-custom"></i
+                      <i class="bi bi-envelope icon-custom"></i
                     ></a>
                   </div>
                 </div>
@@ -666,25 +666,26 @@
     </section>
 
     <!-- Section #s-faq-->
-    <section class="s-faq" id="s-faq">
+    <section class="s-faq" id="duvidas">
       <div class="container">
-        <h5 class="text-uppercase color-main text-center">
+        <h2 class="text-uppercase color-main text-center">
           Perguntas frequentas
-        </h5>
+        </h2>
         <h6 class="text-uppercase text-outline color-yellow-dark">
           <strong><span></span>Dúvidas </strong>
         </h6>
         <div class="row d-flex align-items-center">
-          <div class="col-md-6">
-            <img class="img-fluid" src="./img/duvidas.png" alt="" />
+          <div class="col-md-6" data-aos="fade-up"
+          data-aos-duration="3000">
+            <img class="img-fluid" src="./img/duvidas.png" alt="desenhos de pessoas atrás de grafisco do mundo" />
           </div>
 
           <div class="col-md-6">
             <div class="accordion faq mt-4" id="accordionExample">
-              <div class="accordion-item shadow-sm rounded">
+              <div class="accordion-item rounded">
                 <h2 class="accordion-header" id="headingOne">
                   <button
-                    class="accordion-button"
+                    class="accordion-button rounded"
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#collapseOne"
@@ -706,10 +707,10 @@
                   </div>
                 </div>
               </div>
-              <div class="accordion-item shadow-sm rounded">
+              <div class="accordion-item rounded">
                 <h2 class="accordion-header" id="headingTwo">
                   <button
-                    class="accordion-button collapsed"
+                    class="accordion-button rounded collapsed"
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#collapseTwo"
@@ -732,10 +733,10 @@
                   </div>
                 </div>
               </div>
-              <div class="accordion-item shadow-sm rounded">
+              <div class="accordion-item rounded">
                 <h2 class="accordion-header" id="headingThree">
                   <button
-                    class="accordion-button collapsed"
+                    class="accordion-button rounded collapsed"
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#collapseThree"
@@ -760,10 +761,10 @@
                 </div>
               </div>
 
-              <div class="accordion-item shadow-sm rounded">
+              <div class="accordion-item rounded">
                 <h2 class="accordion-header" id="headingFour">
                   <button
-                    class="accordion-button collapsed"
+                    class="accordion-button rounded collapsed"
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#collapseFour"
@@ -789,10 +790,10 @@
                 </div>
               </div>
 
-              <div class="accordion-item shadow-sm rounded">
+              <div class="accordion-item rounded">
                 <h2 class="accordion-header" id="headingFive">
                   <button
-                    class="accordion-button collapsed"
+                    class="accordion-button rounded collapsed"
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#collapseFive"
@@ -816,10 +817,10 @@
                 </div>
               </div>
 
-              <div class="accordion-item shadow-sm rounded">
+              <div class="accordion-item rounded">
                 <h2 class="accordion-header" id="headingSix">
                   <button
-                    class="accordion-button collapsed"
+                    class="accordion-button rounded collapsed"
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#collapseSix"
@@ -848,10 +849,10 @@
                 </div>
               </div>
 
-              <div class="accordion-item shadow-sm rounded">
+              <div class="accordion-item rounded">
                 <h2 class="accordion-header" id="headingSeven">
                   <button
-                    class="accordion-button collapsed"
+                    class="accordion-button rounded collapsed"
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#collapseSeven"
@@ -874,10 +875,10 @@
                 </div>
               </div>
 
-              <div class="accordion-item shadow-sm rounded">
+              <div class="accordion-item rounded">
                 <h2 class="accordion-header" id="headingEight">
                   <button
-                    class="accordion-button collapsed"
+                    class="accordion-button rounded collapsed"
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#collapseEight"
@@ -899,10 +900,10 @@
                 </div>
               </div>
 
-              <div class="accordion-item shadow-sm rounded">
+              <div class="accordion-item rounded">
                 <h2 class="accordion-header" id="headingNine">
                   <button
-                    class="accordion-button collapsed"
+                    class="accordion-button rounded collapsed"
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#collapseNine"
@@ -926,10 +927,10 @@
                 </div>
               </div>
 
-              <div class="accordion-item shadow-sm rounded">
+              <div class="accordion-item rounded">
                 <h2 class="accordion-header" id="headingTen">
                   <button
-                    class="accordion-button collapsed"
+                    class="accordion-button rounded collapsed"
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#collapseTen"
@@ -963,9 +964,9 @@
       <!--fim container -->
     </section>
 
-    <section class="s-news">
+    <!-- <section class="s-news">
       <div class="container">
-        <div class="row shadow-sm align-items-center justify-content-center">
+        <div class="row align-items-center justify-content-center">
           <div class="col-md-6 center-mobile">
             <h4>
               Gostou dos meus serviços? fique de olho nas novidades!</h4>
@@ -990,7 +991,7 @@
       />
       </div>
    
-    </section>
+    </section> -->
 
     <!-- footer -->
     <footer>
@@ -998,7 +999,7 @@
         <main>
           <div class="d-flex justify-content-between justify-content-around flex-column flex-md-row center-mobile">
             <div class="">
-              <h3>profManu</h3>
+              <h3>ProfManu</h3>
 
               <p>
                 Se você está procurando aulas particulares personalizadas,

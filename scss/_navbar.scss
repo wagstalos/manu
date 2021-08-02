@@ -40,18 +40,21 @@ nav{
 }
 
 .btn-invite {
-    background-color: $color-yellow-light;
+    background-color: transparent;
+    border: 1px solid $main-color;
     color: $main-color;
     border-radius: 10px;
     transition: all .5s;
         &:hover{
             transform: scale(1.05);
+            background-color: $main-color;
+
         }
     a{
         color: $main-color;
         font-weight: 500;
         &:hover{
-            color: $color-yellow-dark;
+            color: $white;
            
         }
     }
@@ -134,4 +137,5 @@ nav{
     backdrop-filter: blur(20px);
     // box-shadow: rgb(0 0 0 / 10%) 0px 0px 30px 0px;
     transition: all 1s;
+    z-index: 50;
 }

@@ -1,44 +1,45 @@
 /* line 1, E:/workspace/HTMLs/manu/scss/_custom.scss */
 body {
   font-family: 'Poppins', sans-serif;
+  background-color: #fdfdfd;
 }
 
-/* line 5, E:/workspace/HTMLs/manu/scss/_custom.scss */
+/* line 6, E:/workspace/HTMLs/manu/scss/_custom.scss */
 .color-main {
   color: #EF9E48;
 }
 
-/* line 8, E:/workspace/HTMLs/manu/scss/_custom.scss */
+/* line 9, E:/workspace/HTMLs/manu/scss/_custom.scss */
 .color-yellow-dark {
   color: #a56f39;
 }
 
-/* line 11, E:/workspace/HTMLs/manu/scss/_custom.scss */
+/* line 12, E:/workspace/HTMLs/manu/scss/_custom.scss */
 .back-gray-light {
-  background-color: #f3f3f3;
+  background-color: #f5f5f5 !important;
 }
 
-/* line 14, E:/workspace/HTMLs/manu/scss/_custom.scss */
+/* line 15, E:/workspace/HTMLs/manu/scss/_custom.scss */
 .mt-40 {
   margin-top: 40px;
 }
 
-/* line 17, E:/workspace/HTMLs/manu/scss/_custom.scss */
+/* line 18, E:/workspace/HTMLs/manu/scss/_custom.scss */
 .mb-40 {
   margin-bottom: 40px;
 }
 
-/* line 20, E:/workspace/HTMLs/manu/scss/_custom.scss */
+/* line 21, E:/workspace/HTMLs/manu/scss/_custom.scss */
 .font-slim {
   font-weight: 300;
 }
 
-/* line 23, E:/workspace/HTMLs/manu/scss/_custom.scss */
+/* line 24, E:/workspace/HTMLs/manu/scss/_custom.scss */
 .padding-custom {
   padding: 75px 0;
 }
 
-/* line 26, E:/workspace/HTMLs/manu/scss/_custom.scss */
+/* line 27, E:/workspace/HTMLs/manu/scss/_custom.scss */
 .icon-custom {
   padding: 10px 15px;
   background-color: #f9c271;
@@ -47,25 +48,25 @@ body {
   margin-right: 15px;
 }
 
-/* line 33, E:/workspace/HTMLs/manu/scss/_custom.scss */
+/* line 34, E:/workspace/HTMLs/manu/scss/_custom.scss */
 .border-flag {
   border: #FCF2E8 4px solid;
   border-radius: 100%;
 }
 
-/* line 38, E:/workspace/HTMLs/manu/scss/_custom.scss */
+/* line 39, E:/workspace/HTMLs/manu/scss/_custom.scss */
 .back-yellow-light {
   background-color: #FCF2E8;
   border-radius: 10px;
 }
 
-/* line 42, E:/workspace/HTMLs/manu/scss/_custom.scss */
+/* line 43, E:/workspace/HTMLs/manu/scss/_custom.scss */
 .back-yellow-light-100 {
   background-color: #FBCE82;
   border-radius: 10px;
 }
 
-/* line 46, E:/workspace/HTMLs/manu/scss/_custom.scss */
+/* line 47, E:/workspace/HTMLs/manu/scss/_custom.scss */
 .bg-icon {
   background: #FBCE82;
   border-radius: 15px;
@@ -73,81 +74,81 @@ body {
   padding: 10px;
 }
 
-/* line 52, E:/workspace/HTMLs/manu/scss/_custom.scss */
+/* line 53, E:/workspace/HTMLs/manu/scss/_custom.scss */
 .bg-icon-5 {
   background: #FBCE82;
   border-radius: 15px;
   padding: 5px;
 }
 
-/* line 57, E:/workspace/HTMLs/manu/scss/_custom.scss */
+/* line 58, E:/workspace/HTMLs/manu/scss/_custom.scss */
 .text-justify {
   text-align: justify;
   text-justify: inter-word;
 }
 
 /* bt5 */
-/* line 63, E:/workspace/HTMLs/manu/scss/_custom.scss */
+/* line 64, E:/workspace/HTMLs/manu/scss/_custom.scss */
 .btn {
   border-radius: 10px;
   padding: 0.6rem 2rem;
 }
 
-/* line 67, E:/workspace/HTMLs/manu/scss/_custom.scss */
+/* line 68, E:/workspace/HTMLs/manu/scss/_custom.scss */
 .btn-light {
   transition: all .5s;
 }
 
-/* line 69, E:/workspace/HTMLs/manu/scss/_custom.scss */
+/* line 70, E:/workspace/HTMLs/manu/scss/_custom.scss */
 .btn-light:hover {
   border-color: #EF9E48;
   background-color: #EF9E48;
-  color: #fff;
+  color: #fdfdfd;
 }
 
-/* line 76, E:/workspace/HTMLs/manu/scss/_custom.scss */
+/* line 77, E:/workspace/HTMLs/manu/scss/_custom.scss */
 .mr-2 {
   margin-right: 0.5rem;
 }
 
-/* line 79, E:/workspace/HTMLs/manu/scss/_custom.scss */
+/* line 80, E:/workspace/HTMLs/manu/scss/_custom.scss */
 .accordion-button {
-  background-color: #fff;
+  background-color: #fdfdfd;
 }
 
-/* line 82, E:/workspace/HTMLs/manu/scss/_custom.scss */
+/* line 83, E:/workspace/HTMLs/manu/scss/_custom.scss */
 .accordion-item {
   margin-bottom: 15px;
   border: none;
 }
 
-/* line 87, E:/workspace/HTMLs/manu/scss/_custom.scss */
+/* line 88, E:/workspace/HTMLs/manu/scss/_custom.scss */
 .accordion-button:not(.collapsed) {
   color: #EF9E48;
   background-color: #FCF2E8;
 }
 
-/* line 93, E:/workspace/HTMLs/manu/scss/_custom.scss */
+/* line 94, E:/workspace/HTMLs/manu/scss/_custom.scss */
 :root {
   --swiper-theme-color: #EF9E48;
 }
 
-/* line 97, E:/workspace/HTMLs/manu/scss/_custom.scss */
+/* line 98, E:/workspace/HTMLs/manu/scss/_custom.scss */
 .swiper-container-horizontal > .swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
   bottom: 10%;
 }
 
-/* line 100, E:/workspace/HTMLs/manu/scss/_custom.scss */
+/* line 101, E:/workspace/HTMLs/manu/scss/_custom.scss */
 .swiper-pagination-bullet-active {
   width: 17px;
 }
 
-/* line 103, E:/workspace/HTMLs/manu/scss/_custom.scss */
+/* line 104, E:/workspace/HTMLs/manu/scss/_custom.scss */
 .swiper-pagination-clickable {
   z-index: -1;
 }
 
-/* line 106, E:/workspace/HTMLs/manu/scss/_custom.scss */
+/* line 107, E:/workspace/HTMLs/manu/scss/_custom.scss */
 .swiper-pagination {
   position: absolute;
   text-align: end;
@@ -156,24 +157,24 @@ body {
   z-index: 10;
 }
 
-/* line 113, E:/workspace/HTMLs/manu/scss/_custom.scss */
+/* line 114, E:/workspace/HTMLs/manu/scss/_custom.scss */
 .swiper-container-horizontal > .swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
   z-index: -2;
 }
 
-/* line 117, E:/workspace/HTMLs/manu/scss/_custom.scss */
+/* line 118, E:/workspace/HTMLs/manu/scss/_custom.scss */
 .swiper-button-next, .swiper-container-rtl .swiper-button-prev {
   bottom: 10%;
   right: auto;
   left: 40px;
 }
 
-/* line 123, E:/workspace/HTMLs/manu/scss/_custom.scss */
+/* line 124, E:/workspace/HTMLs/manu/scss/_custom.scss */
 .swiper-button-prev, .swiper-container-rtl .swiper-button-next {
   bottom: 10%;
 }
 
-/* line 126, E:/workspace/HTMLs/manu/scss/_custom.scss */
+/* line 127, E:/workspace/HTMLs/manu/scss/_custom.scss */
 .nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
   border-color: none;
   isolation: isolate;
@@ -181,14 +182,14 @@ body {
   transition: .3s;
 }
 
-/* line 132, E:/workspace/HTMLs/manu/scss/_custom.scss */
+/* line 133, E:/workspace/HTMLs/manu/scss/_custom.scss */
 .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
   color: #a56f39;
   background-color: #FBCE82;
   border-color: #dee2e6;
 }
 
-/* line 137, E:/workspace/HTMLs/manu/scss/_custom.scss */
+/* line 138, E:/workspace/HTMLs/manu/scss/_custom.scss */
 .nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
   color: #a56f39;
   border-color: none;
@@ -197,13 +198,13 @@ body {
   transition: .3s;
 }
 
-/* line 144, E:/workspace/HTMLs/manu/scss/_custom.scss */
+/* line 145, E:/workspace/HTMLs/manu/scss/_custom.scss */
 .nav-tabs .nav-link {
   background: 0 0;
   border: 1px solid transparent;
   border-top-left-radius: .25rem;
   border-top-right-radius: .25rem;
-  background-color: #f3f3f3;
+  background-color: #f5f5f5;
   border-radius: 12px;
   -webkit-box-shadow: 0px 10px 30px #eaeef6;
   box-shadow: 0px 10px 30px #eaeef6;
@@ -218,12 +219,12 @@ body {
   margin-right: 12px;
 }
 
-/* line 164, E:/workspace/HTMLs/manu/scss/_custom.scss */
+/* line 165, E:/workspace/HTMLs/manu/scss/_custom.scss */
 .nav-tabs {
   border-bottom: none;
 }
 
-/* line 167, E:/workspace/HTMLs/manu/scss/_custom.scss */
+/* line 168, E:/workspace/HTMLs/manu/scss/_custom.scss */
 .nav-link {
   color: #02073E;
 }
@@ -310,7 +311,7 @@ body {
   -webkit-text-stroke-color: #02073E;
   font-size: 3.5rem;
   color: transparent;
-  opacity: 0.1;
+  opacity: 0.07;
   line-height: 60px;
   margin-top: -66px;
   display: flex;
@@ -334,7 +335,7 @@ body {
 }
 
 /* line 91, E:/workspace/HTMLs/manu/scss/_s-hero.scss */
-.s-about h5 {
+.s-about h5, .s-about h2 {
   color: #EF9E48;
 }
 
@@ -357,7 +358,7 @@ body {
 /* line 105, E:/workspace/HTMLs/manu/scss/_s-hero.scss */
 .card {
   height: 225px;
-  background: #f3f3f3;
+  background: #f5f5f5;
   border: 1px solid #EDEEF0;
   box-sizing: border-box;
   border-radius: 25px;
@@ -367,84 +368,84 @@ body {
 /* line 113, E:/workspace/HTMLs/manu/scss/_s-hero.scss */
 .card:hover {
   background-color: #FBCE82;
-  color: #fff;
+  color: #fdfdfd;
   transform: scale(1.08);
 }
 
 /* line 124, E:/workspace/HTMLs/manu/scss/_s-hero.scss */
 .s-who-am-i {
-  background: linear-gradient(180deg, #fff 0%, #FFDC6B 36.46%, #FFDC6B 62.46%, #fff 100%);
-  border-radius: 20px;
+  background: linear-gradient(180deg, #FFDC6B 0%, #FFDC6B 36.46%, #FFDC6B 62.46%, #fdfdfd 100%);
   z-index: -1;
   padding: 100px 0;
 }
 
-/* line 133, E:/workspace/HTMLs/manu/scss/_s-hero.scss */
+/* line 132, E:/workspace/HTMLs/manu/scss/_s-hero.scss */
 .s-who-am-i p {
   max-width: 800px;
   width: 100%;
   margin: 0 auto;
-  line-height: 32px;
+  line-height: 1.4375rem;
 }
 
-/* line 139, E:/workspace/HTMLs/manu/scss/_s-hero.scss */
+/* line 138, E:/workspace/HTMLs/manu/scss/_s-hero.scss */
 .s-who-am-i a {
   text-decoration: none;
 }
 
-/* line 141, E:/workspace/HTMLs/manu/scss/_s-hero.scss */
+/* line 140, E:/workspace/HTMLs/manu/scss/_s-hero.scss */
 .s-who-am-i a:hover {
   color: #a56f39;
 }
 
-/* line 149, E:/workspace/HTMLs/manu/scss/_s-hero.scss */
+/* line 148, E:/workspace/HTMLs/manu/scss/_s-hero.scss */
 .s-values {
   padding: 100px 0;
 }
 
-/* line 151, E:/workspace/HTMLs/manu/scss/_s-hero.scss */
+/* line 150, E:/workspace/HTMLs/manu/scss/_s-hero.scss */
 .s-values i {
   color: #EF9E48;
   font-weight: 700;
   transition: all .5s;
 }
 
-/* line 155, E:/workspace/HTMLs/manu/scss/_s-hero.scss */
+/* line 154, E:/workspace/HTMLs/manu/scss/_s-hero.scss */
 .s-values i:hover {
   background-color: #EF9E48;
   color: #FCF2E8;
   transform: scale(1.5);
 }
 
-/* line 161, E:/workspace/HTMLs/manu/scss/_s-hero.scss */
+/* line 160, E:/workspace/HTMLs/manu/scss/_s-hero.scss */
 .s-values a {
   text-decoration: none;
   color: #02073E;
 }
 
-/* line 165, E:/workspace/HTMLs/manu/scss/_s-hero.scss */
+/* line 164, E:/workspace/HTMLs/manu/scss/_s-hero.scss */
 .s-values .icon-custom {
   background-color: #FCF2E8;
 }
 
-/* line 169, E:/workspace/HTMLs/manu/scss/_s-hero.scss */
+/* line 168, E:/workspace/HTMLs/manu/scss/_s-hero.scss */
 .s-values p {
   margin-bottom: 0;
 }
 
-/* line 172, E:/workspace/HTMLs/manu/scss/_s-hero.scss */
+/* line 171, E:/workspace/HTMLs/manu/scss/_s-hero.scss */
 .s-values p span strong {
   color: #EF9E48;
   font-size: 26px;
 }
 
-/* line 178, E:/workspace/HTMLs/manu/scss/_s-hero.scss */
+/* line 177, E:/workspace/HTMLs/manu/scss/_s-hero.scss */
 .s-values img {
   margin-top: 5px;
 }
 
-/* line 182, E:/workspace/HTMLs/manu/scss/_s-hero.scss */
+/* line 181, E:/workspace/HTMLs/manu/scss/_s-hero.scss */
 .card-price {
+  background-color: #fff;
   border-radius: 10px;
   padding: 15px;
   border: 1px solid #EDEEF0;
@@ -453,9 +454,7 @@ body {
 /* line 188, E:/workspace/HTMLs/manu/scss/_s-hero.scss */
 .s-faq {
   padding: 100px 0;
-  background: linear-gradient(180deg, #fff -1.4%, #FFDC6B 100.87%);
-  background-color: #f3f3f3;
-  background: linear-gradient(180deg, #fff 0%, #FFDC6B 36.46%, #FFDC6B 62.46%, #fff 100%);
+  background-color: #f5f5f5;
 }
 
 /* news */
@@ -482,7 +481,7 @@ body {
 .s-news .row {
   width: 80%;
   margin: auto;
-  background-color: #f3f3f3;
+  background-color: #f5f5f5;
   padding: 20px;
   border-radius: 10px;
 }
@@ -499,7 +498,7 @@ body {
 /* Footer */
 /* line 231, E:/workspace/HTMLs/manu/scss/_s-hero.scss */
 footer {
-  background-color: #02073E;
+  background-color: #343a40;
   padding: 3.9rem 0 2rem 0;
 }
 
@@ -527,7 +526,7 @@ footer ul li {
 
 /* line 248, E:/workspace/HTMLs/manu/scss/_s-hero.scss */
 footer a {
-  color: #f3f3f3;
+  color: #f5f5f5;
   text-decoration: none;
   transition: all .3s;
 }
@@ -832,117 +831,125 @@ nav ul li a:hover {
   .img-chat {
     display: none;
   }
-  /* line 30, E:/workspace/HTMLs/manu/scss/_responsive.scss */
+  /* line 29, E:/workspace/HTMLs/manu/scss/_responsive.scss */
   .s-hero h1 {
-    font-size: 45px;
+    font-size: 2.25rem;
     text-align: center;
   }
-  /* line 36, E:/workspace/HTMLs/manu/scss/_responsive.scss */
+  /* line 35, E:/workspace/HTMLs/manu/scss/_responsive.scss */
   .s-hero p {
     margin-top: 20px;
   }
-  /* line 40, E:/workspace/HTMLs/manu/scss/_responsive.scss */
+  /* line 39, E:/workspace/HTMLs/manu/scss/_responsive.scss */
   .center-mobile {
     text-align: center;
   }
-  /* line 43, E:/workspace/HTMLs/manu/scss/_responsive.scss */
+  /* line 42, E:/workspace/HTMLs/manu/scss/_responsive.scss */
   .carousel-indicators {
     bottom: -7px;
   }
-  /* line 46, E:/workspace/HTMLs/manu/scss/_responsive.scss */
+  /* line 45, E:/workspace/HTMLs/manu/scss/_responsive.scss */
   .carousel-control-next, .carousel-control-prev {
     bottom: 10px;
   }
-  /* line 49, E:/workspace/HTMLs/manu/scss/_responsive.scss */
+  /* line 48, E:/workspace/HTMLs/manu/scss/_responsive.scss */
   .default-header {
     background-color: rgba(255, 255, 255, 0.63) !important;
     backdrop-filter: blur(20px);
     transition: all 1s;
   }
-  /* line 56, E:/workspace/HTMLs/manu/scss/_responsive.scss */
+  /* line 55, E:/workspace/HTMLs/manu/scss/_responsive.scss */
   .s-espanhol h1 {
     color: #EF9E48;
     font-size: 3rem !important;
   }
-  /* line 62, E:/workspace/HTMLs/manu/scss/_responsive.scss */
+  /* line 61, E:/workspace/HTMLs/manu/scss/_responsive.scss */
   .card {
     margin-bottom: 40px;
   }
-  /* line 66, E:/workspace/HTMLs/manu/scss/_responsive.scss */
+  /* line 65, E:/workspace/HTMLs/manu/scss/_responsive.scss */
   .swiper-container-horizontal > .swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
     top: 0 !important;
   }
-  /* line 69, E:/workspace/HTMLs/manu/scss/_responsive.scss */
+  /* line 68, E:/workspace/HTMLs/manu/scss/_responsive.scss */
   .swiper-button-next, .swiper-container-rtl .swiper-button-prev {
     top: 15px;
     right: auto;
     left: 40px;
   }
-  /* line 74, E:/workspace/HTMLs/manu/scss/_responsive.scss */
+  /* line 73, E:/workspace/HTMLs/manu/scss/_responsive.scss */
   .swiper-button-prev, .swiper-container-rtl .swiper-button-next {
     top: 15px;
   }
-  /* line 77, E:/workspace/HTMLs/manu/scss/_responsive.scss */
+  /* line 76, E:/workspace/HTMLs/manu/scss/_responsive.scss */
   .swiper-container {
     padding-top: 40px;
   }
-  /* line 81, E:/workspace/HTMLs/manu/scss/_responsive.scss */
+  /* line 80, E:/workspace/HTMLs/manu/scss/_responsive.scss */
   footer p {
     max-width: 100%;
   }
 }
 
 @media (max-width: 480px) {
-  /* line 89, E:/workspace/HTMLs/manu/scss/_responsive.scss */
+  /* line 88, E:/workspace/HTMLs/manu/scss/_responsive.scss */
   .navbar {
     padding-top: 1rem;
     padding-bottom: 1rem;
   }
-  /* line 93, E:/workspace/HTMLs/manu/scss/_responsive.scss */
+  /* line 92, E:/workspace/HTMLs/manu/scss/_responsive.scss */
   .square {
     max-width: 90%;
   }
-  /* line 96, E:/workspace/HTMLs/manu/scss/_responsive.scss */
+  /* line 95, E:/workspace/HTMLs/manu/scss/_responsive.scss */
   .border-flag {
     margin-top: 20px;
   }
-  /* line 99, E:/workspace/HTMLs/manu/scss/_responsive.scss */
+  /* line 98, E:/workspace/HTMLs/manu/scss/_responsive.scss */
   .s-hero h1 span {
     font-size: 1em;
     color: transparent;
   }
-  /* line 104, E:/workspace/HTMLs/manu/scss/_responsive.scss */
+  /* line 103, E:/workspace/HTMLs/manu/scss/_responsive.scss */
   .s-espanhol .square {
     max-width: 90%;
   }
-  /* line 110, E:/workspace/HTMLs/manu/scss/_responsive.scss */
+  /* line 109, E:/workspace/HTMLs/manu/scss/_responsive.scss */
   .nav-tabs .nav-link {
     margin-right: 5px;
   }
-  /* line 116, E:/workspace/HTMLs/manu/scss/_responsive.scss */
+  /* line 115, E:/workspace/HTMLs/manu/scss/_responsive.scss */
   .s-espanhol h6 {
     color: #EF9E48;
     font-size: 3.5rem;
   }
-  /* line 119, E:/workspace/HTMLs/manu/scss/_responsive.scss */
+  /* line 118, E:/workspace/HTMLs/manu/scss/_responsive.scss */
   .s-espanhol h6 span {
     margin-top: -112px;
   }
-  /* line 124, E:/workspace/HTMLs/manu/scss/_responsive.scss */
-  .card {
-    margin-bottom: 30px;
-  }
-  /* line 128, E:/workspace/HTMLs/manu/scss/_responsive.scss */
+  /* line 123, E:/workspace/HTMLs/manu/scss/_responsive.scss */
   .padding-custom {
     padding: 0;
   }
-  /* line 131, E:/workspace/HTMLs/manu/scss/_responsive.scss */
+  /* line 126, E:/workspace/HTMLs/manu/scss/_responsive.scss */
   .s-values {
-    padding: 100px 0 20px 0;
+    padding: 85px 0 20px 0;
   }
-  /* line 135, E:/workspace/HTMLs/manu/scss/_responsive.scss */
+  /* line 130, E:/workspace/HTMLs/manu/scss/_responsive.scss */
   .s-news .row {
     width: 100% !important;
+  }
+  /* line 134, E:/workspace/HTMLs/manu/scss/_responsive.scss */
+  .s-about {
+    padding: 40px 0;
+  }
+  /* line 138, E:/workspace/HTMLs/manu/scss/_responsive.scss */
+  .s-who-am-i {
+    padding: 70px 0;
+  }
+  /* line 141, E:/workspace/HTMLs/manu/scss/_responsive.scss */
+  .s-faq {
+    padding: 70px 0;
   }
 }
 
