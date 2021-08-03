@@ -3,11 +3,16 @@
     .mt-100{
         margin-top: 100px;
     }
+    .rounded-circle{
+        border: 5px #ffcb7f solid;
+    }
     h1{
         font-family: 'Style Script', cursive;
     }
     h6{
         color: #464545;
+        margin: 0;
+        margin-left: 0.5rem;
     }
     i{
         border: 1px solid #b3b3b3;;
@@ -37,25 +42,32 @@
         position: absolute;
         max-width: 100%;
         width: 100%;
-        height: 48vh;
+        height: 77vh;
         left: 0px;
         top: 0px;
-        background: linear-gradient(
-    106.43deg
-    , #FFDC6B -1.4%, #FFF4CB 100.87%);
+        background: linear-gradient( 
+180deg
+ , $color-yellow-light-200 0%, $white 100%);
+
+
+    //     background: linear-gradient(
+    // 106.43deg
+    // , #FFDC6B -1.4%, #FFF4CB 100.87%);
         border-radius: 0 0 40px 40px;
         z-index: -1;
     }
 }
 
 .position-flag-spain{
-    position: relative;
-    bottom: -60px;
-    right: 44px;
+    position: absolute;
+    position: absolute;
+    margin-left: -49px;
+    margin-top: 141px;
 }
 .position-flag-brazil{
     position: absolute;
-    z-index: 9;
+    z-index: 1;
+    margin-left: 7px;
 }
 
 .s-formacao{

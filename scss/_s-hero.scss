@@ -111,8 +111,10 @@
     transition: all .3s;
    
     &:hover{
-        background-color: $color-yellow-light-100;
-        color: $white;
+        background: linear-gradient( 
+142deg
+ , #FFDC6B -1.4%, #FFF4CB 100.87%);
+        color: $color-yellow-dark;
         transform: scale(1.08);
     }
 }

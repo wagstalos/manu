@@ -56,6 +56,29 @@ var swiper2 = new Swiper(".mySwiper2", {
   },
 });
 
+var swiper = new Swiper(".mySwiper-manu", {
+  pagination: {
+    el: ".swiper-pagination",
+    // type: "progressbar",
+  },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+  breakpoints: {
+    300: {
+      slidesPerView: 1.05,
+      spaceBetween: 5,
+    },
+    1024: {
+      slidesPerView: 2.2,
+      spaceBetween: 10,
+      // enabled: false,
+    },
+},
+  
+});
+
 //news;
 function SubForm() {
   $.ajax({
