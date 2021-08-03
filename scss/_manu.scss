@@ -1,0 +1,91 @@
+.s-manu{
+    padding: 52px 0;
+    .mt-100{
+        margin-top: 100px;
+    }
+    h1{
+        font-family: 'Style Script', cursive;
+    }
+    h6{
+        color: #464545;
+    }
+    i{
+        border: 1px solid #b3b3b3;;
+        padding: 8px 11px;
+        border-radius: 35px;
+        color: #2AA9E0;
+        transition: all .3s;
+        &:last-child{
+            color: #0a66c2;
+        }
+        &:hover{
+            background-color: #F2F2F4;
+            cursor: pointer;
+            transform: scale(1.1);
+        }
+    }
+    .icon-position{
+        position: absolute;
+        top: 28%;
+        right: 10px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 15px;
+    }
+
+    .square {
+        position: absolute;
+        max-width: 100%;
+        width: 100%;
+        height: 48vh;
+        left: 0px;
+        top: 0px;
+        background: linear-gradient(
+    106.43deg
+    , #FFDC6B -1.4%, #FFF4CB 100.87%);
+        border-radius: 0 0 40px 40px;
+        z-index: -1;
+    }
+}
+
+.position-flag-spain{
+    position: relative;
+    bottom: -60px;
+    right: 44px;
+}
+.position-flag-brazil{
+    position: absolute;
+    z-index: 9;
+}
+
+.s-formacao{
+    padding: 70px 0;
+    background-color: #F2F2F4;
+
+    .swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
+        bottom: -5px;
+    }
+    .card-manu{
+        position: relative;
+        // width: 450px;
+        height: 280px;
+        background-color: #FFFFFF;
+        border-radius: 12px;
+        z-index: 2;
+        margin-right: 20px;
+        overflow: auto;
+        h4{
+            color: $main-color;
+        }
+        img{
+            background-color: #F2F2F4;
+            padding: 5px;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+        p,li{
+            color: #777777;
+        }
+       
+    }
+}
