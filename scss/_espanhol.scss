@@ -17,12 +17,12 @@
     }
     h1{
         color: $main-color;
-        font-size: 4rem;
+        font-size: 3rem;
         span{
             font-weight: 700;
-            -webkit-text-stroke-width: 1.5px;
+            -webkit-text-stroke-width: 1px;
             -webkit-text-stroke-color: $main-color;
-            font-size: 1.2em;
+            // font-size: 1.2em;
             color: transparent;
             line-height:60px;
         }
