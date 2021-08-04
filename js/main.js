@@ -1,3 +1,9 @@
+$(document).ready(function () {
+  $(".icon").click(function () {
+    $(".icon").toggleClass("active");
+  });
+});
+
 AOS.init();
 // sticky
 function stickyElement(e) {
@@ -75,8 +81,7 @@ var swiper = new Swiper(".mySwiper-manu", {
       spaceBetween: 10,
       // enabled: false,
     },
-},
-  
+  },
 });
 
 //news;
@@ -108,12 +113,6 @@ function SubForm() {
 //     }
 //   });
 // }
-
-$(document).ready(function () {
-  $(".icon").click(function () {
-    $(".icon").toggleClass("active");
-  });
-});
 
 // function clickElement() {
 //   var icon = document.querySelector(".icon");

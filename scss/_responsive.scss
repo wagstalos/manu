@@ -30,8 +30,6 @@
             font-size: 2.25rem;
             text-align: center;
         }
-    }
-    .s-hero {
         p{
             margin-top: 20px;
         }
@@ -81,6 +79,12 @@
             max-width: 100%;
         }
     }
+    .s-news{
+        .row{
+            width: 100%!important;
+
+        }
+    }
 
 }
 
@@ -106,6 +110,13 @@
         .square {
             max-width: 90%;
         }
+        h6 {
+            color: #EF9E48;
+            font-size: 3.5rem;
+            span{
+                margin-top: -112px;
+            }
+        }
     
     }
     .nav-tabs {
@@ -114,30 +125,16 @@
         }
 
     }
-    .s-espanhol{
-        h6 {
-            color: #EF9E48;
-            font-size: 3.5rem;
-            span{
-                margin-top: -112px;
-            }
-        }
-    }
     .padding-custom{
         padding: 0;
     }
     .s-values {
         padding: 85px 0 20px 0;
     }
-    .s-news{
-        .row{
-            width: 100%!important;
-        }
-    }
     .s-about {
         padding: 40px 0;
     }
-    
+
     .s-who-am-i {
         padding: 70px 0;
     }

@@ -187,15 +187,19 @@
     padding: 15px;
     border: 1px solid #EDEEF0;
 }
+.s-values-pattern{
+    z-index: -2;
+    margin-top: -99px !important;
+    position: absolute;
+    width: 163px;
+    left: 30px;
+}
+
 // ****section FAQ *****
 .s-faq{
     padding: 100px 0;
-    // background: linear-gradient(180deg
-    // , $white -1.4%,  $color-yellow-light-200 100.87%);
      background-color: $gray-light;
-//     background: linear-gradient(
-//         180deg
-//         ,   $color-yellow-light-200   0%, $color-yellow-light-200 36.46%, $color-yellow-light-200 62.46%, $white 100%);
+
 }
 
 /* news */
@@ -215,6 +219,9 @@
         width: 80%;
         margin: auto;
         background-color: $gray-light;
+        background: linear-gradient( 
+        142deg
+        , $color-yellow-light-200 -1.4%, #FFF4CB 100.87%);
         padding: 20px;   
         border-radius: 10px;     
     }
