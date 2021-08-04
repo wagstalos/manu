@@ -102,9 +102,14 @@
     .border-flag{
         margin-top: 20px;
     }
-    .s-hero h1 span {
-        font-size: 1em;
-        color: transparent;
+    .s-hero {
+        h1{
+            span{
+                font-size: 1em;
+                color: transparent;
+            }
+        }
+        
     }
     .s-espanhol{
         .square {
