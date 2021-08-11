@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="cache-control" content="max-age=31536000" />
     <title>Manu</title>
     <link rel="shortcut icon" type="image/x-icon" href="./img/spain.png" />
     <link rel="stylesheet" href="css/swiper-bundle-min.css" />
@@ -30,6 +31,7 @@
     />
     <link rel="stylesheet" href="css/main.min.css" />
     <script src="https://cdn.lordicon.com/libs/frhvbuzj/lord-icon-2.0.2.js"></script>
+    <script src="js/lib/lazy.min.js" async></script>
   </head>
   <body>
     <header class="container-fluid" id="#sticker">
@@ -158,9 +160,9 @@
             data-aos-duration="1500"
           />
           <img
-            class="rounded-circle"
-            src="./img/avatar.jpg"
-            alt=""
+            class="lazyload rounded-circle"
+            data-src="./img/avatar.webp"
+            alt="imagem avatara Manoela"
             width="200px"
           />
           <img
@@ -217,8 +219,8 @@
             data-aos-duration="3000"
           >
             <img
-              class="img-fluid"
-              src="./img/writing.png"
+              class="lazyload img-fluid"
+              data-src="./img/writing.webp"
               alt="ilustração mulher escrevendo"
             />
           </div>
@@ -258,8 +260,8 @@
             data-aos-duration="3000"
           >
             <img
-              class="img-fluid"
-              src="./img/empresas.png"
+              class="lazyload img-fluid"
+              data-src="./img/empresas.png"
               alt="ilustração mulher escrevendo"
             />
           </div>

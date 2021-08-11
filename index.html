@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="cache-control" content="max-age=31536000" />
     <title>Manu</title>
     <link rel="shortcut icon" type="image/x-icon" href="./img/spain.png" />
     <link rel="stylesheet" href="css/swiper-bundle-min.css" />
@@ -25,8 +26,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/main.min.css" />
-    <!-- <link rel="stylesheet" href="css/style.css" /> -->
-    <!-- <link rel="stylesheet" href="css/responsive.css" /> -->
+    <script src="js/lib/lazy.min.js" async></script>
   </head>
   <body>
     <header class="container-fluid" id="#sticker">
@@ -145,7 +145,11 @@
                 >
                   <h1>Bem-vindo(a)!</h1>
                   <div class="center-mobile">
-                    <img class="img-fluid" src="./img/risco.svg" alt="" />
+                    <img
+                      class="img-fluid"
+                      src="./img/risco.svg"
+                      alt="grafismo"
+                    />
                   </div>
 
                   <p
@@ -173,15 +177,15 @@
                 </div>
                 <div class="col-md-6 text-center">
                   <img
-                    class="img-chat"
-                    src="./img/chat.png"
+                    class="lazyload img-chat"
+                    data-src="./img/chat.png"
                     alt="com escrita"
                     data-aos="zoom-in"
                     data-aos-duration="2500"
                   />
                   <img
-                    class="mt-4 img-fluid"
-                    src="img/img-hero.png"
+                    class="lazyload mt-4 img-fluid"
+                    data-src="img/img-hero.webp"
                     alt="Imagem hero"
                     height="auto"
                     data-aos="fade-up"
@@ -477,9 +481,8 @@
             data-aos-duration="2000"
           >
             <img
-              class="img-fluid"
-              src="./img/manu-sobre-mim.png"
-              data-url="/img/manu-sobre-mim.png"
+              class="lazyload img-fluid"
+              data-src="./img/img-hero.webp"
               alt="imagem Manu"
             />
           </div>
@@ -541,9 +544,15 @@
                 mt-40
               "
             >
-              <img src="./img/unesp-logo.png" alt="Unesp" width="150px" />
               <img
-                src="./img/universidade-livro-logo.png"
+                class="lazyload"
+                data-src="./img/unesp-logo.png"
+                alt="Unesp"
+                width="150px"
+              />
+              <img
+                class="lazyload"
+                data-src="./img/universidade-livro-logo.png"
                 alt=" universidade-livro-logo"
                 width="200px"
               />
@@ -750,8 +759,8 @@
         <div class="row d-flex align-items-center">
           <div class="col-md-6" data-aos="fade-up" data-aos-duration="3000">
             <img
-              class="img-fluid"
-              src="./img/duvidas.png"
+              class="lazyload img-fluid"
+              data-src="./img/duvidas.png"
               alt="desenhos de pessoas atrás de grafisco do mundo"
             />
           </div>
@@ -1120,7 +1129,7 @@
               <h6>Lista de páginas</h6>
               <ul>
                 <li>
-                  <a href="./design-instrucional"
+                  <a href="./design.html"
                     >Design instrucional/ <br />
                     educacional</a
                   >

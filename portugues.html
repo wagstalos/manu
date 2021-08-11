@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="cache-control" content="max-age=31536000" />
     <title>Português</title>
     <link rel="shortcut icon" type="image/x-icon" href="./img/spain.png" />
     <link rel="stylesheet" href="css/swiper-bundle-min.css" />
@@ -26,6 +27,7 @@
     />
     <link rel="stylesheet" href="css/main.min.css" />
     <script src="https://cdn.lordicon.com/libs/frhvbuzj/lord-icon-2.0.2.js"></script>
+    <script src="js/lib/lazy.min.js" async></script>
   </head>
   <body>
     <header class="container-fluid" id="#sticker">
@@ -136,9 +138,9 @@
             <img src="./img/stars.svg" alt="5 estrelas" />
             <h5 class="mt-2">Aulas 100% on-lines</h5>
             <img
-              class="img-fluid mt-4"
-              src="./img/banner-espanhol.png"
-              alt=""
+              class="lazyload img-fluid mt-4"
+              data-src="./img/banner-espanhol.webp"
+              alt="homem consumindo conteúdo on-line"
             />
           </div>
 
@@ -352,8 +354,8 @@
           </div>
           <div class="col-md-6 mt-4">
             <img
-              class="img-fluid"
-              src="./img/ilustra-interna.jpg"
+              class="lazyload img-fluid"
+              data-src="./img/ilustra-interna.webp"
               alt="imagem de pessoas consumindo ead"
               data-aos="fade-up"
               data-aos-duration="1500"
@@ -429,11 +431,11 @@
             <div class="">
               <h6>Lista de páginas</h6>
               <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#sobre">Sobre</a></li>
-                <li><a href="#quem-sou">Quem sou</a></li>
-                <li><a href="#valores">Valores</a></li>
-                <li><a href="#duvidas">Dúvidas</a></li>
+                <li><a href="./#">Home</a></li>
+                <li><a href="./#sobre">Sobre</a></li>
+                <li><a href="./#quem-sou">Quem sou</a></li>
+                <li><a href="./#valores">Valores</a></li>
+                <li><a href="./#duvidas">Dúvidas</a></li>
               </ul>
             </div>
 
@@ -441,13 +443,13 @@
               <h6>Lista de páginas</h6>
               <ul>
                 <li>
-                  <a href="./design-instrucional"
+                  <a href="./design.html"
                     >Design instrucional/ <br />
                     educacional</a
                   >
                 </li>
-                <li><a href="./revisoes">Revisões e traduções</a></li>
-                <li><a href="./portugues">Português</a></li>
+                <li><a href="./revisoes.html">Revisões e traduções</a></li>
+                <li><a href="./portugues.html">Português</a></li>
                 <li><a href="./espanhol.html">Espanhol</a></li>
               </ul>
             </div>
