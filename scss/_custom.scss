@@ -32,7 +32,7 @@ body{
     background-color: transparent;
     color: $main-color;
     border: 1px $main-color solid;
-    border-radius: 8px;
+    border-radius: 50px;
     cursor: pointer;
     margin-right: 15px;
 }
@@ -69,8 +69,8 @@ body{
     box-shadow: 0 .5rem 1rem rgba(255,155,0,.15)!important;
 }
 .btn {
-    border-radius: 10px;
-    padding: 0.6rem 2rem;
+    border-radius: 25px;
+    padding: 0.9rem 2rem;
 }
 .btn-light {
     transition: all .5s;
@@ -133,13 +133,14 @@ body{
     z-index: 10;
 }
 .swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
-z-index: -2;
+  z-index: -2;
 }
 
 .swiper-button-next, .swiper-container-rtl .swiper-button-prev {
     bottom: 10%;
     right: auto;
     left: 40px;
+    
 }
 
 .swiper-button-prev, .swiper-container-rtl .swiper-button-next {

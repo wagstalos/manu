@@ -54,6 +54,10 @@
             color: #EF9E48;
             font-size: 3rem!important;
         }
+        .card-price{
+            width: 90%;
+            margin: 0 auto;
+        }
         
     }
     .card {
@@ -97,7 +101,7 @@
         width: 80%;
     }
     .square {
-        max-width: 90%;
+        max-width: 100%;
     }
     .border-flag{
         margin-top: 20px;
@@ -113,7 +117,7 @@
     }
     .s-espanhol{
         .square {
-            max-width: 90%;
+            max-width: 100%;
         }
         h6 {
             color: #EF9E48;

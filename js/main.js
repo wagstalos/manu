@@ -16,7 +16,7 @@ window.addEventListener("scroll", stickyElement);
 var swiper = new Swiper(".mySwiper", {
   spaceBetween: 20,
   autoplay: {
-    delay: 10000,
+    delay: 20000,
     disableOnInteraction: false,
   },
 
@@ -145,5 +145,4 @@ function calculaIdade(dataNasc) {
   }
   return idade;
 }
-// document.write(calculaIdade('25/03/1989'));
-document.getElementById("idade").innerHTML = calculaIdade("25/03/1993");
+document.getElementById("idade").innerHTML = calculaIdade("07/08/1992");

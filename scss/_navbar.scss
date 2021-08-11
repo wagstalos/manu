@@ -9,6 +9,7 @@ header {
 .navbar {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
+    transform: all 1s;
     .navbar-nav {
         .nav-link{
             color: $color-dark;
@@ -43,7 +44,7 @@ nav{
     background-color: transparent;
     border: 1px solid $main-color;
     color: $main-color;
-    border-radius: 10px;
+    border-radius: 25px;
     transition: all .5s;
         &:hover{
             transform: scale(1.05);
@@ -138,4 +139,6 @@ nav{
 
     transition: all 1s;
     z-index: 50;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
 }
