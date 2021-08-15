@@ -42,7 +42,10 @@ Para rodar você precisa usar
 As seguintes ferramentas foram usadas na construção do projeto:
 
 - [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
+- [CSS]
 - [SASS](https://sass-lang.com/)
+- [JS](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+- [BT5](https://getbootstrap.com/)
 
 Feito com ❤️ por Wagner Paulo 👋🏽
 Entre em contato!
