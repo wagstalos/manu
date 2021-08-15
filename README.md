@@ -1,8 +1,7 @@
 # manu
 
 
-
-<h1 align="center"># Projeto Prof Manu </h1>
+<h1 align="center">Projeto Prof Manu </h1>
 
 <h1 align="center">
     <a href="https://profmanu.com/">🔗 link  do projeto</a>
