@@ -17,7 +17,7 @@
 <img src="https://img.shields.io/static/v1?label=Status&message=Andamento&color=f1c40f&style=for-the-badge&logo="/>
 </h1>
 
-   <img src="https://github.com/wagstalos/projeto-hostinger/blob/master/img/screenshot.png" alt="">
+   <img src="https://repository-images.githubusercontent.com/390335072/d4c93a68-a063-438a-8c4e-269413180cca" alt="">
 
 
 
