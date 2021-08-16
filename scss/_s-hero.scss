@@ -136,7 +136,7 @@
 // , #FFDC6B 0%, #FFDC6B 36.46%, #FFDC6B 62.46%, $white 100%);
     // background: linear-gradient(180deg
     //     , rgb(27, 27, 27) -1.4%, $gray-dark 100.87%);
-    background-color: rgb(20, 20, 20);
+    background-color: $gray;
     z-index: -1;
     padding: 100px 0;
     p{
@@ -144,10 +144,10 @@
         width: 100%;
         margin: 0 auto;
         line-height: 1.4375rem;
-        color: $main-color;
+        color: $color-dark;
     }
     a{
-        color: #8B9DB0;
+        color: $main-color;
         text-decoration: none;
         &:hover{
             color: $color-yellow-dark;
@@ -190,13 +190,15 @@
     img{
         margin-top: 5px;
     }
+    .card-price{
+        height: 672px;
+    }
 }
 .card-price{
     background-color: $white-pure;
     border-radius: 10px;
     padding: 15px;
     border: 1px solid #EDEEF0;
-    height: 672px;
 }
 .s-values-pattern{
     margin-top: -25px !important;
@@ -249,10 +251,12 @@
 /* Footer */
 
 footer {
-    background-color: $gray;
+    background-color: $color-dark;
     padding: 3.9rem 0 2rem 0;
+    
     p{
         max-width: 350px;
+        color: $gray;
     }
     h6{
         color: $main-color;
@@ -263,10 +267,11 @@ footer {
        li{
         list-style-type: none;
         padding: 5px 0;
+
        } 
     }
     a{
-        color: $gray-light;
+        color: $gray;
         text-decoration: none;
         transition:all .3s;
         &:hover{

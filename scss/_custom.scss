@@ -2,6 +2,7 @@ body{
     font-family: 'Poppins', sans-serif;
     background-color: $white;
 }
+
 .color-main{
     color: $main-color;
 }
@@ -106,10 +107,9 @@ body{
 }
 
 .accordion-button:not(.collapsed) {
-    color: $main-color;
-    background-color: $color-yellow-light;
+    color: $white;
+    background-color: $gray;
 }
-
 // swiper
 :root {
     --swiper-theme-color: #EF9E48;
