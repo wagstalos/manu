@@ -5,8 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="cache-control" content="max-age=31536000" />
-    <title>Manu</title>
-    <link rel="shortcut icon" type="image/x-icon" href="./img/spain.png" />
+    <meta name="theme-color" content="#EF9E48" />
+    <meta name="msapplication-navbutton-color" content="#EF9E48" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="#EF9E48" />
+    <meta
+      name="Description"
+      content="Se você está procurando
+    aulas particulares  personalizadas, revisões,
+    traduções ou desenho instrucional está no lugar
+    certo."
+    />
+    <meta
+      name="keywords"
+      content="Manoela , espanhol, português, treinamentos digitais , designer ,
+    projeto digital , inglês, aulas particulares, setor privado "
+    />
+    <meta name="reply-to" content="manumunyz@hotmail.com" />
+    <title>ProfManu</title>
+    <link rel="manifest" href="./manifest.json" />
+    <link rel="shortcut icon" type="image/x-icon" href="./img/world.png" />
     <link rel="stylesheet" href="css/swiper-bundle-min.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
@@ -52,7 +69,7 @@
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav mx-auto text-md-center text-dark">
               <li>
-                <a href="#" class="nav-link">Home</a>
+                <a href="#" class="nav-link">Página Inicial </a>
               </li>
 
               <li class="nav-item dropdown">
@@ -64,55 +81,43 @@
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
-                  Sobre
+                  Serviços
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li>
-                    <a class="dropdown-item" href="#quem-sou">Sobre</a>
+                    <a class="dropdown-item" href="#quem-sou">Serviços</a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="./espanhol.html">Espanhol</a>
+                    <a class="dropdown-item" href="./espanhol.html"
+                      >Aula de espanhol
+                    </a>
                   </li>
                   <li>
                     <a class="dropdown-item" href="./portugues.html"
-                      >Português</a
-                    >
+                      >Aula de português
+                    </a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="./revisoes.html">Revisões</a>
+                    <a class="dropdown-item" href="./revisoes.html"
+                      >Revisão e Tradução
+                    </a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="./design.html">Design</a>
-                  </li>
-                </ul>
-              </li>
-
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#quem-sou"
-                  id="navbarDropdown"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Quem sou
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li>
-                    <a class="dropdown-item" href="#quem-sou">Quem sou</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="./manu.html">Bio</a>
+                    <a class="dropdown-item" href="./design.html"
+                      >Design Instrucional
+                    </a>
                   </li>
                 </ul>
               </li>
 
               <li>
-                <a href="#valores" class="nav-link">Valores</a>
+                <a href="#quem-sou" class="nav-link">Quem sou</a>
               </li>
               <li>
-                <a href="#duvidas" class="nav-link">Dúvidas</a>
+                <a href="#valores" class="nav-link">Contato e Valores</a>
+              </li>
+              <li>
+                <a href="#duvidas" class="nav-link">Dúvidas Frequentes</a>
               </li>
             </ul>
             <div class="btn-invite text-center">
@@ -153,14 +158,13 @@
                   </div>
 
                   <p
-                    class="mt-4 center-mobile lead"
+                    class="mt-4 center-mobile"
                     data-aos="fade-down"
                     data-aos-easing="linear"
                     data-aos-duration="1300"
                   >
-                    Se você está procurando
-                    <b>aulas particulares </b> personalizadas, <b>revisões</b>,
-                    traduções ou <b> desenho instrucional </b>está no lugar
+                    Se você está procurando aulas particulares personalizadas
+                    ,revisões, traduções ou desenho instrucional está no lugar
                     certo.
                   </p>
 
@@ -176,13 +180,13 @@
                   </div>
                 </div>
                 <div class="col-md-6 text-center">
-                  <img
+                  <!-- <img
                     class="lazyload img-chat"
                     data-src="./img/chat.png"
                     alt="com escrita"
                     data-aos="zoom-in"
                     data-aos-duration="2500"
-                  />
+                  /> -->
                   <img
                     class="lazyload mt-4 img-fluid"
                     data-src="img/img-hero.webp"
@@ -201,27 +205,20 @@
               <div class="row justify-content-around align-items-center">
                 <div class="col-md-6">
                   <h1>
-                    Aulas <br />
-                    <span>Particulares</span>
+                    Serviços <br />
+                    <!-- <span>Serviços</span> -->
                   </h1>
                   <div class="center-mobile">
                     <img class="img-fluid" src="./img/risco.svg" alt="" />
                   </div>
 
                   <p class="mt-4">
-                    <img
-                      class="mr-2"
-                      src="img/check.svg"
-                      alt="Analisando seu Contrato com a operadora "
-                    />Aulas de espanhol, português e produção e interpretação de
-                    texto.
+                    <img class="mr-2" src="img/check.svg" alt=" " />Aulas de
+                    espanhol, português e produção e interpretação de texto.
                   </p>
                   <p>
-                    <img
-                      class="mr-2"
-                      src="img/check.svg"
-                      alt="Parametrizando os valores na operadora"
-                    />Revisões (preparação, copidesque). 
+                    <img class="mr-2" src="img/check.svg" alt="" />Revisões
+                    (preparação, copidesque). 
                   </p>
                   <p>
                     <img
@@ -246,7 +243,7 @@
                 <div class="col-md-6 text-center">
                   <img
                     class="mt-4 img-fluid"
-                    src="img/espanha.png"
+                    src="./img/img-hero.png"
                     alt="Imagem hero"
                     height="auto"
                   />
@@ -266,9 +263,9 @@
     <!-- Section about -->
     <section class="s-about text-center" id="sobre">
       <div class="container">
-        <h2 class="text-uppercase">Sobre</h2>
+        <h2 class="text-uppercase">Serviços</h2>
         <h6 class="text-uppercase text-outline">
-          <strong><span>Sobre</span> </strong>
+          <strong><span>Serviços</span> </strong>
         </h6>
 
         <h4>Olá, o que você está procurando? </h4>
@@ -287,10 +284,14 @@
               data-aos-duration="1000"
             >
               <div class="text-center">
-                <img class="bg-icon shadow" src="img/icon-span.svg" alt="" />
+                <img
+                  class="bg-icon shadow"
+                  src="img/icon-global.svg"
+                  alt="icone globo mundial"
+                />
               </div>
 
-              <p><strong>Aulas Espanhol</strong></p>
+              <p><strong>Aulas de espanhol</strong></p>
               <a href="./espanhol.html"
                 >saiba mais
 
@@ -334,7 +335,7 @@
 
               <p>
                 <strong
-                  >Aulas de português e produção e interpretação de texto
+                  >Aulas de português, produção e interpretação de texto
                 </strong>
               </p>
               <a href="./portugues.html"
@@ -376,13 +377,13 @@
                 /> -->
                 <img
                   class="bg-icon shadow"
-                  src="img/translate.svg"
-                  alt="icone tradutor"
+                  src="img/icon-lupa-white.svg"
+                  alt="icone lupa"
                 />
               </div>
 
               <p>
-                <strong>Revisões e traduções </strong>
+                <strong>Revisões / Traduções </strong>
               </p>
               <a href="./revisoes.html"
                 >saiba mais
@@ -418,7 +419,7 @@
               <div class="text-center">
                 <img
                   class="bg-icon shadow"
-                  src="img/designtools.svg"
+                  src="img/icon-lamp-on.png"
                   alt="design-instricional"
                 />
               </div>
@@ -426,7 +427,7 @@
               <p>
                 <strong
                   >Design instrucional/ <br />
-                  educacional
+                  Educacional
                 </strong>
               </p>
               <a href="./design.html"
@@ -459,12 +460,6 @@
           <strong><span>Quem sou</span> </strong>
         </h6>
 
-        <p class="text-center">
-          Me chamo <strong>Manoela</strong> sou professora de espanhol,
-          português e produção e interpretação de texto, além de tradutora,
-          revisora e designer instrucional/educacional.
-        </p>
-
         <div
           class="
             row
@@ -488,27 +483,17 @@
           </div>
 
           <div class="col-md-6" data-aos="fade-up" data-aos-duration="2000">
-            <h2>Manoela</h2>
+            <p class="text-justify">
+              Me chamo <strong>Manoela</strong> sou professora de espanhol,
+              português e produção e interpretação de texto, além de tradutora,
+              revisora e designer instrucional/educacional.
+            </p>
 
-            <p class="mt-4">
+            <p class="mt-4 text-justify">
               Sou especialista em designer instrucional/educacional pela
               Universidade do Livro – UNIL Fundação Editora da Unesp e graduada
               em letras com habilitação em português/espanhol pela Universidade
               Estadual Paulista Júlio de Mesquita Filho – UNESP.
-            </p>
-
-            <p class="">
-              Com mais de 6 anos de experiência na área de ensino/aprendizagem,
-              como professora de espanhol já lecionei para crianças, jovens e
-              adultos nos mais variados contextos. Ministrei aulas para grupos
-              com faixas etárias diversas no Centro de Línguas e Desenvolvimento
-              de Professores (CLDP) da Unesp; para turmas do 6º ano do ensino
-              fundamental II ao 3º do ensino médio no Colégio Framtid; para
-              alunos(as) em aulas personalizadas no Força: ensino personalizado;
-              para jornalistas na Oficina de Línguas do Estadão; para alunos
-              particulares com foco na aprendizagem voltada aos negócios na Twin
-              Peaks Language School; e atualmente para alunos(as) em aulas
-              particulares personalizadas.
               <a href="./manu.html" class="p-2">
                 ver mais
                 <svg
@@ -577,7 +562,7 @@
         <!-- Swiper -->
         <div class="swiper-container mySwiper2 mt-40">
           <div class="swiper-wrapper">
-            <div class="swiper-slide mt-40">
+            <div class="swiper-slide">
               <div
                 class="card-price"
                 data-aos="flip-left"
@@ -591,7 +576,7 @@
                 <div class="d-flex align-items-start mt-40">
                   <img class="mr-2" src="img/check.svg" alt="check-green" />
                   <p>
-                    as aulas (espanhol, português e produção e interpretação de
+                    As aulas (espanhol, português e produção e interpretação de
                     texto) são realizadas on-line por meio de videochamadas.
                   </p>
                 </div>
@@ -607,7 +592,7 @@
                 <div class="text-center mt-4">
                   <p>
                     1 hora/aula <br />
-                    <span><strong>90,00</strong> </span>
+                    <span><strong>R$ 90,00</strong> </span>
                   </p>
                 </div>
 
@@ -619,11 +604,12 @@
                 <div class="center-mobile text-center mt-4 mb-40">
                   <a
                     href="https://api.whatsapp.com/send?l=pt_BR&amp;phone=5511964617712 "
+                    target="_blank"
                   >
                     <i class="bi bi-whatsapp icon-custom"></i>
                   </a>
 
-                  <a href="mailto:manumunyz@hotmail.com ">
+                  <a href="mailto:manumunyz@hotmail.com " target="_blank">
                     <i class="bi bi-envelope icon-custom"></i
                   ></a>
                 </div>
@@ -631,7 +617,7 @@
             </div>
             <div class="swiper-slide">
               <div
-                class="card-price back-gray-light"
+                class="card-price"
                 data-aos="flip-left"
                 data-aos-duration="2500"
               >
@@ -641,41 +627,41 @@
                 <div class="d-flex align-items-start mt-40">
                   <img class="mr-2" src="img/check.svg" alt="check-green" />
                   <p>
-                    os projetos de design instrucional/educacional necessitam de
+                    Os projetos de design instrucional/educacional necessitam de
                     reuniões de alinhamento do serviço a ser desenvolvido, assim
-                    como expectativas e preferências, além de agendamento de
+                    como das expectativas e preferências, além de agendamento de
                     cronograma.
                   </p>
                 </div>
                 <div class="d-flex align-items-start mt-4">
                   <img class="mr-2" src="img/check.svg" alt="check-green" />
                   <p>
-                    O pagamento também deverá ser realizado em 2 etapas metade a
-                    ser realizado na contratação do serviço e a outra metade a
-                    ser realizado após a finalização do projeto.
+                    O pagamento deverá ser realizado em 2 etapas: metade a ser
+                    realizado na contratação do serviço, e a outra metade a após
+                    a finalização do projeto.
                   </p>
                 </div>
 
                 <div class="text-center mt-4">
                   <p>
-                    Hora/combinar <br />
                     <span><strong>A combinar</strong> </span>
                   </p>
                 </div>
 
                 <p class="mt-4 text-center font-slim">
-                  Para saber mais, marcar uma aula ou agendar uma conversa entre
-                  em contato através de uma das formas a seguir:
+                  Para saber mais, ou agendar uma conversa entre em contato
+                  através de uma das formas a seguir:
                 </p>
 
                 <div class="center-mobile text-center mt-4 mb-40">
                   <a
                     href="https://api.whatsapp.com/send?l=pt_BR&amp;phone=5511964617712 "
+                    target="_blank"
                   >
                     <i class="bi bi-whatsapp icon-custom"></i>
                   </a>
 
-                  <a href="mailto:manumunyz@hotmail.com ">
+                  <a href="mailto:manumunyz@hotmail.com " target="_blank">
                     <i class="bi bi-envelope icon-custom"></i
                   ></a>
                 </div>
@@ -683,7 +669,7 @@
             </div>
 
             <div
-              class="swiper-slide mt-40"
+              class="swiper-slide"
               data-aos="flip-left"
               data-aos-duration="3000"
             >
@@ -701,32 +687,32 @@
                 <div class="d-flex align-items-start mt-4">
                   <img class="mr-2" src="img/check.svg" alt="check-green" />
                   <p>
-                    O pagamento sendo acordado em 2 etapas, metade a ser
-                    realizado na contratação do serviço e a outra metade a ser
-                    realizado após a finalização.​
+                    O pagamento deverá ser realizado em 2 etapas: metade na
+                    contratação do serviço, e a outra metade após a finalização
+                    do projeto.
                   </p>
                 </div>
 
                 <div class="text-center mt-4">
                   <p>
-                    Hora/combinar <br />
                     <span><strong>A combinar</strong> </span>
                   </p>
                 </div>
 
                 <p class="mt-4 text-center font-slim">
-                  Para saber mais, marcar uma aula ou agendar uma conversa entre
-                  em contato através de uma das formas a seguir:
+                  Para saber mais,ou agendar uma conversa entre em contato
+                  através de uma das formas a seguir:
                 </p>
 
                 <div class="center-mobile text-center mt-4 mb-40">
                   <a
                     href="https://api.whatsapp.com/send?l=pt_BR&amp;phone=5511964617712 "
+                    target="_blank"
                   >
                     <i class="bi bi-whatsapp icon-custom"></i>
                   </a>
 
-                  <a href="mailto:manumunyz@hotmail.com ">
+                  <a href="mailto:manumunyz@hotmail.com " target="_blank">
                     <i class="bi bi-envelope icon-custom"></i
                   ></a>
                 </div>
@@ -751,7 +737,7 @@
     <section class="s-faq" id="duvidas">
       <div class="container">
         <h2 class="text-uppercase color-main text-center">
-          Perguntas frequentas
+          Perguntas frequentes
         </h2>
         <h6 class="text-uppercase text-outline color-yellow-dark">
           <strong><span></span>Dúvidas </strong>
@@ -896,8 +882,7 @@
                 >
                   <div class="accordion-body">
                     Não, as traduções são de textos na língua espanhola para a
-                    língua portuguesa e vice versa.  aulas, respeitando sempre o
-                    seu processo de desenvolvimento.
+                    língua portuguesa e vice versa.
                   </div>
                 </div>
               </div>
@@ -1022,7 +1007,7 @@
                     aria-expanded="false"
                     aria-controls="collapseTen"
                   >
-                      10. É necessário a compra de material didático?
+                      10. É necessário comprar material didático?
                   </button>
                 </h2>
                 <div
@@ -1035,7 +1020,7 @@
                     Não, o valor das aulas já contempla os materiais. O que
                     ocorre é a sugestão da compra de livros literários para o
                     processo de desenvolvimento da escuta, leitura e
-                    interpretação, que se dá ao longo das aulas.
+                    interpretação.
                   </div>
                 </div>
               </div>
@@ -1049,7 +1034,7 @@
       <!--fim container -->
     </section>
 
-    <section class="s-news">
+    <!-- <section class="s-news">
       <div class="container">
         <div class="row align-items-center justify-content-center shadow">
           <div class="col-md-6 center-mobile">
@@ -1082,7 +1067,7 @@
         </div>
         <img class="s-news-img" src="./img/livros.png" alt="com escrita" />
       </div>
-    </section>
+    </section> -->
 
     <!-- footer -->
     <footer>
@@ -1104,10 +1089,12 @@
                 revisões, traduções ou desenho instrucional está no lugar certo.
               </p>
 
-              <a href="">
+              <a
+                href="https://api.whatsapp.com/send?l=pt_BR&amp;phone=5511964617712"
+              >
                 <p><i class="bi bi-phone mr-2"></i> (11) 9 6461-7712 </p>
               </a>
-              <a href="">
+              <a href="mailto:manumunyz@hotmail.com ">
                 <p>
                   <i class="bi bi-envelope mr-2"> </i> manumunyz@hotmail.com
                 </p>
@@ -1115,18 +1102,18 @@
             </div>
 
             <div class="">
-              <h6>Lista de páginas</h6>
+              <!-- <h6>Lista de páginas</h6> -->
               <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#">Página inicial </a></li>
+                <li><a href="#sobre">Serviços </a></li>
                 <li><a href="#quem-sou">Quem sou</a></li>
-                <li><a href="#valores">Valores</a></li>
-                <li><a href="#duvidas">Dúvidas</a></li>
+                <li><a href="#valores">Contato e valores </a></li>
+                <li><a href="#duvidas">Dúvidas frequentes </a></li>
               </ul>
             </div>
 
             <div class="">
-              <h6>Lista de páginas</h6>
+              <!-- <h6>Lista de páginas</h6> -->
               <ul>
                 <li>
                   <a href="./design.html"
@@ -1134,14 +1121,18 @@
                     educacional</a
                   >
                 </li>
-                <li><a href="./revisoes.html">Revisões e traduções</a></li>
-                <li><a href="./portugues.html">Português</a></li>
-                <li><a href="./espanhol.html">Espanhol</a></li>
+                <li><a href="./revisoes.html">Revisões / Traduções</a></li>
+                <li>
+                  <a href="./portugues.html"
+                    >Aulas de português, produção e interpretação de texto</a
+                  >
+                </li>
+                <li><a href="./espanhol.html">Aulas de espanhol </a></li>
               </ul>
             </div>
 
             <div class="">
-              <h6>Redes sociais</h6>
+              <!-- <h6>Redes sociais</h6> -->
               <ul>
                 <li>
                   <a
@@ -1153,7 +1144,9 @@
                 </li>
 
                 <li>
-                  <a href="">
+                  <a
+                    href="https://www.linkedin.com/in/manoela-macedo-muniz-52499795/"
+                  >
                     <i class="bi bi-linkedin mr-2"></i>
                     <span>Linkedin</span>
                   </a>

@@ -1,0 +1,63 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+   <url>
+
+      <loc>https://profmanu.com</loc>
+
+      <lastmod>2021-08-11</lastmod>
+
+      <priority>1</priority>
+
+   </url>
+    <url>
+
+      <loc>https://profmanu.com/manu.html/<loc>
+
+      <lastmod>2021-08-11</lastmod>
+
+      <priority>0.9</priority>
+
+   </url>
+
+       <url>
+
+      <loc>https://profmanu.com/espanhol.html<loc>
+
+      <lastmod>2021-08-11</lastmod>
+
+      <priority>0.8</priority>
+
+   </url>
+
+    <url>
+
+      <loc>https://profmanu.com/portugues.html<loc>
+
+      <lastmod>2021-08-11</lastmod>
+
+      <priority>0.8</priority>
+
+   </url>
+
+    <url>
+
+      <loc>https://profmanu.com/design.html<loc>
+
+      <lastmod>2021-08-11</lastmod>
+
+      <priority>0.8</priority>
+
+   </url>
+
+     <url>
+
+      <loc>https://profmanu.com/revisoes.html<loc>
+
+      <lastmod>2021-08-11</lastmod>
+
+      <priority>0.8</priority>
+
+   </url>
+
+</urlset> 

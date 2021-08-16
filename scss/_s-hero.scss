@@ -33,6 +33,7 @@
     p{
         width: 100%;
         max-width: 501px;
+        font-size: 1.1rem;
     }
     h2 {
         position: relative;
@@ -101,6 +102,11 @@
     }
     a{
         text-decoration: none;
+        color: #8B9DB0;
+        transition: all .3s;
+        &:hover{
+            color: $main-color;
+        }
     }
 }
 .card{
@@ -125,11 +131,12 @@
 // ******section i who am i *********
 
 .s-who-am-i {
-    background: linear-gradient(
-180deg
-, #FFDC6B 0%, #FFDC6B 36.46%, #FFDC6B 62.46%, $white 100%);
+//     background: linear-gradient(
+// 180deg
+// , #FFDC6B 0%, #FFDC6B 36.46%, #FFDC6B 62.46%, $white 100%);
     // background: linear-gradient(180deg
-    //     , $color-yellow-light-200 -1.4%, $white 100.87%);
+    //     , rgb(27, 27, 27) -1.4%, $gray-dark 100.87%);
+    background-color: rgb(20, 20, 20);
     z-index: -1;
     padding: 100px 0;
     p{
@@ -137,8 +144,10 @@
         width: 100%;
         margin: 0 auto;
         line-height: 1.4375rem;
+        color: $main-color;
     }
     a{
+        color: #8B9DB0;
         text-decoration: none;
         &:hover{
             color: $color-yellow-dark;
@@ -187,6 +196,7 @@
     border-radius: 10px;
     padding: 15px;
     border: 1px solid #EDEEF0;
+    height: 672px;
 }
 .s-values-pattern{
     margin-top: -25px !important;
@@ -239,7 +249,7 @@
 /* Footer */
 
 footer {
-    background-color: $gray-dark;
+    background-color: $gray;
     padding: 3.9rem 0 2rem 0;
     p{
         max-width: 350px;
