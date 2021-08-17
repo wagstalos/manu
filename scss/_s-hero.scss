@@ -102,10 +102,10 @@
     }
     a{
         text-decoration: none;
-        color: #8B9DB0;
+        color: $main-color;
         transition: all .3s;
         &:hover{
-            color: $main-color;
+            color: $gray;
         }
     }
 }
@@ -130,7 +130,7 @@
 // ******section i who am i *********
 
 .s-who-am-i {
-    background-color: $gray;
+    background-color: $gray-light;
     z-index: -1;
     padding: 100px 0;
     p{
