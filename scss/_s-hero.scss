@@ -32,7 +32,7 @@
     }
     p{
         width: 100%;
-        max-width: 501px;
+        // max-width: 501px;
         font-size: 1.1rem;
     }
     h2 {
@@ -127,15 +127,9 @@
 }
 
 
-
 // ******section i who am i *********
 
 .s-who-am-i {
-//     background: linear-gradient(
-// 180deg
-// , #FFDC6B 0%, #FFDC6B 36.46%, #FFDC6B 62.46%, $white 100%);
-    // background: linear-gradient(180deg
-    //     , rgb(27, 27, 27) -1.4%, $gray-dark 100.87%);
     background-color: $gray;
     z-index: -1;
     padding: 100px 0;
