@@ -130,17 +130,20 @@
 // ******section i who am i *********
 
 .s-who-am-i {
-    background-color: $gray-light;
+    background-color: $gray;
     z-index: -1;
     padding: 100px 0;
     border-radius: 20px;
-    margin: 14px;
+    margin: 12px;
+    h2{
+        color: $white;
+    }
     p{
         max-width: 800px;
         width: 100%;
         margin: 0 auto;
         line-height: 1.4375rem;
-        color: $color-dark;
+        color: $white;
     }
     a{
         color: $main-color;

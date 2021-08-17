@@ -138,7 +138,7 @@
         padding: 0;
     }
     .s-values {
-        padding: 85px 0 20px 0;
+        padding: 85px 0 80px 0;
     }
     .s-about {
         padding: 40px 0;
@@ -149,6 +149,11 @@
     }
     .s-faq {
         padding: 70px 0;
+    }
+    .formacao{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     
 }
