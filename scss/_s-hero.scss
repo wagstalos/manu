@@ -133,6 +133,8 @@
     background-color: $gray-light;
     z-index: -1;
     padding: 100px 0;
+    border-radius: 20px;
+    margin: 14px;
     p{
         max-width: 800px;
         width: 100%;
@@ -247,14 +249,13 @@
 footer {
     background-color: $color-dark;
     padding: 3.9rem 0 2rem 0;
+    i,h3{
+        color: $color-yellow;
+    }
     
     p{
         max-width: 350px;
         color: $gray;
-    }
-    h6{
-        color: $main-color;
-        font-size: 1.2rem;
     }
     ul{
         padding: 0;
