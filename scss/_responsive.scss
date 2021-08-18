@@ -107,11 +107,18 @@
         margin-top: 20px;
     }
     .s-hero {
+        padding: 100px 0px 0px 0px;
         h1{
             span{
                 font-size: 1em;
                 color: transparent;
             }
+        }
+        .img-hero{
+            padding: 0;
+        }
+        .img-mb{
+            width: 50%!important;
         }
         
     }

@@ -13,7 +13,11 @@
 }
 
 .s-hero {
-    padding: 100px 0px 0px 0px;
+    .img-hero{
+        width: 90%;
+        padding: 37px;
+    }
+    padding: 90px 0px 0px 0px;
     h1 {
         width: 100%;
         max-width: 501px;
