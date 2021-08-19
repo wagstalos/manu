@@ -60,6 +60,17 @@
     </script>
   </head>
   <body>
+    <!-- <div id="preloader">
+      <div class="inner">
+
+        <div class="bolas">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+    </div> -->
+    <!-- fim do preloader -->
     <header class="container-fluid" id="#sticker">
       <nav class="navbar navbar-expand-md navbar-dark fixed-top default-header">
         <div class="container">
@@ -203,7 +214,7 @@
                   /> -->
                   <img
                     class="lazyload mt-4 img-fluid img-hero"
-                    data-src="img/img-hero.png"
+                    data-src="img/img-hero.webp"
                     alt="Imagem hero"
                     height="auto"
                     data-aos="fade-up"
@@ -383,7 +394,7 @@
               <div class="text-center">
                 <img
                   class="bg-icon shadow"
-                  src="img/icon-lupa-white.svg"
+                  src="img/icon-search.svg"
                   alt="icone lupa"
                 />
               </div>
@@ -1179,5 +1190,12 @@
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="js/main.js"></script>
+    <!-- <script>
+      $(window).on("load", function () {
+        $("#preloader .inner").fadeOut();
+        $("#preloader").delay(350).fadeOut("slow");
+        $("body").delay(350).css({ overflow: "visible" });
+      });
+    </script> -->
   </body>
 </html>

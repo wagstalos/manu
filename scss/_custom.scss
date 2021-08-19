@@ -2,6 +2,15 @@ body{
     font-family: 'Poppins', sans-serif;
     background-color: $white;
 }
+.loader {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url('http://i.imgur.com/zAD2y29.gif') 50% 50% no-repeat white;
+}
 
 .color-main{
     color: $main-color;
@@ -37,7 +46,7 @@ body{
     margin-right: 15px;
 }
 .border-flag{
-    border: $color-yellow-light 4px solid;
+    border: rgba(252, 242, 232, .4) 4px solid;
     border-radius: 100%;
 }
 
@@ -239,11 +248,7 @@ body{
   }
   
   .img-lupa{
-        position: absolute;
-        height: 200px;
-        left: 37%;
-        top: 35%;
-        
+        position: absolute;    
   }
   .element-animation{
     animation: animationFrames linear 8s;
