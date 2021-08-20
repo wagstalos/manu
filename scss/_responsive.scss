@@ -18,6 +18,11 @@
     .square {
         height: 620px;
     }
+    .default-header {
+        background-color: hsla(0, 0%, 100%, 0.63)!important;
+        backdrop-filter: blur(20px);
+        transition: all 1s;
+    }
 
 }
 
@@ -46,7 +51,6 @@
     .default-header {
         background-color: hsla(0, 0%, 100%, 0.63)!important;
         backdrop-filter: blur(20px);
-        // box-shadow: rgb(0 0 0 / 10%) 0px 0px 30px 0px;
         transition: all 1s;
     }
     .s-espanhol  {
