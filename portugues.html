@@ -121,7 +121,7 @@
               <a
                 href="https://api.whatsapp.com/send?l=pt_BR&amp;phone=5511964617712"
                 target="blank"
-                class="nav-link"
+                class="nav-link text-dark"
               >
                 <i class="bi bi-whatsapp mr-2"></i>Contato</a
               >
@@ -533,7 +533,16 @@
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
-
     <script src="js/main.js"></script>
+    <div vw class="enabled">
+      <div vw-access-button class="active"></div>
+      <div vw-plugin-wrapper>
+        <div class="vw-plugin-top-wrapper"></div>
+      </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+      new window.VLibras.Widget("https://vlibras.gov.br/app");
+    </script>
   </body>
 </html>
