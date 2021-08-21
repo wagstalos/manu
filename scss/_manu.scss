@@ -1,9 +1,14 @@
+
 .s-manu{
     padding: 52px 0;
 
     .rounded-circle{
         border: 5px #ffcb7f solid;
     }
+    a {
+        text-decoration: none !important;
+    }
+
     b, strong {
         color: $main-color;
       }
@@ -27,14 +32,6 @@
             transform: scale(1.1);
         }
     }
-    // .icon-position{
-    //     position: absolute;
-    //     top: 28%;
-    //     right: 10px;
-    //     display: flex;
-    //     flex-direction: column;
-    //     margin-bottom: 15px;
-    // }
     .swiper-slide{
         h6{
             margin: 0;
@@ -51,11 +48,6 @@
         background: linear-gradient( 
 180deg
  , $color-yellow-light-200 0%, $white 100%);
-
-
-    //     background: linear-gradient(
-    // 106.43deg
-    // , #FFDC6B -1.4%, #FFF4CB 100.87%);
         border-radius: 0 0 40px 40px;
         z-index: -1;
     }
