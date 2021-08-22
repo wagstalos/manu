@@ -13,7 +13,7 @@
 
 <h1 align="center">
 <img src="https://img.shields.io/static/v1?label=Site&message=MAnu&color=3498db&style=for-the-badge&logo="/>
-<img src="https://img.shields.io/static/v1?label=Status&message=finalizado&color=#55efc4&style=for-the-badge&logo="/>
+<img src="https://img.shields.io/static/v1?label=Status&message=finalizado&color=55efc4&style=for-the-badge&logo="/>
 </h1>
 
    <img src="https://github.com/wagstalos/manu/blob/master/img/mockupManu.png" alt="">
