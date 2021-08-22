@@ -13,10 +13,10 @@
 
 <h1 align="center">
 <img src="https://img.shields.io/static/v1?label=Site&message=MAnu&color=3498db&style=for-the-badge&logo="/>
-<img src="https://img.shields.io/static/v1?label=Status&message=Andamento&color=f1c40f&style=for-the-badge&logo="/>
+<img src="https://img.shields.io/static/v1?label=Status&message=Concluído&color=#55efc4&style=for-the-badge&logo="/>
 </h1>
 
-   <img src="https://repository-images.githubusercontent.com/390335072/d4c93a68-a063-438a-8c4e-269413180cca" alt="">
+   <img src="https://github.com/wagstalos/manu/blob/master/img/mockupManu.png" alt="">
 
 
 
