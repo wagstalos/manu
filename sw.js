@@ -3,7 +3,7 @@ const urlsToCache = [
   "./",
   "index.html",
   "css/bootstrap.min.css",
-  "css/main.mincss",
+  "css/main.min.css",
 ];
 
 self.addEventListener("install", function (event) {
