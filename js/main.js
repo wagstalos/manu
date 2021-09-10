@@ -62,10 +62,9 @@ var swiper2 = new Swiper(".mySwiper2", {
   },
 });
 
-var swiper = new Swiper(".mySwiper-manu", {
+var swiper3 = new Swiper(".mySwiper-manu", {
   pagination: {
-    el: ".swiper-pagination",
-    // type: "progressbar",
+    el: ".swiper-pagination-manu",
   },
   navigation: {
     nextEl: ".swiper-button-next",
@@ -79,25 +78,24 @@ var swiper = new Swiper(".mySwiper-manu", {
     1024: {
       slidesPerView: 2.2,
       spaceBetween: 10,
-      // enabled: false,
     },
   },
 });
 
 //news;
-function SubForm() {
-  $.ajax({
-    url: "https://api.apispreadsheets.com/data/16165/",
-    type: "post",
-    data: $("#myForm").serializeArray(),
-    success: function () {
-      alert("Email cadastrado com sucesso :)");
-    },
-    error: function () {
-      alert("Aconteceu um problema :(");
-    },
-  });
-}
+// function SubForm() {
+//   $.ajax({
+//     url: "https://api.apispreadsheets.com/data/16165/",
+//     type: "post",
+//     data: $("#myForm").serializeArray(),
+//     success: function () {
+//       alert("Email cadastrado com sucesso :)");
+//     },
+//     error: function () {
+//       alert("Aconteceu um problema :(");
+//     },
+//   });
+// }
 
 // if ("serviceWorker" in navigator) {
 //   navigator.serviceWorker
