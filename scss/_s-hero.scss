@@ -6,14 +6,14 @@
     height: 90vh;
     left: 0px;
     top: 0px;
-    background: linear-gradient(106.43deg, #FFDC6B -1.4%, #FFF4CB 100.87%);
-    
+    background: linear-gradient(106.43deg, #ffdc6b -1.4%, #fff4cb 100.87%);
+
     border-radius: 0 0 55px 0;
     z-index: -1;
 }
 
 .s-hero {
-    .img-hero{
+    .img-hero {
         width: 90%;
         padding: 37px;
     }
@@ -34,7 +34,7 @@
             color: transparent;
         }
     }
-    p{
+    p {
         width: 100%;
         // max-width: 501px;
         font-size: 1.1rem;
@@ -46,41 +46,40 @@
         align-items: center;
         justify-content: flex-end;
         bottom: 45px;
-        span{
+        span {
             font-weight: 700;
             -webkit-text-stroke-width: 1px;
             -webkit-text-stroke-color: #000;
             font-size: 1.5em;
             color: transparent;
         }
-    } 
-    i{
+    }
+    i {
         padding: 10px 15px;
         background-color: $color-yellow;
         border-radius: 10px;
         margin-right: 15px;
     }
-   
 }
 
-.text-outline{
+.text-outline {
     position: relative;
-        left: 0;
-        display: flex;
-        align-items: center;
-        justify-content: flex-end;
-        font-weight: 700;
-        -webkit-text-stroke-width: 1.2px;
-        -webkit-text-stroke-color: $color-dark;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-weight: 700;
+    -webkit-text-stroke-width: 1.2px;
+    -webkit-text-stroke-color: $color-dark;
 
-        font-size: 3.5rem;;
-        color: transparent;
-        opacity: 0.07;
-        line-height: 60px;
-        margin-top: -66px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+    font-size: 3.5rem;
+    color: transparent;
+    opacity: 0.07;
+    line-height: 60px;
+    margin-top: -66px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .img-chat {
@@ -93,44 +92,42 @@
 }
 
 // section about
-.s-about{
+.s-about {
     padding: 100px 0;
-    h5,h2{
+    h5,
+    h2 {
         color: $main-color;
     }
-    h4{
+    h4 {
         margin-bottom: 60px;
     }
-    img{
+    img {
         width: 70px;
         margin-top: -50px;
     }
-    a{
+    a {
         text-decoration: none;
         color: $main-color;
-        transition: all .3s;
-        &:hover{
+        transition: all 0.3s;
+        &:hover {
             color: $gray;
         }
     }
 }
-.card{
+.card {
     height: 225px;
     background: $gray-light;
-    border: 1px solid #EDEEF0;
+    border: 1px solid #edeef0;
     box-sizing: border-box;
     border-radius: 25px;
-    transition: all .3s;
-   
-    &:hover{
-        background: linear-gradient( 
-142deg
- , #FFDC6B -1.4%, #FFF4CB 100.87%);
+    transition: all 0.3s;
+
+    &:hover {
+        background: linear-gradient(142deg, #ffdc6b -1.4%, #fff4cb 100.87%);
         color: $color-yellow-dark;
         transform: scale(1.08);
     }
 }
-
 
 // ******section i who am i *********
 
@@ -140,71 +137,70 @@
     padding: 100px 0;
     border-radius: 20px;
     margin: 12px;
-    h2{
+    h2 {
         color: $white;
     }
-    p{
+    p {
         max-width: 800px;
         width: 100%;
         margin: 0 auto;
         line-height: 1.4375rem;
         color: $white;
     }
-    a{
+    a {
         color: $color-yellow-light-200;
         text-decoration: none;
-        &:hover{
+        &:hover {
             color: $color-yellow-dark;
         }
     }
 }
 
-
 // ******section values *********
 .s-values {
     padding: 100px 0;
-    i{
+    i {
         color: $main-color;
         border: 1px solid $main-color;
         font-weight: 700;
-        transition: all .5s;
-        &:hover{
+        transition: all 0.5s;
+        &:hover {
             background-color: $main-color;
             color: $color-yellow-light;
             transform: scale(1.5);
         }
     }
-    a{
+    a {
         text-decoration: none;
         color: $color-dark;
     }
-    .icon-custom{
+    .icon-custom {
         background-color: transparent;
     }
-    
-    p{
-    margin-bottom: 0;
-        span{
-            strong{
+
+    p {
+        margin-bottom: 0;
+        span {
+            strong {
                 color: $main-color;
                 font-size: 26px;
             }
         }
     }
-    img{
+    img {
         margin-top: 5px;
     }
     // .card-price{
     //     height: 672px;
     // }
 }
-.card-price{
+.card-price {
     background-color: $white-pure;
     border-radius: 10px;
     padding: 15px;
-    border: 1px solid #EDEEF0;
+    border: 1px solid #edeef0;
 }
-.s-values-pattern{
+.s-values-pattern {
     margin-top: -25px !important;
     position: absolute;
     width: 163px;
@@ -212,34 +208,31 @@
 }
 
 // ****section FAQ *****
-.s-faq{
+.s-faq {
     padding: 100px 0;
-     background-color: $gray-light;
-
+    background-color: $gray-light;
 }
 
 /* news */
-.s-news{
+.s-news {
     padding: 40px 0 79px;
-    button{
+    button {
         height: 44px;
-        border-radius: 0 25px 25px 0!important;
-        background-color: #FFDC6B;
+        border-radius: 0 25px 25px 0 !important;
+        background-color: #ffdc6b;
         border: none;
     }
-    input{
+    input {
         border-radius: 25px 0px 0px 25px;
         height: 44px;
     }
-    .row{
+    .row {
         width: 80%;
         margin: auto;
         background-color: $gray-light;
-        background: linear-gradient( 
-        142deg
-        , $color-yellow-light-200 -1.4%, #FFF4CB 100.87%);
-        padding: 20px;   
-        border-radius: 10px;     
+        background: linear-gradient(142deg, $color-yellow-light-200 -1.4%, #fff4cb 100.87%);
+        padding: 20px;
+        border-radius: 10px;
     }
 }
 .s-news-img {
@@ -250,39 +243,38 @@
     right: 30px;
 }
 
-    
-
 /* Footer */
 
 footer {
     background-color: $color-dark;
     padding: 3.9rem 0 2rem 0;
-    i,h3{
+    border-top: 3px solid $main-color;
+    i,
+    h3 {
         color: $white;
     }
-    
-    p{
+
+    p {
         max-width: 350px;
         color: $gray;
     }
-    ul{
+    ul {
         padding: 0;
-       li{
-        list-style-type: none;
-        padding: 5px 0;
-
-       } 
+        li {
+            list-style-type: none;
+            padding: 5px 0;
+        }
     }
-    a{
+    a {
         color: $gray;
         text-decoration: none;
-        transition:all .3s;
-        &:hover{
+        transition: all 0.3s;
+        &:hover {
             color: $color-yellow-light-100;
         }
     }
-    main{
+    main {
         border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-     padding-bottom: 2.2rem;
+        padding-bottom: 2.2rem;
     }
 }
