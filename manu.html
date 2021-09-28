@@ -1,639 +1,501 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="cache-control" content="max-age=31536000" />
-    <title>ProfManu</title>
-    <link rel="shortcut icon" type="image/x-icon" href="./img/world.png" />
-    <link rel="stylesheet" href="css/swiper-bundle-min.css" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Style+Script&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="css/main.min.css" />
-    <script src="https://cdn.lordicon.com/libs/frhvbuzj/lord-icon-2.0.2.js"></script>
-    <script src="js/lib/lazy.min.js" async></script>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=G-339D4340NZ"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
 
-      gtag("config", "G-339D4340NZ");
-    </script>
-  </head>
-  <body>
-    <header class="container-fluid" id="#sticker">
-      <nav class="navbar navbar-expand-md navbar-dark fixed-top default-header">
-        <div class="container">
-          <a href="./#" class="navbar-brand logo">
-            <img src="img/logo.svg" alt="logo Manoela" class="d-inline-block" />
-          </a>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="cache-control" content="max-age=31536000" />
+  <title>ProfManu</title>
+  <link rel="shortcut icon" type="image/x-icon" href="./img/world.png" />
+  <link rel="stylesheet" href="css/swiper-bundle-min.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Style+Script&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/main.min.css" />
+  <script src="https://cdn.lordicon.com/libs/frhvbuzj/lord-icon-2.0.2.js"></script>
+  <script src="js/lib/lazy.min.js" async></script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-339D4340NZ"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
 
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarCollapse"
-            aria-controls="navbarCollapse"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <div class="icon">
-              <div class="hamburguer"></div>
-            </div>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav mx-auto text-md-center text-dark">
-              <li>
-                <a href="./index.html" class="nav-link">Página Inicial </a>
-              </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  id="navbarDropdown"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Serviços
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li>
-                    <a class="dropdown-item" href="./#sobre">Serviços </a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="./espanhol.html"
-                      >Aula de espanhol
-                    </a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="./portugues.html"
-                      >Aula de português
-                    </a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="./revisoes.html"
-                      >Revisão e Tradução
-                    </a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="./design.html"
-                      >Design Instrucional
-                    </a>
-                  </li>
-                </ul>
-              </li>
-              <li>
-                <a href="./manu.html" class="nav-link">Quem sou</a>
-              </li>
+    gtag("config", "G-339D4340NZ");
+  </script>
+</head>
 
-              <li>
-                <a href="./#valores" class="nav-link">Contato e Valores </a>
-              </li>
-              <li>
-                <a href="./#duvidas" class="nav-link">Dúvidas Frequentes</a>
-              </li>
-            </ul>
-            <div class="btn-invite text-center">
-              <a
-                href="https://api.whatsapp.com/send?l=pt_BR&amp;phone=5511964617712"
-                target="blank"
-                class="nav-link text-dark"
-              >
-                <i class="bi bi-whatsapp mr-2"></i>Contato</a
-              >
+<body>
+  <header class="container-fluid" id="#sticker">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top default-header">
+      <div class="container">
+        <a href="./#" class="navbar-brand logo">
+          <img src="img/logo.svg" alt="logo Manoela" class="d-inline-block" />
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+          aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <div class="icon">
+            <div class="hamburguer"></div>
+          </div>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mx-auto text-md-center text-dark">
+            <li>
+              <a href="./index.html" class="nav-link">Página Inicial </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Serviços
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="./#sobre">Serviços </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./espanhol.html">Aula de espanhol
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./portugues.html">Aula de português
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./revisoes.html">Revisão e Tradução
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./design.html">Design Instrucional
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="./manu.html" class="nav-link">Quem sou</a>
+            </li>
+
+            <li>
+              <a href="./#valores" class="nav-link">Contato e Valores </a>
+            </li>
+            <li>
+              <a href="./#duvidas" class="nav-link">Dúvidas Frequentes</a>
+            </li>
+          </ul>
+          <div class="btn-invite text-center">
+            <a href="https://api.whatsapp.com/send?l=pt_BR&amp;phone=5511964617712" target="blank"
+              class="nav-link text-dark">
+              <i class="bi bi-whatsapp mr-2"></i>Contato</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <section class="s-manu mt-40">
+    <div class="square"></div>
+    <div class="main-header"></div>
+
+    <!-- section bio -->
+    <div class="container p-4">
+      <div class="row d-flex justify-content-center align-items-center">
+        <div class="col-md-5">
+          <div class="text-center">
+            <img class="rounded-circle lazyload img-fluid" data-src="./img/avatar.png" alt="imagem avatara Manoela"
+              width="300px" data-aos="fade-down" data-aos-duration="1500" />
+            <h1 class="mt-4 focus-in-expand text-center">Manoela M. Muniz</h1>
+            <div class="text-center mt-4">
+              <a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?metodo=apresentar&id=K4868557Z5"
+                class="mb-4" target="_blank">
+                <img src="./img/icon-lattes.png" alt="icone lattes" width="40px" />
+
+                <!-- <i class="bi bi-award"></i> -->
+              </a>
+
+              <a href="https://www.linkedin.com/in/manoela-macedo-muniz-52499795/" target="_blank">
+                <img src="./img/icon-linkedin.png" alt="icone linkedin" width="40px" />
+                <!-- <i class="bi bi-linkedin"></i> -->
+              </a>
             </div>
           </div>
         </div>
-      </nav>
-    </header>
+        <div class="col-md-7 mt-4" data-aos="fade-up" data-aos-duration="1500">
+          <h5>Professora | Tradutora | Revisora | Designer Instrucional</h5>
 
-    <section class="s-manu mt-40">
-      <div class="square"></div>
-      <div class="main-header"></div>
+          <p class="mt-4">
+            Me chamo Manoela sou professora de espanhol, português e produção
+            e interpretação de texto, além de tradutora, revisora e designer
+            instrucional/educacional. Sou especialista em designer
+            instrucional/educacional pela Universidade do Livro – UNIL
+            Fundação Editora da Unesp e graduada em letras com habilitação em
+            português/espanhol pela Universidade Estadual Paulista Júlio de
+            Mesquita Filho – UNESP.
+          </p>
+          <p class="mt-4">
+            Com mais de 6 anos de experiência na área de ensino/aprendizagem,
+            como <b>professora de espanhol</b> já lecionei para crianças,
+            jovens e adultos nos mais variados contextos. Ministrei aulas para
+            grupos com faixas etárias diversas no Centro de Línguas e
+            Desenvolvimento de Professores (CLDP) da Unesp; para turmas do 6º
+            ano do ensino fundamental II ao 3º ano do ensino médio no Colégio
+            Framtid; para alunos(as) em aulas personalizadas no Força: ensino
+            personalizado; para jornalistas na Oficina de Línguas do Estadão;
+            para alunos particulares com foco na aprendizagem voltada aos
+            negócios na Twin Peaks Language School; e atualmente para
+            alunos(as) em aulas particulares personalizadas.
+          </p>
+        </div>
+      </div>
 
-      <!-- section bio -->
-      <div class="container p-4">
-        <div class="row d-flex justify-content-center align-items-center">
-          <div class="col-md-5">
-            <div class="text-center">
-              <img
-                class="rounded-circle lazyload img-fluid"
-                data-src="./img/avatar.png"
-                alt="imagem avatara Manoela"
-                width="300px"
-                data-aos="fade-down"
-                data-aos-duration="1500"
-              />
-              <h1 class="mt-4 focus-in-expand text-center">Manoela M. Muniz</h1>
-              <div class="text-center mt-4">
-                <a
-                  href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?metodo=apresentar&id=K4868557Z5"
-                  class="mb-4"
-                  target="_blank"
-                >
-                  <img
-                    src="./img/icon-lattes.png"
-                    alt="icone lattes"
-                    width="40px"
-                  />
+      <div class="row mt-4" data-aos="fade-up" data-aos-duration="1500">
+        <div class="offset-md-2 col-md-8">
+          Como <b>professora de português </b>, produção e interpretação de
+          texto já lecionei para alunos(as) do cursinho pré-universitário
+          Primeira Opção; para turmas do 6º ano ao 9º ano do ensino
+          fundamental II no Colégio Framtid; e em aulas particulares
+          personalizadas para alunos(as) pré-universitários.
+        </div>
+      </div>
 
-                  <!-- <i class="bi bi-award"></i> -->
-                </a>
-
-                <a
-                  href="https://www.linkedin.com/in/manoela-macedo-muniz-52499795/"
-                  target="_blank"
-                >
-                  <img
-                    src="./img/icon-linkedin.png"
-                    alt="icone linkedin"
-                    width="40px"
-                  />
-                  <!-- <i class="bi bi-linkedin"></i> -->
-                </a>
-              </div>
-            </div>
-          </div>
-          <div
-            class="col-md-7 mt-4"
-            data-aos="fade-up"
-            data-aos-duration="1500"
-          >
-            <h5>Professora | Tradutora | Revisora | Designer Instrucional</h5>
-
+      <div class="row mt-40 d-flex justify-content-center align-items-center">
+        <div class="col-md-6" data-aos="fade-up" data-aos-duration="1500">
+          <div>
+            <img class="bg-icon shadow" src="img/translate.svg" alt="icone tradutor" />
             <p class="mt-4">
-              Me chamo Manoela sou professora de espanhol, português e produção
-              e interpretação de texto, além de tradutora, revisora e designer
-              instrucional/educacional. Sou especialista em designer
-              instrucional/educacional pela Universidade do Livro – UNIL
-              Fundação Editora da Unesp e graduada em letras com habilitação em
-              português/espanhol pela Universidade Estadual Paulista Júlio de
-              Mesquita Filho – UNESP.
-            </p>
-            <p class="mt-4">
-              Com mais de 6 anos de experiência na área de ensino/aprendizagem,
-              como <b>professora de espanhol</b> já lecionei para crianças,
-              jovens e adultos nos mais variados contextos. Ministrei aulas para
-              grupos com faixas etárias diversas no Centro de Línguas e
-              Desenvolvimento de Professores (CLDP) da Unesp; para turmas do 6º
-              ano do ensino fundamental II ao 3º ano do ensino médio no Colégio
-              Framtid; para alunos(as) em aulas personalizadas no Força: ensino
-              personalizado; para jornalistas na Oficina de Línguas do Estadão;
-              para alunos particulares com foco na aprendizagem voltada aos
-              negócios na Twin Peaks Language School; e atualmente para
-              alunos(as) em aulas particulares personalizadas.
+              Como <b>revisora e tradutora</b> já desenvolvi trabalhos para
+              Latam, Nexialistas, Ericsson, Universidade Positivo, Grupo Ser
+              Educacional, Natura, Fundação Roberto Marinho, Hospital Albert
+              Einstein, CCAA, Page Compliance, Grupo Netas, Raízen, Vendas
+              Play, Faculdade FaSouza, Itaú, Cyrela, Centro Paula Souza, CVC,
+              Orya Nazaré, Segmento da Saúde, Petz, IPD, Uniavan, AC Camargo,
+              Automotor, Connect Farm, Ânima Educação, Xpeed School, Sabesp,
+              Lagarta Vira Pupa
             </p>
           </div>
         </div>
-
-        <div class="row mt-4" data-aos="fade-up" data-aos-duration="1500">
-          <div class="offset-md-2 col-md-8">
-            Como <b>professora de português </b>, produção e interpretação de
-            texto já lecionei para alunos(as) do cursinho pré-universitário
-            Primeira Opção; para turmas do 6º ano ao 9º ano do ensino
-            fundamental II no Colégio Framtid; e em aulas particulares
-            personalizadas para alunos(as) pré-universitários.
-          </div>
+        <div class="col-md-6" data-aos="fade-zoom-in" data-aos-duration="3000">
+          <img class="lazyload img-fluid p-5" data-src="./img/img-design.svg" alt="ilustração mulher procurando"
+            height="400px" />
         </div>
+      </div>
 
-        <div class="row mt-40 d-flex justify-content-center align-items-center">
-          <div class="col-md-6" data-aos="fade-up" data-aos-duration="1500">
-            <div>
-              <img
-                class="bg-icon shadow"
-                src="img/translate.svg"
-                alt="icone tradutor"
-              />
-              <p class="mt-4">
-                Como <b>revisora e tradutora</b> já desenvolvi trabalhos para
-                Latam, Nexialistas, Ericsson, Universidade Positivo, Grupo Ser
-                Educacional, Natura, Fundação Roberto Marinho, Hospital Albert
-                Einstein, CCAA, Page Compliance, Grupo Netas, Raízen, Vendas
-                Play, Faculdade FaSouza, Itaú, Cyrela, Centro Paula Souza, CVC,
-                Orya Nazaré, Segmento da Saúde, Petz, IPD, Uniavan, AC Camargo,
-                Automotor, Connect Farm, Ânima Educação, Xpeed School, Sabesp,
-                Lagarta Vira Pupa
-              </p>
-            </div>
-          </div>
-          <div
-            class="col-md-6"
-            data-aos="fade-zoom-in"
-            data-aos-duration="3000"
-          >
-            <img
-              class="lazyload img-fluid p-5"
-              data-src="./img/img-design.svg"
-              alt="ilustração mulher procurando"
-              height="400px"
-            />
-          </div>
-        </div>
-
-        <!-- bloco2 -->
-        <div
-          class="
+      <!-- bloco2 -->
+      <div class="
             row
             mt-40
             d-flex
             justify-content-center
             align-items-center
             flex-row-reverse
-          "
-        >
-          <div class="col-md-6" data-aos="fade-up" data-aos-duration="1500">
-            <div>
-              <img
-                class="bg-icon shadow"
-                src="img/designtools.svg"
-                alt="design-instricional"
-              />
-              <p class="mt-4">
-                Como <strong>designer instrucional/educacional</strong> já
-                realizei trabalhos para CCAA, Page Compliance, Grupo Netas,
-                Raízen, Vendas Play, Itaú, Cyrela, Centro Paula Souza, CVC,
-                Petz, IPD, Uniavan, AC Camargo, Furnas, Global Editora,
-                ConnectFarm, Sabesp, Lagarta Vira Pupa, Grupo SEB – Rede AZ.
-              </p>
-            </div>
-          </div>
-
-          <div
-            class="col-md-6"
-            data-aos="fade-zoom-in"
-            data-aos-duration="3000"
-          >
-            <img
-              class="lazyload img-fluid"
-              data-src="./img/empresas.png"
-              alt="ilustração mulher escrevendo"
-            />
-          </div>
-        </div>
-
-        <div
-          class="row mt-40 d-flex justify-content-center align-items-center"
-          data-aos="fade-up"
-          data-aos-duration="1500"
-        >
-          <div class="col-md-4">
-            <img
-              class="bg-icon shadow"
-              src="img/icon-heart.svg"
-              alt="mundo melhor"
-            />
-            <h3 class="mt-4">Experiência</h3>
+          ">
+        <div class="col-md-6" data-aos="fade-up" data-aos-duration="1500">
+          <div>
+            <img class="bg-icon shadow" src="img/designtools.svg" alt="design-instricional" />
             <p class="mt-4">
-              Amante das línguas, semiótica e sociologia, tenho grande apreço e
-              consciência de responsabilidade pelo papel social da docência em
-              prol da grande contribuição da educação na construção de um mundo
-              melhor.
+              Como <strong>designer instrucional/educacional</strong> já
+              realizei trabalhos para CCAA, Page Compliance, Grupo Netas,
+              Raízen, Vendas Play, Itaú, Cyrela, Centro Paula Souza, CVC,
+              Petz, IPD, Uniavan, AC Camargo, Furnas, Global Editora,
+              ConnectFarm, Sabesp, Lagarta Vira Pupa, Grupo SEB – Rede AZ.
             </p>
           </div>
-          <div class="col-md-4">
-            <div class="d-flex align-items-center align-items-center">
-              <img
-                src="./img/icon-competencia-midiatica.svg"
-                alt="icone mídias"
-                class="mr-2"
-                width="40px"
-              />
-              <h6>Competência midiática</h6>
-            </div>
-            <div class="d-flex align-items-center align-items-center mt-4">
-              <img
-                src="./img/icon-midias.svg"
-                alt="icone mídias"
-                class="mr-2"
-                width="40px"
-              />
-              <h6>Mídias sociais</h6>
-            </div>
-            <div class="d-flex align-items-center align-items-center mt-4">
-              <img
-                src="./img/icon-tecnologia.svg"
-                alt="icone tecnologia"
-                class="mr-2"
-                width="40px"
-              />
-              <h6>
-                Tecnologia atrelada ao ensino <br />
-                (realidade aumentada)
-              </h6>
-            </div>
+        </div>
+
+        <div class="col-md-6" data-aos="fade-zoom-in" data-aos-duration="3000">
+          <img class="lazyload img-fluid" data-src="./img/empresas.png" alt="ilustração mulher escrevendo" />
+        </div>
+      </div>
+
+      <div class="row mt-40 d-flex justify-content-center align-items-center" data-aos="fade-up"
+        data-aos-duration="1500">
+        <div class="col-md-4">
+          <img class="bg-icon shadow" src="img/icon-heart.svg" alt="mundo melhor" />
+          <h3 class="mt-4">Experiência</h3>
+          <p class="mt-4">
+            Amante das línguas, semiótica e sociologia, tenho grande apreço e
+            consciência de responsabilidade pelo papel social da docência em
+            prol da grande contribuição da educação na construção de um mundo
+            melhor.
+          </p>
+        </div>
+        <div class="col-md-4">
+          <div class="d-flex align-items-center align-items-center">
+            <img src="./img/icon-competencia-midiatica.svg" alt="icone mídias" class="mr-2" width="40px" />
+            <h6>Competência midiática</h6>
           </div>
-          <div class="col-md-4">
-            <div class="d-flex align-items-center align-items-center mt-4">
-              <img
-                src="./img/icon-processo-ensino.svg"
-                alt="icone ensino"
-                class="mr-2"
-                width="40px"
-              />
-              <h6>
-                Processo de ensino <br />
-                e aprendizagem (português e espanhol)
-              </h6>
-            </div>
-            <div class="d-flex align-items-center align-items-center mt-4">
-              <img
-                src="./img/icon-editoracao.svg"
-                alt="Editoração"
-                class="mr-2"
-                width="40px"
-              />
-              <h6>Editoração</h6>
-            </div>
-            <div class="d-flex align-items-center align-items-center mt-4">
-              <img
-                src="./img/icon-design-editorial.svg"
-                alt="Design instrucional/educacional e semiótica"
-                class="mr-2"
-                width="40px"
-              />
-              <h6>
-                Design instrucional <br />
-                educacional
-              </h6>
-            </div>
+          <div class="d-flex align-items-center align-items-center mt-4">
+            <img src="./img/icon-midias.svg" alt="icone mídias" class="mr-2" width="40px" />
+            <h6>Mídias sociais</h6>
+          </div>
+          <div class="d-flex align-items-center align-items-center mt-4">
+            <img src="./img/icon-tecnologia.svg" alt="icone tecnologia" class="mr-2" width="40px" />
+            <h6>
+              Tecnologia atrelada ao ensino <br />
+              (realidade aumentada)
+            </h6>
           </div>
         </div>
-        <img class="s-news-img" src="./img/livros.png" alt="com escrita" />
-      </div>
-    </section>
-
-    <!-- section formação -->
-    <section class="s-manu s-formacao">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-2">
-            <img
-              class="bg-icon shadow"
-              src="img/icon-formacao.svg"
-              alt="mundo melhor"
-            />
-            <h2 class="mt-4">Formação</h2>
+        <div class="col-md-4">
+          <div class="d-flex align-items-center align-items-center mt-4">
+            <img src="./img/icon-processo-ensino.svg" alt="icone ensino" class="mr-2" width="40px" />
+            <h6>
+              Processo de ensino <br />
+              e aprendizagem (português e espanhol)
+            </h6>
           </div>
-          <div class="col-md-10 d-flex" style="padding: 0 0 0 1.5rem">
-            <div class="swiper-container mySwiper-manu p-10">
-              <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                  <div class="card-manu p-4">
-                    <img src="./img/teacher.svg" alt="icone capelo" />
-                    <h4>2013 -2017</h4>
-                    <h6>Graduação em Letras - Português/Espanhol</h6>
-                    <p>
-                      Graduada em Letras, com ênfase em Letras
-                      Português/Espanhol pela Universidade Estadual Paulista
-                      Júlio de Mesquita Filho - UNESP campus Assis.
-                      Concomitantemente a realização da graduação, desenvolvi o
-                      projeto de pesquisa "Formação de Professores: a utilização
-                      da competência midiática e da tecnologia como recursos
-                      didáticos", junto ao Conselho Nacional de Desenvolvimento
-                      Científico e Tecnológico (CNPq).  
-                    </p>
-                  </div>
-                </div>
-                <div class="swiper-slide">
-                  <div class="card-manu p-4">
-                    <img src="./img/teacher.svg" alt="icone capelo" />
-                    <h4>2015 – 2015</h4>
-                    <h6>Extensão universitária - Letras Modernas</h6>
-                    <p>
-                      Materiais didáticos para o ensino de línguas (materna e
-                      estrangeira). (Universidade Estadual Paulista Júlio de
-                      Mesquita Filho – UNESP) 
-                    </p>
-                  </div>
-                </div>
-                <div class="swiper-slide">
-                  <div class="card-manu p-4">
-                    <img src="./img/teacher.svg" alt="icone capelo" />
-                    <h4>2019 – 2019</h4>
-                    <h6>Curso de Editoração</h6>
-                    <p>
-                      Preparação e revisão: o trabalho com o texto.
-                      (Universidade do Livro - Fundação Editora Unesp) 
-                    </p>
-                  </div>
-                </div>
+          <div class="d-flex align-items-center align-items-center mt-4">
+            <img src="./img/icon-editoracao.svg" alt="Editoração" class="mr-2" width="40px" />
+            <h6>Editoração</h6>
+          </div>
+          <div class="d-flex align-items-center align-items-center mt-4">
+            <img src="./img/icon-design-editorial.svg" alt="Design instrucional/educacional e semiótica" class="mr-2"
+              width="40px" />
+            <h6>
+              Design instrucional <br />
+              educacional
+            </h6>
+          </div>
+        </div>
+      </div>
+      <img class="s-news-img" src="./img/livros.png" alt="com escrita" />
+    </div>
+  </section>
 
-                <div class="swiper-slide">
-                  <div class="card-manu p-4">
-                    <img src="./img/teacher.svg" alt="icone capelo" />
-                    <h4>2019 – 2020</h4>
-                    <h6>Cursos de Linguística</h6>
-                    <ul>
-                      <li>
-                        Ensino e letramento: contribuições da semiótica
-                        discursiva à Educação Básica. (Universidade de São Paulo
-                        - 2019) ​
-                      </li>
-                      <li>
-                        Teoria e prática semióticas: quatro rumos. (Universidade
-                        de São Paulo - 2019)
-                      </li>
-                      <li>
-                        Princípios e práticas da análise semiótica de textos.
-                        (Universidade de São Paulo - 2020)
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-
-                <div class="swiper-slide">
-                  <div class="card-manu p-4">
-                    <img src="./img/teacher.svg" alt="icone capelo" />
-                    <h4>2020 – 2020</h4>
-                    <h6>Especialização em Design Instrucional</h6>
-                    <ul>
-                      <li>
-                        Especialista em design instrucional/educacional com
-                        ênfase na aplicação dos materiais didáticos em ambientes
-                        digitais e nas técnicas e metodologias que
-                        professores(as) e editores(as) precisam dominar,
-                        aproximando suas atuações do design educacional. ​
-                        (Universidade do Livro - Fundação Editora Unesp)  ​
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-
-                <div class="swiper-slide">
-                  <div class="card-manu p-4">
-                    <img src="./img/teacher.svg" alt="icone capelo" />
-                    <h4>2020 – 2020</h4>
-                    <h6>Curso de Sociologia</h6>
-                    <p>
-                      Sociologia da Literatura. (Universidade de São Paulo) 
-                    </p>
-                  </div>
+  <!-- section formação -->
+  <section class="s-manu s-formacao">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-2">
+          <img class="bg-icon shadow" src="img/icon-formacao.svg" alt="mundo melhor" />
+          <h2 class="mt-4">Formação</h2>
+        </div>
+        <div class="col-md-10 d-flex" style="padding: 0 0 0 1.5rem">
+          <div class="swiper-container mySwiper-manu p-10">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="card-manu p-4">
+                  <img src="./img/teacher.svg" alt="icone capelo" />
+                  <h4>2013 -2017</h4>
+                  <h6>Graduação em Letras - Português/Espanhol</h6>
+                  <p>
+                    Graduada em Letras, com ênfase em Letras
+                    Português/Espanhol pela Universidade Estadual Paulista
+                    Júlio de Mesquita Filho - UNESP campus Assis.
+                    Concomitantemente a realização da graduação, desenvolvi o
+                    projeto de pesquisa "Formação de Professores: a utilização
+                    da competência midiática e da tecnologia como recursos
+                    didáticos", junto ao Conselho Nacional de Desenvolvimento
+                    Científico e Tecnológico (CNPq).  
+                  </p>
                 </div>
               </div>
-              <!-- <div class="swiper-button-next"></div>
-              <div class="swiper-button-prev"></div> -->
-              <div class="swiper-pagination-manu"></div>
+              <div class="swiper-slide">
+                <div class="card-manu p-4">
+                  <img src="./img/teacher.svg" alt="icone capelo" />
+                  <h4>2015 – 2015</h4>
+                  <h6>Extensão universitária - Letras Modernas</h6>
+                  <p>
+                    Materiais didáticos para o ensino de línguas (materna e
+                    estrangeira). (Universidade Estadual Paulista Júlio de
+                    Mesquita Filho – UNESP) 
+                  </p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card-manu p-4">
+                  <img src="./img/teacher.svg" alt="icone capelo" />
+                  <h4>2019 – 2019</h4>
+                  <h6>Curso de Editoração</h6>
+                  <p>
+                    Preparação e revisão: o trabalho com o texto.
+                    (Universidade do Livro - Fundação Editora Unesp) 
+                  </p>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="card-manu p-4">
+                  <img src="./img/teacher.svg" alt="icone capelo" />
+                  <h4>2019 – 2020</h4>
+                  <h6>Cursos de Linguística</h6>
+                  <ul>
+                    <li>
+                      Ensino e letramento: contribuições da semiótica
+                      discursiva à Educação Básica. (Universidade de São Paulo
+                      - 2019) ​
+                    </li>
+                    <li>
+                      Teoria e prática semióticas: quatro rumos. (Universidade
+                      de São Paulo - 2019)
+                    </li>
+                    <li>
+                      Princípios e práticas da análise semiótica de textos.
+                      (Universidade de São Paulo - 2020)
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="card-manu p-4">
+                  <img src="./img/teacher.svg" alt="icone capelo" />
+                  <h4>2020 – 2020</h4>
+                  <h6>Especialização em Design Instrucional</h6>
+                  <ul>
+                    <li>
+                      Especialista em design instrucional/educacional com
+                      ênfase na aplicação dos materiais didáticos em ambientes
+                      digitais e nas técnicas e metodologias que
+                      professores(as) e editores(as) precisam dominar,
+                      aproximando suas atuações do design educacional. ​
+                      (Universidade do Livro - Fundação Editora Unesp)  ​
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="card-manu p-4">
+                  <img src="./img/teacher.svg" alt="icone capelo" />
+                  <h4>2020 – 2020</h4>
+                  <h6>Curso de Sociologia</h6>
+                  <p>
+                    Sociologia da Literatura. (Universidade de São Paulo) 
+                  </p>
+                </div>
+              </div>
             </div>
+            <!-- <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div> -->
+            <div class="swiper-pagination-manu"></div>
           </div>
         </div>
       </div>
-    </section>
-    <!-- footer -->
-    <footer>
-      <div class="container text-light mobile-center">
-        <main>
-          <div
-            class="
+    </div>
+  </section>
+
+  <!-- botão whats -->
+  <a href="https://api.whatsapp.com/send?l=pt_BR&amp;phone=5511964617712" target="blank" class="btn-whats">
+    <i class="bi bi-whatsapp mr-2 text-light my-float"></i>
+  </a>
+  <!-- footer -->
+  <footer>
+    <div class="container text-light mobile-center">
+      <main>
+        <div class="
               d-flex
               justify-content-between
               flex-column flex-md-row
               center-mobile
-            "
-          >
-            <div class="">
-              <h3>ProfManu</h3>
+            ">
+          <div class="">
+            <h3>ProfManu</h3>
 
+            <p>
+              Se você está procurando aulas particulares personalizadas,
+              revisões, traduções ou desenho instrucional está no lugar certo.
+            </p>
+
+            <a href="">
+              <p><i class="bi bi-phone mr-2"></i> (11) 9 6461-7712 </p>
+            </a>
+            <a href="">
               <p>
-                Se você está procurando aulas particulares personalizadas,
-                revisões, traduções ou desenho instrucional está no lugar certo.
+                <i class="bi bi-envelope mr-2"> </i> manumunyz@hotmail.com
               </p>
-
-              <a href="">
-                <p><i class="bi bi-phone mr-2"></i> (11) 9 6461-7712 </p>
-              </a>
-              <a href="">
-                <p>
-                  <i class="bi bi-envelope mr-2"> </i> manumunyz@hotmail.com
-                </p>
-              </a>
-            </div>
-
-            <div class="">
-              <ul>
-                <li><a href="./#">Página inicial</a></li>
-                <li><a href="./#sobre">Serviços</a></li>
-                <li><a href="./#quem-sou">Quem sou</a></li>
-                <li><a href="./#valores">Contato e valores</a></li>
-                <li><a href="./#duvidas">Dúvidas frequentes</a></li>
-              </ul>
-            </div>
-
-            <div class="">
-              <ul>
-                <li>
-                  <a href="./design.html"
-                    >Design instrucional/ <br />
-                    educacional</a
-                  >
-                </li>
-                <li><a href="./revisoes.html">Revisões / Traduções</a></li>
-                <li>
-                  <a href="./portugues.html"
-                    >Aulas de português, produção e interpretação de texto</a
-                  >
-                </li>
-                <li><a href="./espanhol.html">Aulas de espanhol</a></li>
-              </ul>
-            </div>
-
-            <div class="">
-              <ul>
-                <li>
-                  <a
-                    href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?metodo=apresentar&id=K4868557Z5"
-                    target="_blank"
-                  >
-                    <i class="bi bi-award"></i>
-                    <span>Lattes</span>
-                  </a>
-                </li>
-
-                <li>
-                  <a
-                    href="https://www.linkedin.com/in/manoela-macedo-muniz-52499795/"
-                  >
-                    <i class="bi bi-linkedin mr-2"></i>
-                    <span>Linkedin</span>
-                  </a>
-                </li>
-              </ul>
-            </div>
+            </a>
           </div>
-        </main>
-        <div
-          class="
+
+          <div class="">
+            <ul>
+              <li><a href="./#">Página inicial</a></li>
+              <li><a href="./#sobre">Serviços</a></li>
+              <li><a href="./#quem-sou">Quem sou</a></li>
+              <li><a href="./#valores">Contato e valores</a></li>
+              <li><a href="./#duvidas">Dúvidas frequentes</a></li>
+            </ul>
+          </div>
+
+          <div class="">
+            <ul>
+              <li>
+                <a href="./design.html">Design instrucional/ <br />
+                  educacional</a>
+              </li>
+              <li><a href="./revisoes.html">Revisões / Traduções</a></li>
+              <li>
+                <a href="./portugues.html">Aulas de português, produção e interpretação de texto</a>
+              </li>
+              <li><a href="./espanhol.html">Aulas de espanhol</a></li>
+            </ul>
+          </div>
+
+          <div class="">
+            <ul>
+              <li>
+                <a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?metodo=apresentar&id=K4868557Z5"
+                  target="_blank">
+                  <i class="bi bi-award"></i>
+                  <span>Lattes</span>
+                </a>
+              </li>
+
+              <li>
+                <a href="https://www.linkedin.com/in/manoela-macedo-muniz-52499795/">
+                  <i class="bi bi-linkedin mr-2"></i>
+                  <span>Linkedin</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </main>
+      <div class="
             d-flex
             align-items-center
             justify-content-between
             flex-column flex-sm-row
             center-mobile
             mt-4
-          "
-        >
-          <span
-            >2021 © Todos os direitos reservados. <strong>profManu</strong>
-          </span>
+          ">
+        <span>2021 © Todos os direitos reservados. <strong>profManu</strong>
+        </span>
 
-          <div class="group">
-            <span class="mr-2">Desenvolvido por:</span>
-            <a href="https://wpsgames.com.br/">
-              <img
-                src="https://wpsgames.com.br/img/logo.png"
-                alt="WPS Games"
-                width="40px"
-              />
-            </a>
-          </div>
+        <div class="group">
+          <span class="mr-2">Desenvolvido por:</span>
+          <a href="https://wpsgames.com.br/">
+            <img src="https://wpsgames.com.br/img/logo.png" alt="WPS Games" width="40px" />
+          </a>
         </div>
       </div>
-    </footer>
-
-    <script src="js/jquery-3.4.1.min.js"></script>
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-      crossorigin="anonymous"
-    ></script>
-    <script src="js/main.js"></script>
-    <div vw class="enabled">
-      <div vw-access-button class="active"></div>
-      <div vw-plugin-wrapper>
-        <div class="vw-plugin-top-wrapper"></div>
-      </div>
     </div>
-    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
-    <script>
-      new window.VLibras.Widget("https://vlibras.gov.br/app");
-    </script>
-  </body>
+  </footer>
+
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="js/main.js"></script>
+  <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget("https://vlibras.gov.br/app");
+  </script>
+</body>
+
 </html>
