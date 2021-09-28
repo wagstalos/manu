@@ -2,8 +2,14 @@ $(document).ready(function () {
   $(".icon").click(function () {
     $(".icon").toggleClass("active");
   });
+      // plugin modalVideo
+      $(".js-video-button").modalVideo({
+        youtube: {
+          controls: 0,
+          nocookie: true
+        }
+      });
 });
-
 AOS.init();
 // sticky
 function stickyElement(e) {

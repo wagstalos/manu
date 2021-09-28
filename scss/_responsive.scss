@@ -1,41 +1,41 @@
-@media(max-width: 1200px) {
+@media (max-width: 1200px) {
     .img-chat {
         top: 3%;
         left: 28%;
     }
 }
 
-@media(max-width: 991px) {
+@media (max-width: 991px) {
     .img-chat {
         display: none;
     }
     .carousel-indicators {
         bottom: -55px;
     }
-    .carousel-control-next, .carousel-control-prev {
+    .carousel-control-next,
+    .carousel-control-prev {
         bottom: -45px;
     }
     .square {
         height: 620px;
     }
     .default-header {
-        background-color: hsla(0, 0%, 100%, 0.63)!important;
+        background-color: hsla(0, 0%, 100%, 0.63) !important;
         backdrop-filter: blur(20px);
         transition: all 1s;
     }
-
 }
 
-@media(max-width: 700px) {
+@media (max-width: 700px) {
     .img-chat {
         display: none;
     }
-    .s-hero{
-        h1{
+    .s-hero {
+        h1 {
             font-size: 2.25rem;
             text-align: center;
         }
-        p{
+        p {
             margin-top: 20px;
         }
     }
@@ -45,107 +45,111 @@
     .carousel-indicators {
         bottom: -7px;
     }
-    .carousel-control-next, .carousel-control-prev {
+    .carousel-control-next,
+    .carousel-control-prev {
         bottom: 10px;
     }
     .default-header {
-        background-color: hsla(0, 0%, 100%, 0.63)!important;
+        background-color: hsla(0, 0%, 100%, 0.63) !important;
         backdrop-filter: blur(20px);
         transition: all 1s;
     }
-    .s-espanhol  {
-        h1{
-            color: #EF9E48;
-            font-size: 3rem!important;
+    .s-espanhol {
+        h1 {
+            color: #ef9e48;
+            font-size: 3rem !important;
         }
-        .card-price{
+        .card-price {
             width: 90%;
             margin: 0 auto;
         }
-        
     }
     .card {
         margin-bottom: 40px;
-
     }
-    .swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
-        top: 0!important;
+    .swiper-container-horizontal > .swiper-pagination-bullets,
+    .swiper-pagination-custom,
+    .swiper-pagination-fraction {
+        top: 0 !important;
     }
-    .swiper-button-next, .swiper-container-rtl .swiper-button-prev {
+    .swiper-button-next,
+    .swiper-container-rtl .swiper-button-prev {
         top: 15px;
         right: auto;
         left: 40px;
     }
-    .swiper-button-prev, .swiper-container-rtl .swiper-button-next {
+    .swiper-button-prev,
+    .swiper-container-rtl .swiper-button-next {
         top: 15px;
     }
     .swiper-container {
         padding-top: 40px;
     }
-    footer{
-        p{
+    footer {
+        p {
             max-width: 100%;
         }
     }
-    .s-news{
-        .row{
-            width: 100%!important;
-
+    .s-news {
+        .row {
+            width: 100% !important;
         }
     }
-
+    .video {
+        width: 100% !important;
+    }
 }
 
-@media(max-width: 480px) {
+@media (max-width: 480px) {
     .navbar {
         padding-top: 1rem;
         padding-bottom: 1rem;
     }
-    .btn{
+    .btn {
         width: 80%;
     }
     .square {
         max-width: 100%;
     }
-    .border-flag{
+    .border-flag {
         margin-top: 20px;
     }
     .s-hero {
         padding: 100px 0px 0px 0px;
-        h1{
-            span{
+        h1 {
+            span {
                 font-size: 1em;
                 color: transparent;
             }
         }
-        .img-hero{
+        .img-hero {
             padding: 0;
         }
-        .img-mb{
-            width: 50%!important;
+        .img-mb {
+            width: 50% !important;
         }
-        
     }
-    .s-espanhol{
+    .s-espanhol {
         .square {
             max-width: 100%;
         }
         h6 {
-            color: #EF9E48;
+            color: #ef9e48;
             font-size: 3.5rem;
-            span{
+            span {
                 margin-top: -112px;
             }
         }
-    
+        .video {
+            width: 100;
+        }
     }
     .nav-tabs {
         .nav-link {
             margin-right: 5px;
         }
-
     }
-    .padding-custom{
+    .padding-custom {
         padding: 0;
     }
     .s-values {
@@ -161,10 +165,9 @@
     .s-faq {
         padding: 70px 0;
     }
-    .formacao{
+    .formacao {
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
-    
 }

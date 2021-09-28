@@ -1,36 +1,36 @@
-.s-espanhol{
+.s-espanhol {
     padding: 70px 0;
-    a{
+    a {
         text-decoration: none;
         color: $color-dark;
     }
-    b{
+    b {
         color: $main-color;
     }
-    i{
+    i {
         font-size: 25px;
-        transition: all .5s;
-        &:hover{
-           background-color: $main-color;
-           color: $white;
+        transition: all 0.5s;
+        &:hover {
+            background-color: $main-color;
+            color: $white;
         }
     }
-    h1{
+    h1 {
         color: $main-color;
         font-size: 3rem;
-        span{
+        span {
             font-weight: 700;
             -webkit-text-stroke-width: 1px;
             -webkit-text-stroke-color: $main-color;
             // font-size: 1.2em;
             color: transparent;
-            line-height:60px;
+            line-height: 60px;
         }
     }
-    h6{
+    h6 {
         color: $main-color;
         font-size: 4.5rem;
-        span{
+        span {
             font-weight: 700;
             -webkit-text-stroke-width: 1.2px;
             -webkit-text-stroke-color: $color-dark;
@@ -44,29 +44,71 @@
             justify-content: center;
         }
     }
-    h3,h2{
-        span{
+    h3,
+    h2 {
+        span {
             font-weight: 700;
             font-size: 1.2em;
             color: $main-color;
-            line-height:60px;
+            line-height: 60px;
             margin: 0;
         }
     }
     .square {
         position: absolute;
         max-width: 100%;
-        background: linear-gradient(
-            180deg
-            , #FFDC6B 0%, #fdfdfd 100%);
+        background: linear-gradient(180deg, #ffdc6b 0%, #fdfdfd 100%);
         width: 100%;
         height: 100vh;
         left: 0px;
         top: 0px;
     }
-    .card-price{
+    .card-price {
         width: 50%;
         margin: 0 auto;
     }
-}
 
+    .modal-dialog {
+        max-width: 800px;
+        margin: 30px auto;
+    }
+
+    .modal-body {
+        position: relative;
+        padding: 0px;
+    }
+    .btn-close {
+        position: absolute;
+        right: -30px;
+        top: 0;
+    }
+    .free {
+        background-color: #ffecd8;
+        border-radius: 5px;
+        padding: 5px;
+        border: 1px solid #fde0c2;
+    }
+    .video {
+        width: 70%;
+    }
+}
+.btn-whats {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+}
+.my-float {
+    margin-top: 12px;
+    margin-left: -10px;
+    position: absolute;
+    font-size: 24px;
+}
