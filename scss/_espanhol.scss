@@ -91,6 +91,12 @@
     .video {
         width: 70%;
     }
+    iframe {
+        border-radius: 20px;
+        border: 5px solid $main-color;
+        margin-bottom: 40px;
+        height: 450px;
+    }
 }
 .btn-whats {
     position: fixed;
@@ -111,4 +117,11 @@
     margin-left: -10px;
     position: absolute;
     font-size: 24px;
+}
+
+.contato-banner {
+    border: 1px #ffc107 solid;
+    padding: 10px;
+    border-radius: 11px;
+    display: inline-block;
 }
