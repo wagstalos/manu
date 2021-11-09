@@ -3,12 +3,12 @@ $(document).ready(function () {
     $(".icon").toggleClass("active");
   });
       // plugin modalVideo
-      $(".js-video-button").modalVideo({
-        youtube: {
-          controls: 0,
-          nocookie: true
-        }
-      });
+      // $(".js-video-button").modalVideo({
+      //   youtube: {
+      //     controls: 0,
+      //     nocookie: true
+      //   }
+      // });
 });
 AOS.init();
 // sticky
@@ -122,8 +122,8 @@ if ("serviceWorker" in navigator) {
 if (window.Notification && Notification.permission !== "denied") {
   Notification.requestPermission(function (status) {
     // status is "granted", if accepted by user
-    var n = new Notification("ProfManu", {
-      body: "Bem-vindo à ProfManu",
+    var n = new Notification("BLACK FRIDAY", {
+      body: "Fique de olho na nossa promoção de BLACK FRIDAY!",
       icon: "img/icons/icon-72x72.png", // optional
     });
   });
