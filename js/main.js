@@ -103,28 +103,28 @@ var swiper3 = new Swiper(".mySwiper-manu", {
 //   });
 // }
 
-// if ("serviceWorker" in navigator) {
-//   navigator.serviceWorker
-//     .register("sw.js")
-//     .then(function (registration) {
-//       // Registro realizado com sucesso (NOTA: Observe que declaro um arquivo chamado sw.js, ele é onde colocaremos as notações do nosso Service Workers)
-//       console.log(
-//         "O ServiceWorker foi registrado com escopo: ",
-//         registration.scope
-//       );
-//     })
-//     .catch(function (err) {
-//       // O registro falhou :(
-//       console.log("O registro do ServiceWorker falhou com o erro: ", err);
-//     });
-// }
+if ("serviceWorker" in navigator) {
+  navigator.serviceWorker
+    .register("sw.js")
+    .then(function (registration) {
+      // Registro realizado com sucesso (NOTA: Observe que declaro um arquivo chamado sw.js, ele é onde colocaremos as notações do nosso Service Workers)
+      console.log(
+        "O ServiceWorker foi registrado com escopo: ",
+        registration.scope
+      );
+    })
+    .catch(function (err) {
+      // O registro falhou :(
+      console.log("O registro do ServiceWorker falhou com o erro: ", err);
+    });
+}
 
-// if (window.Notification && Notification.permission !== "denied") {
-//   Notification.requestPermission(function (status) {
-//     // status is "granted", if accepted by user
-//     var n = new Notification("ProfManu", {
-//       body: "Bem-vindo à ProfManu",
-//       icon: "img/icons/icon-72x72.png", // optional
-//     });
-//   });
-// }
+if (window.Notification && Notification.permission !== "denied") {
+  Notification.requestPermission(function (status) {
+    // status is "granted", if accepted by user
+    var n = new Notification("ProfManu", {
+      body: "Bem-vindo à ProfManu",
+      icon: "img/icons/icon-72x72.png", // optional
+    });
+  });
+}
