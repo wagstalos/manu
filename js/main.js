@@ -2,14 +2,13 @@ $(document).ready(function () {
   $(".icon").click(function () {
     $(".icon").toggleClass("active");
   });
-      // plugin modalVideo
-      // $(".js-video-button").modalVideo({
-      //   youtube: {
-      //     controls: 0,
-      //     nocookie: true
-      //   }
-      // });
+  $('#exampleModal').modal('show');
 });
+
+$(window).on('load', function() {
+  
+});
+
 AOS.init();
 // sticky
 function stickyElement(e) {
@@ -122,8 +121,8 @@ if ("serviceWorker" in navigator) {
 if (window.Notification && Notification.permission !== "denied") {
   Notification.requestPermission(function (status) {
     // status is "granted", if accepted by user
-    var n = new Notification("BLACK FRIDAY", {
-      body: "Fique de olho na nossa promoção de BLACK FRIDAY!",
+    var n = new Notification("Agora é a hora de você aprender espanhol!", {
+      body: "De R$ 90,00 por R$ 70,00 a hora/aula. ",
       icon: "img/icons/icon-72x72.png", // optional
     });
   });
