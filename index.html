@@ -42,17 +42,6 @@
 </head>
 
 <body>
-  <!-- <div id="preloader">
-      <div class="inner">
-
-        <div class="bolas">
-          <div></div>
-          <div></div>
-          <div></div>
-        </div>
-      </div>
-    </div> -->
-  <!-- fim do preloader -->
   <header class="container-fluid" id="#sticker">
     <nav class="navbar navbar-expand-md navbar-dark fixed-top default-header">
       <div class="container">
@@ -146,8 +135,9 @@
                 </div>
               </div>
               <div class="col-md-6 text-center">
-                <img class="lazyload mt-4 img-fluid img-hero" data-src="img/img-hero.webp" alt="Imagem hero"
-                  height="auto" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="2000" />
+                <img class="lazyload mt-4 img-fluid img-hero" data-src="img/img-manu-hero.png"
+                  alt="Imagem da professora Manu" height="auto" data-aos="fade-up"
+                  data-aos-anchor-placement="top-bottom" data-aos-duration="2000" />
               </div>
               <h2>1/ <span>2</span></h2>
             </div>
@@ -750,6 +740,36 @@
   <a href="https://api.whatsapp.com/send?l=pt_BR&amp;phone=5511964617712" target="blank" class="btn-whats">
     <i class="bi bi-whatsapp mr-2 text-light my-float"></i>
   </a>
+
+
+  <!-- popup black friday -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        <div class="modal-header">
+          <h5 class="modal-title d-flex justify-content-center" id="exampleModalLabel">PROMOÇÃO</h5>
+
+        </div>
+
+        <div class="modal-body text-center">
+          <img class="img-fluid" src="img/blackfriday.png" alt="Black friday" style="max-width: 300px;">
+          <h5>Agora é a hora de você aprender espanhol!</h5>
+          <p class="mt-4">
+            De <s>R$ 90,00</s> por <strong>R$ 70,00</strong> a hora/aula. <br />
+          </p>
+
+          <p> Você está esperando o que para começar? Vem conversar comigo. Primeira aula grátis. 😉</p>
+        </div>
+        <div class="modal-footer text-center d-flex justify-content-center">
+          <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button> -->
+          <button onclick="window.location.href='https://api.whatsapp.com/send?l=pt_BR&amp;phone=5511964617712'"
+            type="button" class="btn btn-success"><strong>Quero uma aula
+              grátis</strong> </button>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <!-- footer -->
   <footer>
